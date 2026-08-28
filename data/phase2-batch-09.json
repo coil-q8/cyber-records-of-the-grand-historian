@@ -1,0 +1,2214 @@
+{
+  "cyber-2023-eq-035": {
+    "summary": "2023年3月：央视3·15记者在交易网站购买直播间人气、播放量、点赞和评论，并走访嘉兴、延安等地的群控服务商，记录了经营者用成排手机、云控系统和批量账号制造虚假热度的过程。",
+    "initialNarrative": "节目把原本隐藏在后台的“人气生意”拍成可见现场：商品按数量和时长标价，客户下单后，受控账号可以在指定直播间同时进入、点赞或发送预设评论。直播运营者把这些数字包装成真实围观，再用“很多人正在买”催促消费者。",
+    "publicQuestion": "直播间显示的一万名观众、十万次点赞和整齐划一的好评，究竟有多少来自真实用户；平台应当如何识别同设备、多账号、异常并发与模板化互动；商家购买虚假流量后，是否同时构成虚假宣传或不正当竞争。",
+    "mediaRole": "中央广播电视总台3·15晚会《谁在操控水军》：保存交易页面、机房和从业者原话。；央视网《陕西延安两部门联合执法调查网络水军公司》保存了公开报道。",
+    "investigation": "晚会播出后，浙江、陕西市场监管部门会同公安机关进入涉事公司，查封手机、电脑等设备，控制或询问相关负责人，并初步认定相关服务涉嫌以虚假流量、虚假人气帮助经营者进行不真实商业宣传。公开通报使用的是“初步查明”和“深入调查”口径，尚未逐一公布最终处罚决定、涉案交易总额、购买水军的直播间名单以及账号处置数量。",
+    "finalConclusion": "能够确认产业链的技术形态、交易方式和执法介入，不能把初查写成已经完成的刑事定罪或最终行政处罚。 虚假互动样本证明特定服务商和客户存在造量行为，不足以推定某一平台所有直播数据都造假；节目中经营者的自述也需要与后台日志、资金流水和处罚文书相互印证。",
+    "historianNote": "早期刷量只是在网页上多一个数字，直播电商则让数字直接参与交易说服。机器制造的掌声一旦被当成消费者选择，技术服务就从作弊工具变成了市场秩序的隐形定价者。",
+    "verifiedFacts": [
+      "水军服务可按观看量、点赞、评论等项目购买。",
+      "涉事公司使用群控设备或批量账号制造直播间虚假互动。",
+      "浙江、陕西市场监管部门会同公安机关开展现场调查和证据固定。"
+    ],
+    "disputedClaims": [
+      "涉案公司服务过的全部直播间和交易规模尚无完整公开清单。"
+    ],
+    "debunkedClaims": [
+      "“直播间显示多少人，就一定有多少真实用户同时观看”不成立。"
+    ],
+    "unresolvedQuestions": [
+      "涉事主体最终处罚或司法结果。",
+      "平台识别并清退关联账号、追溯购买方的完整数据。"
+    ],
+    "timeline": [
+      {
+        "date": "2023-03-15",
+        "title": "3·15播出调查",
+        "description": "群控机房、下单页面和虚假互动被公开。",
+        "sourceIds": [
+          "army-cctv"
+        ]
+      },
+      {
+        "date": "2023-03-16",
+        "title": "两地联合执法",
+        "description": "浙江、陕西监管与公安部门进入涉事企业调查。",
+        "sourceIds": [
+          "army-samr"
+        ]
+      },
+      {
+        "date": "2023年后续",
+        "title": "等待最终文书",
+        "description": "公开页面尚未形成完整处罚与客户清单。",
+        "sourceIds": [
+          "army-samr"
+        ]
+      }
+    ],
+    "propagationChain": [
+      {
+        "stage": "起",
+        "title": "3·15播出调查",
+        "description": "节目把原本隐藏在后台的“人气生意”拍成可见现场：商品按数量和时长标价，客户下单后，受控账号可以在指定直播间同时进入、点赞或发送预设评论。",
+        "sourceIds": [
+          "army-cctv"
+        ]
+      },
+      {
+        "stage": "传",
+        "title": "两地联合执法",
+        "description": "直播间显示的一万名观众、十万次点赞和整齐划一的好评，究竟有多少来自真实用户。",
+        "sourceIds": [
+          "army-thread"
+        ]
+      },
+      {
+        "stage": "证",
+        "title": "等待最终文书",
+        "description": "晚会播出后，浙江、陕西市场监管部门会同公安机关进入涉事公司，查封手机、电脑等设备，控制或询问相关负责人，并初步认定相关服务涉嫌以虚假流量、虚假人气帮助经营者进行不真实商业宣传。",
+        "sourceIds": [
+          "army-samr"
+        ]
+      },
+      {
+        "stage": "余",
+        "title": "尚待续考",
+        "description": "涉事主体最终处罚或司法结果。；平台识别并清退关联账号、追溯购买方的完整数据。",
+        "sourceIds": [
+          "army-follow",
+          "army-thread"
+        ]
+      }
+    ],
+    "publicComments": [],
+    "sources": [
+      {
+        "id": "army-cctv",
+        "title": "谁在操控水军",
+        "institution": "中央广播电视总台3·15晚会",
+        "date": "2023-03-15",
+        "url": "https://tv.cctv.com/2023/03/15/VIDEQhZGRPxRAM8DkZqXRDkJ230315.shtml",
+        "note": "保存交易页面、机房和从业者原话。",
+        "sourceRank": 4,
+        "sourceType": "调查报道",
+        "sourceRole": "传播链证据",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "army-samr",
+        "title": "市场监管部门迅速查处3·15晚会曝光违法行为",
+        "institution": "国家市场监督管理总局",
+        "date": "2023-03-16",
+        "url": "https://www.samr.gov.cn/xw/zj/art/2023/art_68a6e7fab0094b2ab7a6dbfdc67350cd.html",
+        "note": "官方初查与现场处置，不等同最终处罚。",
+        "sourceRank": 1,
+        "sourceType": "行政调查",
+        "sourceRole": "调查过程",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "army-follow",
+        "title": "陕西延安两部门联合执法调查网络水军公司",
+        "institution": "央视网",
+        "date": "2023-03-16",
+        "url": "https://tv.cctv.com/2023/03/16/VIDE0AyUSf9kuY2b0ZgImsiG230316.shtml",
+        "note": null,
+        "sourceRank": 4,
+        "sourceType": "媒体报道",
+        "sourceRole": "调查过程",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "army-thread",
+        "title": "3·15直播水军曝光公开讨论",
+        "institution": "Reddit用户",
+        "date": "2023-03",
+        "url": "https://www.reddit.com/r/China_irl/comments/11rw10p",
+        "note": "只记录公众对平台数据可信度的反应。",
+        "sourceRank": 2,
+        "sourceType": "网民原始内容",
+        "sourceRole": "公众讨论",
+        "archiveStatus": "在线"
+      }
+    ],
+    "sectionSources": {
+      "summary": [
+        "army-samr"
+      ],
+      "initialNarrative": [
+        "army-cctv",
+        "army-thread"
+      ],
+      "publicQuestion": [
+        "army-samr"
+      ],
+      "mediaRole": [
+        "army-cctv",
+        "army-follow",
+        "army-thread"
+      ],
+      "investigation": [
+        "army-samr"
+      ],
+      "finalConclusion": [
+        "army-samr"
+      ]
+    }
+  },
+  "cyber-2024-eq-036": {
+    "summary": "2024年3月至12月：央视3·15调查记录听花酒销售人员以“改善睡眠”“提升免疫力”“调节生理功能”等话术推介高价白酒，而相关材料采用科学上未定论的观点和未经核实的用户评价。节目播出后，多地市场监管部门调查并陆续作出处罚。",
+    "initialNarrative": "听花酒以高端商务白酒定位进入市场，标准装与精品装价格显著高于普通白酒。销售现场不只讲口感和工艺，还把专利、凉味剂和所谓体验者反馈拼接成健康功效故事；记者暗访保存了培训材料、销售话术与消费者被引导试饮的过程。",
+    "publicQuestion": "食品或酒类拥有专利、采用某种配方，是否等于其宣称的生理功效已经得到验证；未经对照研究和主管部门认证的用户体验，能否作为销售证据；高定价与“回春”叙事是否共同放大了消费者对科学性的误判。",
+    "mediaRole": "中央广播电视总台3·15晚会《神乎其神的听花酒》保存了公开报道。；青海春天上市公司公告《西藏春天酒业收到行政处罚决定书》保存了公开报道。；第一财经《听花酒多地处罚与公司回应》保存了公开报道。",
+    "investigation": "市场监管总局最初通报四川、北京等地查扣产品、暂停销售并抽样送检。此后成都听花盛世因使用科学上未定论观点和未经核实用户评价作引人误解宣传被罚180万元；北京子公司被罚80万元；西藏子公司因功效资料袋、折页被罚130万元；青海春天又因类似误导宣传被西宁市监部门罚120万元。各处罚主体、文号与违法材料不同，不能合成一张“单笔510万元罚单”。",
+    "finalConclusion": "已有多份行政处罚和上市公司信息披露确认误导性宣传，食品是否合格、产品能否继续销售与健康功效宣传是否违法仍应分别判断。 央视对销售话术的暗访不能代替产品全部批次的质量检测；行政处罚认定的是特定主体、材料和场所中的宣传行为，不等于对白酒饮用风险或所有经销商作统一医学结论。",
+    "historianNote": "这类营销并不直接说“治病”，而是把专利、体验、专家词汇与极高价格并列，让消费者自己补全“有效”。行政文书的价值，在于重新把每一句功效话术放回可验证责任之中。",
+    "verifiedFacts": [
+      "销售人员使用健康功效和未经核实用户评价推介听花酒。",
+      "市场监管部门在多地调查、查扣和责令暂停销售。",
+      "成都、北京、西藏和青海相关主体先后收到行政处罚。"
+    ],
+    "disputedClaims": [
+      "不同渠道曾把处罚告知书、决定书及多个主体罚款混为同一口径。"
+    ],
+    "debunkedClaims": [
+      "“拥有相关专利就等于健康功效已获国家认证”没有依据。"
+    ],
+    "unresolvedQuestions": [
+      "全部经销门店整改与消费者退赔情况。",
+      "抽样送检结果是否有统一汇总公开。"
+    ],
+    "timeline": [
+      {
+        "date": "2024-03-15",
+        "title": "3·15曝光",
+        "description": "销售话术、培训材料和功效宣称进入公共视野。",
+        "sourceIds": [
+          "tinghua-cctv"
+        ]
+      },
+      {
+        "date": "2024-03-16",
+        "title": "多地现场调查",
+        "description": "查扣产品并责令部分门店暂停销售。",
+        "sourceIds": [
+          "tinghua-samr",
+          "tinghua-chengdu"
+        ]
+      },
+      {
+        "date": "2024-05至12",
+        "title": "多份处罚落地",
+        "description": "成都、北京、西藏、青海主体分别受罚。",
+        "sourceIds": [
+          "tinghua-samr",
+          "tinghua-chengdu"
+        ]
+      }
+    ],
+    "propagationChain": [
+      {
+        "stage": "起",
+        "title": "3·15曝光",
+        "description": "听花酒以高端商务白酒定位进入市场，标准装与精品装价格显著高于普通白酒。",
+        "sourceIds": [
+          "tinghua-cctv"
+        ]
+      },
+      {
+        "stage": "传",
+        "title": "多地现场调查",
+        "description": "食品或酒类拥有专利、采用某种配方，是否等于其宣称的生理功效已经得到验证。",
+        "sourceIds": [
+          "tinghua-cctv"
+        ]
+      },
+      {
+        "stage": "证",
+        "title": "多份处罚落地",
+        "description": "市场监管总局最初通报四川、北京等地查扣产品、暂停销售并抽样送检。",
+        "sourceIds": [
+          "tinghua-samr",
+          "tinghua-chengdu"
+        ]
+      },
+      {
+        "stage": "余",
+        "title": "尚待续考",
+        "description": "全部经销门店整改与消费者退赔情况。；抽样送检结果是否有统一汇总公开。",
+        "sourceIds": [
+          "tinghua-xizang",
+          "tinghua-summary"
+        ]
+      }
+    ],
+    "publicComments": [],
+    "sources": [
+      {
+        "id": "tinghua-cctv",
+        "title": "神乎其神的听花酒",
+        "institution": "中央广播电视总台3·15晚会",
+        "date": "2024-03-15",
+        "url": "https://tv.cctv.com/2024/03/15/VIDEQ377EZJfXQeQxmIYJoxU240315.shtml",
+        "note": null,
+        "sourceRank": 4,
+        "sourceType": "调查报道",
+        "sourceRole": "传播链证据",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "tinghua-samr",
+        "title": "市场监管总局部署严查3·15曝光违法行为",
+        "institution": "国家市场监督管理总局",
+        "date": "2024-03-16",
+        "url": "https://www.samr.gov.cn/xw/zj/art/2024/art_31de0b992c7c42b6be88985268e80bf0.html",
+        "note": null,
+        "sourceRank": 1,
+        "sourceType": "行政调查",
+        "sourceRole": "调查过程",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "tinghua-chengdu",
+        "title": "成都听花盛世收到行政处罚决定书",
+        "institution": "青海春天公告；中国新闻网存档",
+        "date": "2024-05-10",
+        "url": "https://www.chinanews.com.cn/m/cj/2024/05-13/10216103.shtml",
+        "note": "行政决定由上市公司公告披露。",
+        "sourceRank": 1,
+        "sourceType": "行政处罚",
+        "sourceRole": "处理结果",
+        "archiveStatus": "仅存转载"
+      },
+      {
+        "id": "tinghua-xizang",
+        "title": "西藏春天酒业收到行政处罚决定书",
+        "institution": "青海春天上市公司公告",
+        "date": "2024-09-30",
+        "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10509628&stockid=600381",
+        "note": null,
+        "sourceRank": 3,
+        "sourceType": "当事方材料",
+        "sourceRole": "处理结果",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "tinghua-summary",
+        "title": "听花酒多地处罚与公司回应",
+        "institution": "第一财经",
+        "date": "2024-04-26",
+        "url": "https://www.yicai.com/news/102086972.html",
+        "note": null,
+        "sourceRank": 4,
+        "sourceType": "媒体报道",
+        "sourceRole": "机构回应",
+        "archiveStatus": "在线"
+      }
+    ],
+    "sectionSources": {
+      "summary": [
+        "tinghua-samr",
+        "tinghua-chengdu"
+      ],
+      "initialNarrative": [
+        "tinghua-cctv"
+      ],
+      "publicQuestion": [
+        "tinghua-samr",
+        "tinghua-chengdu"
+      ],
+      "mediaRole": [
+        "tinghua-cctv",
+        "tinghua-summary"
+      ],
+      "investigation": [
+        "tinghua-samr",
+        "tinghua-chengdu"
+      ],
+      "finalConclusion": [
+        "tinghua-samr",
+        "tinghua-chengdu"
+      ]
+    }
+  },
+  "cyber-2024-eq-037": {
+    "summary": "2024年4月：重庆大量居民反映更换智能燃气表或集中抄表后账单异常上涨。联合调查确认，重庆燃气集团等企业存在手工录入错误、违规估抄、长期不入户后集中计费、价格政策执行不到位以及换表衔接混乱等问题。",
+    "initialNarrative": "居民先用前后月份账单、家中人口和表具读数作比较，发现费用增长难以用季节和生活习惯解释。重庆燃气最初公告称已复核气表未见计量失准，公众质疑随即从“表准不准”扩大到抄表、阶梯计价、调价节点和后台数据能否复核。",
+    "publicQuestion": "公用事业企业掌握表具、抄表、计费和催缴全链条时，居民如何取得逐日或逐周期可验证数据；长期估抄后一次清算能否把用量推入更高阶梯；企业应承担多高的异常账单主动识别与告知义务。",
+    "mediaRole": "重庆燃气集团；证券时报存档《关于燃气计费相关情况的澄清公告》：企业早期回应需与后续联合调查并读。；财新网《重庆通报燃气调查结果：确有多计多收》保存了公开报道。",
+    "investigation": "联合调查组出动执法人员978人次，设置现场核查组并引入第三方审计，累计受理投诉2.6万件。调查披露沙坪坝分公司手工录入错误1085笔、未入住估抄错误106笔、长期未成功入户导致累计量按更高阶梯收费234笔等样本；同时指出计费周期最短7天、最长83天，部分用户数月甚至更久未抄表。确认多收部分要求全额退款，相关案件立案，重庆燃气集团党委书记、总经理被免职。调查同时称尚未发现燃气表计量、质量和燃气质量问题。",
+    "finalConclusion": "企业在抄表、计费和内部管理上的责任已有官方确认；“费用异常全部由表具变快导致”与调查不符，但未发现表具失准也不能抵销已经查实的多计多收。 公开数字是阶段调查和典型问题统计，不代表每一名投诉者都被确认多收；个体账单仍需按表号、抄表记录、阶梯周期和退款凭证逐户核验。",
+    "historianNote": "公用事业账单的可信度不只来自一块检定合格的表，还来自表后每一次抄录、传输、分段和计价。企业若只证明仪表准确，却不能解释账单如何生成，透明度仍停留在系统之外。",
+    "verifiedFacts": [
+      "联合调查确认错抄、违规估抄和计费周期混乱。",
+      "确认多收费用被要求全额退款。",
+      "调查阶段未发现燃气表计量质量问题。",
+      "企业主要负责人被免职并启动相关立案调查。"
+    ],
+    "disputedClaims": [
+      "个别居民账单异常是否全部源自通报列出的几类原因，需要逐户核验。"
+    ],
+    "debunkedClaims": [
+      "“官方只确认换表后用量自然上升，没有企业计费错误”与调查通报不符。"
+    ],
+    "unresolvedQuestions": [
+      "退款覆盖户数、金额和完成率的最终审计清单。",
+      "计费系统改造后异常预警是否持续有效。"
+    ],
+    "timeline": [
+      {
+        "date": "2024-04上旬",
+        "title": "居民集中反映账单异常",
+        "description": "账单截图和表具读数推动公共质疑。",
+        "sourceIds": [
+          "gas-briefing"
+        ]
+      },
+      {
+        "date": "2024-04-13",
+        "title": "联合调查进驻",
+        "description": "市政府发布会说明调查范围与复核通道。",
+        "sourceIds": [
+          "gas-briefing",
+          "gas-result"
+        ]
+      },
+      {
+        "date": "2024-04-19",
+        "title": "公布阶段调查结果",
+        "description": "确认多计多收、退款整改和问责。",
+        "sourceIds": [
+          "gas-briefing",
+          "gas-result"
+        ]
+      }
+    ],
+    "propagationChain": [
+      {
+        "stage": "起",
+        "title": "居民集中反映账单异常",
+        "description": "居民先用前后月份账单、家中人口和表具读数作比较，发现费用增长难以用季节和生活习惯解释。",
+        "sourceIds": [
+          "gas-briefing"
+        ]
+      },
+      {
+        "stage": "传",
+        "title": "联合调查进驻",
+        "description": "公用事业企业掌握表具、抄表、计费和催缴全链条时，居民如何取得逐日或逐周期可验证数据。",
+        "sourceIds": [
+          "gas-thread"
+        ]
+      },
+      {
+        "stage": "证",
+        "title": "公布阶段调查结果",
+        "description": "联合调查组出动执法人员978人次，设置现场核查组并引入第三方审计，累计受理投诉2.6万件。",
+        "sourceIds": [
+          "gas-briefing",
+          "gas-result"
+        ]
+      },
+      {
+        "stage": "余",
+        "title": "尚待续考",
+        "description": "退款覆盖户数、金额和完成率的最终审计清单。；计费系统改造后异常预警是否持续有效。",
+        "sourceIds": [
+          "gas-thread",
+          "gas-caixin"
+        ]
+      }
+    ],
+    "publicComments": [],
+    "sources": [
+      {
+        "id": "gas-briefing",
+        "title": "燃气计量相关情况新闻发布会",
+        "institution": "重庆市人民政府新闻办公室",
+        "date": "2024-04-13",
+        "url": "https://www.cq.gov.cn/igixmj/gkzxft/202404/tInterview_21317.html",
+        "note": null,
+        "sourceRank": 1,
+        "sourceType": "行政调查",
+        "sourceRole": "调查过程",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "gas-result",
+        "title": "重庆燃气调查情况最新进展",
+        "institution": "重庆市联合调查组；重庆市人大存档",
+        "date": "2024-04-19",
+        "url": "https://www.cqrd.gov.cn/site/article/1231994205449289728/web/content_1231994205449289728.html",
+        "note": null,
+        "sourceRank": 1,
+        "sourceType": "行政调查",
+        "sourceRole": "处理结果",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "gas-company",
+        "title": "关于燃气计费相关情况的澄清公告",
+        "institution": "重庆燃气集团；证券时报存档",
+        "date": "2024-04-12",
+        "url": "https://www.stcn.com/article/detail/1174418.html",
+        "note": "企业早期回应需与后续联合调查并读。",
+        "sourceRank": 3,
+        "sourceType": "当事方材料",
+        "sourceRole": "机构回应",
+        "archiveStatus": "仅存转载"
+      },
+      {
+        "id": "gas-thread",
+        "title": "重庆燃气账单异常公开讨论",
+        "institution": "Reddit用户",
+        "date": "2024-04",
+        "url": "https://www.reddit.com/r/LiberalGooseGroup/comments/1c34yg2",
+        "note": "保存调查结论公布前的居民疑问。",
+        "sourceRank": 2,
+        "sourceType": "网民原始内容",
+        "sourceRole": "公众讨论",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "gas-caixin",
+        "title": "重庆通报燃气调查结果：确有多计多收",
+        "institution": "财新网",
+        "date": "2024-04-20",
+        "url": "https://companies.caixin.com/2024-04-20/102188375.html",
+        "note": null,
+        "sourceRank": 4,
+        "sourceType": "媒体报道",
+        "sourceRole": "历史报道",
+        "archiveStatus": "在线"
+      }
+    ],
+    "sectionSources": {
+      "summary": [
+        "gas-briefing",
+        "gas-result"
+      ],
+      "initialNarrative": [
+        "gas-briefing",
+        "gas-thread"
+      ],
+      "publicQuestion": [
+        "gas-briefing",
+        "gas-result"
+      ],
+      "mediaRole": [
+        "gas-caixin",
+        "gas-thread"
+      ],
+      "investigation": [
+        "gas-briefing",
+        "gas-result"
+      ],
+      "finalConclusion": [
+        "gas-briefing",
+        "gas-result"
+      ]
+    }
+  },
+  "cyber-2025-eq-038": {
+    "summary": "2025年3月：央视3·15通过暗访和体验式调查，记录啄木鸟家庭维修平台师傅虚构故障、小病大修、以次充好和层层加价，并拍到培训环节教授从业者如何提高客单价。重庆市场监管部门随后进入总部和分子公司调查。",
+    "initialNarrative": "消费者在家电或水路故障面前缺乏诊断能力，平台则以全国覆盖、海量师傅和标准服务建立信任。节目设置实际故障或跟随维修过程，显示简单操作被拆成多个收费项目、低成本配件被高价结算，维修人员还受到抽成与高客单激励。",
+    "publicQuestion": "平台究竟是信息撮合者还是服务组织者；当它统一接单、培训、抽成和制定考核规则时，能否把欺诈完全归为个别师傅行为；消费者在拆机前应获得怎样的故障诊断、配件来源、报价确认和旧件留存。",
+    "mediaRole": "中央广播电视总台3·15晚会《家电维修的收费玄机》保存了公开报道。；啄木鸟家庭维修；央广网存档《啄木鸟家庭维修就3·15报道致歉》：企业声明由媒体保存。",
+    "investigation": "重庆市区两级市场监管部门出动80余名执法人员，进入运营公司及分子公司，对抽成规则、员工培训、对外宣传、业务推广和维修记录开展调查与电子取证；同时对仓库内产品抽样并扣押无3C强制认证产品。企业发布道歉，承认节目所述问题属于平台责任并称成立专项组。公开权威页面仍使用“进一步调查取证”“依法处理”口径，尚未见覆盖核心指控的最终行政处罚决定和逐项整改验收报告。",
+    "finalConclusion": "暗访样本与执法介入能够确认重大服务治理风险，但对全平台发生率、违法所得和最终处罚必须等待正式文书。 节目中的具体收费案例不能自动代表所有维修订单；企业道歉是当事方承认和整改承诺，不代替监管机关对欺诈、价格违法或产品认证问题的分别认定。",
+    "historianNote": "维修服务的商品不是一个看得见的零件，而是“我相信你判断故障”的委托关系。平台若用抽成和培训把这种信任变成加价脚本，所谓撮合就已经深入服务质量本身。",
+    "verifiedFacts": [
+      "节目记录多起虚构或扩大故障、收费不透明案例。",
+      "重庆市场监管部门进入公司开展电子取证和产品抽查。",
+      "现场扣押无3C强制认证产品。",
+      "企业公开道歉并承认平台责任。"
+    ],
+    "disputedClaims": [
+      "涉案模式在全部订单中的占比和平台管理层知情范围尚无最终认定。"
+    ],
+    "debunkedClaims": [
+      "“平台只提供联系方式，对培训、抽成和服务结果没有管理关系”与公开调查范围不符。"
+    ],
+    "unresolvedQuestions": [
+      "最终处罚决定、违法所得和消费者退赔。",
+      "整改后报价、验收和师傅准入机制的外部审计。"
+    ],
+    "timeline": [
+      {
+        "date": "2025-03-15",
+        "title": "3·15曝光",
+        "description": "体验调查公开收费与培训问题。",
+        "sourceIds": [
+          "repair-cctv"
+        ]
+      },
+      {
+        "date": "2025-03-15至16",
+        "title": "企业道歉、监管进驻",
+        "description": "总部电子取证并抽查仓库产品。",
+        "sourceIds": [
+          "repair-cq",
+          "repair-samr"
+        ]
+      },
+      {
+        "date": "后续待核",
+        "title": "等待处罚与整改验收",
+        "description": "公开材料尚未闭合最终结果。",
+        "sourceIds": [
+          "repair-cq",
+          "repair-samr"
+        ]
+      }
+    ],
+    "propagationChain": [
+      {
+        "stage": "起",
+        "title": "3·15曝光",
+        "description": "消费者在家电或水路故障面前缺乏诊断能力，平台则以全国覆盖、海量师傅和标准服务建立信任。",
+        "sourceIds": [
+          "repair-cctv"
+        ]
+      },
+      {
+        "stage": "传",
+        "title": "企业道歉、监管进驻",
+        "description": "平台究竟是信息撮合者还是服务组织者。",
+        "sourceIds": [
+          "repair-cctv"
+        ]
+      },
+      {
+        "stage": "证",
+        "title": "等待处罚与整改验收",
+        "description": "重庆市区两级市场监管部门出动80余名执法人员，进入运营公司及分子公司，对抽成规则、员工培训、对外宣传、业务推广和维修记录开展调查与电子取证；同时对仓库内产品抽样并扣押无3C强制认证产品。",
+        "sourceIds": [
+          "repair-cq",
+          "repair-samr"
+        ]
+      },
+      {
+        "stage": "余",
+        "title": "尚待续考",
+        "description": "最终处罚决定、违法所得和消费者退赔。；整改后报价、验收和师傅准入机制的外部审计。",
+        "sourceIds": [
+          "repair-samr",
+          "repair-response"
+        ]
+      }
+    ],
+    "publicComments": [],
+    "sources": [
+      {
+        "id": "repair-cctv",
+        "title": "家电维修的收费玄机",
+        "institution": "中央广播电视总台3·15晚会",
+        "date": "2025-03-15",
+        "url": "https://tv.cctv.com/2025/03/15/VIDE5vqmhE58eI9vhXHnQjAJ250315.shtml",
+        "note": null,
+        "sourceRank": 4,
+        "sourceType": "调查报道",
+        "sourceRole": "传播链证据",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "repair-cq",
+        "title": "重庆市市场监管局迅速查处3·15曝光问题",
+        "institution": "重庆市市场监督管理局",
+        "date": "2025-03-17",
+        "url": "https://www.cq.gov.cn/ywdt/zwhd/bmdt/202503/t20250317_14410597.html",
+        "note": null,
+        "sourceRank": 1,
+        "sourceType": "行政调查",
+        "sourceRole": "调查过程",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "repair-samr",
+        "title": "3·15晚会曝光问题初步核查处置情况",
+        "institution": "国家市场监督管理总局",
+        "date": "2025-03-16",
+        "url": "https://www.samr.gov.cn/xw/zj/art/2025/art_15ace4bea03d42b29f52275ede63a160.html",
+        "note": null,
+        "sourceRank": 1,
+        "sourceType": "行政调查",
+        "sourceRole": "调查过程",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "repair-response",
+        "title": "啄木鸟家庭维修就3·15报道致歉",
+        "institution": "啄木鸟家庭维修；央广网存档",
+        "date": "2025-03-15",
+        "url": "https://cq.cnr.cn/tp/20250315/t20250315_527102289.shtml",
+        "note": "企业声明由媒体保存。",
+        "sourceRank": 3,
+        "sourceType": "当事方材料",
+        "sourceRole": "机构回应",
+        "archiveStatus": "仅存转载"
+      }
+    ],
+    "sectionSources": {
+      "summary": [
+        "repair-cq",
+        "repair-samr"
+      ],
+      "initialNarrative": [
+        "repair-cctv"
+      ],
+      "publicQuestion": [
+        "repair-cq",
+        "repair-samr"
+      ],
+      "mediaRole": [
+        "repair-cctv"
+      ],
+      "investigation": [
+        "repair-cq",
+        "repair-samr"
+      ],
+      "finalConclusion": [
+        "repair-cq",
+        "repair-samr"
+      ]
+    }
+  },
+  "cyber-2025-eq-039": {
+    "summary": "2025年3月：央视3·15在河南商丘多家加工企业拍到工人徒手生产、成品与杂物混放，部分企业明知产品未灭菌，仍在包装或销售环节使用“灭菌”“无菌”等表述；节目还记录实际面料与标签宣传不一致的线索。",
+    "initialNarrative": "一次性内裤依靠“开袋即穿”和旅行、住院场景销售，消费者无法在购买时观察生产现场，也往往把包装上的抑菌、灭菌和卫生词汇当作同一概念。暗访显示，低价订单可跳过灭菌环节，标签和电商页面却继续提供卫生承诺。",
+    "publicQuestion": "产品是普通服装、一次性卫生用品还是宣称无菌的消毒产品，会决定适用标准和许可边界；企业能否把委托加工、灭菌外包和电商店铺拆开以逃避可追溯责任；面料成分、批次检验与杀菌记录如何让消费者核验。",
+    "mediaRole": "中央广播电视总台3·15晚会《不灭菌的一次性内裤》保存了公开报道。",
+    "investigation": "商丘市市场监管、卫健、公安等部门组成联合工作组，查封涉事企业并封存成品、半成品和原料。市场监管总局通报当晚查获三家企业标称一次性无菌内裤30余万条、半成品100余万条，并要求河南开展全省排查。公开材料证明现场处置和行业排查已经启动，但尚未集中公布每家企业的抽检结论、违法标签认定、行政处罚文号、产品流向与召回完成率。",
+    "finalConclusion": "可以确认被曝光企业存在严重生产卫生和宣传真实性风险；具体哪些批次不合格、哪些“灭菌”标识构成违法以及最终责任仍需处罚文书闭合。 暗访不能外推到所有一次性内裤品牌；“未灭菌”也不必然等同检出致病菌，档案把生产过程、宣传承诺、抽样检测和行政责任分开记录。",
+    "historianNote": "“一次性”减少了洗涤，却没有取消生产责任。消费者购买的是省去清洁步骤的信任；如果工厂把灭菌变成可选成本，包装上的便利就由看不见的风险支付。",
+    "verifiedFacts": [
+      "暗访拍到部分涉事企业不灭菌和生产环境问题。",
+      "商丘联合工作组查封、封存涉事企业产品与原料。",
+      "市场监管总局通报查获成品30余万条、半成品100余万条。"
+    ],
+    "disputedClaims": [
+      "不同企业、品牌和批次是否存在相同问题，需逐项检测和追溯。"
+    ],
+    "debunkedClaims": [
+      "“写着一次性就天然等于已经无菌处理”没有依据。"
+    ],
+    "unresolvedQuestions": [
+      "各涉事企业最终处罚、检验和召回数据。",
+      "电商平台对灭菌证明与面料标签的审核责任。"
+    ],
+    "timeline": [
+      {
+        "date": "2025-03-15",
+        "title": "3·15曝光",
+        "description": "不灭菌、徒手加工和标签问题被公开。",
+        "sourceIds": [
+          "underwear-cctv"
+        ]
+      },
+      {
+        "date": "2025-03-15夜",
+        "title": "商丘联合查封",
+        "description": "封存产品、半成品和原材料。",
+        "sourceIds": [
+          "underwear-samr",
+          "underwear-shangqiu"
+        ]
+      },
+      {
+        "date": "2025-03-16",
+        "title": "总局公布初查",
+        "description": "披露查获数量并部署全面排查。",
+        "sourceIds": [
+          "underwear-shangqiu",
+          "underwear-inspect"
+        ]
+      }
+    ],
+    "propagationChain": [
+      {
+        "stage": "起",
+        "title": "3·15曝光",
+        "description": "一次性内裤依靠“开袋即穿”和旅行、住院场景销售，消费者无法在购买时观察生产现场，也往往把包装上的抑菌、灭菌和卫生词汇当作同一概念。",
+        "sourceIds": [
+          "underwear-cctv"
+        ]
+      },
+      {
+        "stage": "传",
+        "title": "商丘联合查封",
+        "description": "产品是普通服装、一次性卫生用品还是宣称无菌的消毒产品，会决定适用标准和许可边界。",
+        "sourceIds": [
+          "underwear-cctv"
+        ]
+      },
+      {
+        "stage": "证",
+        "title": "总局公布初查",
+        "description": "商丘市市场监管、卫健、公安等部门组成联合工作组，查封涉事企业并封存成品、半成品和原料。",
+        "sourceIds": [
+          "underwear-samr",
+          "underwear-shangqiu"
+        ]
+      },
+      {
+        "stage": "余",
+        "title": "尚待续考",
+        "description": "各涉事企业最终处罚、检验和召回数据。；电商平台对灭菌证明与面料标签的审核责任。",
+        "sourceIds": [
+          "underwear-shangqiu",
+          "underwear-inspect"
+        ]
+      }
+    ],
+    "publicComments": [],
+    "sources": [
+      {
+        "id": "underwear-cctv",
+        "title": "不灭菌的一次性内裤",
+        "institution": "中央广播电视总台3·15晚会",
+        "date": "2025-03-15",
+        "url": "https://tv.cctv.com/2025/03/15/VIDEiL611hz5THYy6OBsIStI250315.shtml",
+        "note": null,
+        "sourceRank": 4,
+        "sourceType": "调查报道",
+        "sourceRole": "传播链证据",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "underwear-samr",
+        "title": "3·15晚会曝光问题初步核查处置情况",
+        "institution": "国家市场监督管理总局",
+        "date": "2025-03-16",
+        "url": "https://www.samr.gov.cn/xw/zj/art/2025/art_15ace4bea03d42b29f52275ede63a160.html",
+        "note": null,
+        "sourceRank": 1,
+        "sourceType": "行政调查",
+        "sourceRole": "调查过程",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "underwear-shangqiu",
+        "title": "商丘联合工作组查封一次性内裤涉事企业",
+        "institution": "商丘市联合工作组；澎湃新闻存档",
+        "date": "2025-03-15",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30406689",
+        "note": "官方微信通报由媒体保存。",
+        "sourceRank": 1,
+        "sourceType": "行政调查",
+        "sourceRole": "调查过程",
+        "archiveStatus": "仅存转载"
+      },
+      {
+        "id": "underwear-inspect",
+        "title": "一次性卫生用品专项检查",
+        "institution": "阳春市卫生健康局",
+        "date": "2025-04-02",
+        "url": "https://www.yangchun.gov.cn/yjycwsj/gkmlpt/content/0/850/post_850916.html",
+        "note": "同类产品专项治理背景，不证明商丘企业个案。",
+        "sourceRank": 1,
+        "sourceType": "行政调查",
+        "sourceRole": "制度回应",
+        "archiveStatus": "在线"
+      }
+    ],
+    "sectionSources": {
+      "summary": [
+        "underwear-samr",
+        "underwear-shangqiu",
+        "underwear-inspect"
+      ],
+      "initialNarrative": [
+        "underwear-cctv"
+      ],
+      "publicQuestion": [
+        "underwear-samr",
+        "underwear-shangqiu",
+        "underwear-inspect"
+      ],
+      "mediaRole": [
+        "underwear-cctv"
+      ],
+      "investigation": [
+        "underwear-samr",
+        "underwear-shangqiu",
+        "underwear-inspect"
+      ],
+      "finalConclusion": [
+        "underwear-samr",
+        "underwear-shangqiu",
+        "underwear-inspect"
+      ]
+    }
+  },
+  "cyber-2026-eq-040": {
+    "summary": "2026年5月：OPPO母亲节物料以“我妈有两个‘老公’，一个是我爸，另一个一年见两回”等文案描写母亲追星，因婚姻称谓、家庭关系和节日表达引发激烈争议。OPPO删除物料、两度致歉，并披露内部问责。",
+    "initialNarrative": "品牌试图用饭圈称谓表现母亲除家庭角色外也有兴趣与精神生活，文案又加入“见偶像恨不得穿婚纱”等猎奇表达。截图在原帖删除后继续扩散，讨论迅速从广告审美转向婚姻伦理、性别双标、饭圈语言能否进入家庭节日营销。",
+    "publicQuestion": "企业可以表达多元生活，但是否充分评估“老公”“婚纱”等词在既有家庭关系中的含义；一次创意经过策划、法务、品牌和发布链仍上线，责任能否只归于撰稿者；公开内部处分是治理改进还是危机止损。",
+    "mediaRole": "澎湃新闻·工人日报等存档《OPPO母亲节文案争议与企业致歉》保存了公开报道。；OPPO；消费日报存档《OPPO就母亲节营销文案再次致歉及内部问责》：报纸保存二次致歉、责任人降级和冻结调薪口径。",
+    "investigation": "公开报道和截图能够相互印证争议文案、删除与首轮道歉。中国广告协会公开批评无底线玩梗和违背家庭伦理的营销，并提出前置内容审核；OPPO后续再次致歉，公开对相关负责人作降级、冻结调薪等内部处理。现有材料主要来自企业声明、行业自律意见和媒体存档，尚无市场监管机关对该广告是否违反具体法律条款作出的行政处罚。",
+    "finalConclusion": "文案、下架、道歉和内部问责可以确认；“违法广告”只能作为争议观点，不能在缺少执法文书时写成既定行政结论。 公众对伦理和冒犯的判断存在分歧；行业协会意见代表行业自律立场，不等同政府处罚，内部处分信息也以企业披露为准。",
+    "historianNote": "品牌想证明母亲不是单一角色，却用另一个男性称谓来讲她的兴趣，创意的矛盾由此产生。真正的多元叙事不需要靠制造家庭误会换取第一眼注意力。",
+    "verifiedFacts": [
+      "OPPO发布并随后删除涉争议母亲节物料。",
+      "文案包含“两个老公”和“婚纱”等表达。",
+      "企业公开致歉并披露内部问责。",
+      "中国广告协会公开提出行业自律批评。"
+    ],
+    "disputedClaims": [
+      "文案是否构成法律意义上的违背公序良俗广告，尚无行政决定。",
+      "内部处分范围和长期整改效果只能依据企业披露。"
+    ],
+    "debunkedClaims": [
+      "“争议物料从未由OPPO发布”与多方保存的发布截图及企业道歉不符。"
+    ],
+    "unresolvedQuestions": [
+      "企业新的内容审核流程是否公开并持续执行。",
+      "是否存在监管机关进一步处理。"
+    ],
+    "timeline": [
+      {
+        "date": "2026-05-08",
+        "title": "争议物料发布",
+        "description": "截图扩散后内容被删除，企业首次致歉。",
+        "sourceIds": [
+          "oppo-report"
+        ]
+      },
+      {
+        "date": "2026-05-10",
+        "title": "行业协会发声",
+        "description": "中国广告协会提出自律批评。",
+        "sourceIds": [
+          "oppo-report",
+          "oppo-response"
+        ]
+      },
+      {
+        "date": "2026-05-11",
+        "title": "再次致歉与问责",
+        "description": "企业披露内部处理和整改。",
+        "sourceIds": [
+          "oppo-report",
+          "oppo-response"
+        ]
+      }
+    ],
+    "propagationChain": [
+      {
+        "stage": "起",
+        "title": "争议物料发布",
+        "description": "品牌试图用饭圈称谓表现母亲除家庭角色外也有兴趣与精神生活，文案又加入“见偶像恨不得穿婚纱”等猎奇表达。",
+        "sourceIds": [
+          "oppo-report"
+        ]
+      },
+      {
+        "stage": "传",
+        "title": "行业协会发声",
+        "description": "企业可以表达多元生活，但是否充分评估“老公”“婚纱”等词在既有家庭关系中的含义。",
+        "sourceIds": [
+          "oppo-thread"
+        ]
+      },
+      {
+        "stage": "证",
+        "title": "再次致歉与问责",
+        "description": "公开报道和截图能够相互印证争议文案、删除与首轮道歉。",
+        "sourceIds": [
+          "oppo-report",
+          "oppo-response"
+        ]
+      },
+      {
+        "stage": "余",
+        "title": "尚待续考",
+        "description": "企业新的内容审核流程是否公开并持续执行。；是否存在监管机关进一步处理。",
+        "sourceIds": [
+          "oppo-thread",
+          "oppo-discussion"
+        ]
+      }
+    ],
+    "publicComments": [],
+    "sources": [
+      {
+        "id": "oppo-report",
+        "title": "OPPO母亲节文案争议与企业致歉",
+        "institution": "澎湃新闻·工人日报等存档",
+        "date": "2026-05-10",
+        "url": "https://www.thepaper.cn/newsDetail_forward_33153088",
+        "note": null,
+        "sourceRank": 4,
+        "sourceType": "媒体报道",
+        "sourceRole": "历史报道",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "oppo-response",
+        "title": "OPPO就母亲节营销文案再次致歉及内部问责",
+        "institution": "OPPO；消费日报存档",
+        "date": "2026-05-11",
+        "url": "https://dzb.xfrb.com.cn/UploadFiles/file/20260515/202605150905242898.pdf",
+        "note": "报纸保存二次致歉、责任人降级和冻结调薪口径。",
+        "sourceRank": 3,
+        "sourceType": "当事方材料",
+        "sourceRole": "机构回应",
+        "archiveStatus": "仅存转载"
+      },
+      {
+        "id": "oppo-thread",
+        "title": "OPPO母亲节物料原始截图与公开讨论",
+        "institution": "Reddit用户",
+        "date": "2026-05-08",
+        "url": "https://www.reddit.com/r/China_irl/comments/1t7btte",
+        "note": "只保存原始截图和早期反应，不采信人身攻击。",
+        "sourceRank": 2,
+        "sourceType": "网民原始内容",
+        "sourceRole": "传播链证据",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "oppo-discussion",
+        "title": "OPPO母亲节文案观点分歧",
+        "institution": "Reddit用户",
+        "date": "2026-05-11",
+        "url": "https://www.reddit.com/r/China_irl/comments/1t9wzn3",
+        "note": null,
+        "sourceRank": 2,
+        "sourceType": "网民原始内容",
+        "sourceRole": "公众讨论",
+        "archiveStatus": "在线"
+      }
+    ],
+    "sectionSources": {
+      "summary": [
+        "oppo-report",
+        "oppo-response"
+      ],
+      "initialNarrative": [
+        "oppo-report",
+        "oppo-thread"
+      ],
+      "publicQuestion": [
+        "oppo-report",
+        "oppo-response"
+      ],
+      "mediaRole": [
+        "oppo-report",
+        "oppo-thread"
+      ],
+      "investigation": [
+        "oppo-report",
+        "oppo-response"
+      ],
+      "finalConclusion": [
+        "oppo-report",
+        "oppo-response"
+      ]
+    }
+  },
+  "cyber-2026-eq-041": {
+    "summary": "2026年3月：罗技官方旗舰店账号发布降价推广视频，配文“当我一降价，你还不是像狗一样跑过来”，被消费者认为带有直接侮辱。罗技下架内容并致歉，称系授权代运营商员工绕过审核擅自发布。",
+    "initialNarrative": "一句试图模仿强势网络口吻的促销文案从旗舰店官方账号发出，迅速被截图保存。消费者把它与品牌详情页中的动物意象和此前客服体验并置讨论，事件由一次低俗文案上升为品牌是否把购买者只视作价格驱动流量的问题。",
+    "publicQuestion": "官方旗舰店账号由第三方运营时，消费者面对的责任主体仍是谁；代运营员工绕过审核能否减轻品牌责任；平台对企业账号的侮辱性内容应当只做下架，还是保留纠错与责任说明。",
+    "mediaRole": "广西日报法治版《罗技旗舰店侮辱消费者文案事件》：保存文案、声明和消费者权益评论。；罗技中国；界面新闻存档《罗技就旗舰店不当文案致歉》：企业原始声明由媒体保存。；雷科技；澎湃新闻存档《罗技“狗”营销争议后续》：商品页图片与文案关联仅作传播观察。",
+    "investigation": "现有可靠报道保存了涉事视频文案、发布时间、删除过程和罗技声明。公司称已要求授权运营方调查追责，并将加强审核。后续报道又发现商品详情页曾出现狗爪图案，引发二次联想，但该图片制作时间可能早于文案事件，不能据此证明两者出自同一策划或有意连续侮辱。未检索到监管机关行政处罚、法院判决或可独立核验的完整内部调查报告。",
+    "finalConclusion": "官方账号发布不当文案和企业致歉可以确认；“员工个人行为”是企业解释，内部授权链与审核绕过过程仍待更多材料。 消费者感受和品牌伦理可以明确批评，但档案不把网友推测的“故意羞辱营销”写成事实，也不把公司内部追责等同于行政处罚。",
+    "historianNote": "代运营可以外包发布动作，不能外包官方身份。消费者看见的是品牌蓝标、旗舰店和商品链接，后台究竟由谁敲下发送键，不会改变这句话借用了谁的信誉。",
+    "verifiedFacts": [
+      "罗技旗舰店账号发布含“像狗一样跑过来”的促销文案。",
+      "相关内容随后下架，罗技公开致歉。",
+      "企业称内容由授权代运营方员工绕过审核发布。"
+    ],
+    "disputedClaims": [
+      "文案是否为策划性“黑红营销”没有直接证据。",
+      "商品页狗爪图案与本次文案之间不存在已证实的策划关联。"
+    ],
+    "debunkedClaims": [
+      "“该内容只是网友伪造，与官方旗舰店无关”不符合企业致歉和多方截图。"
+    ],
+    "unresolvedQuestions": [
+      "代运营调查和责任处理的完整结果。",
+      "品牌内容审核整改是否接受外部验证。"
+    ],
+    "timeline": [
+      {
+        "date": "2026-03-26",
+        "title": "不当文案发布",
+        "description": "旗舰店账号促销视频被截图传播。",
+        "sourceIds": [
+          "logitech-paper"
+        ]
+      },
+      {
+        "date": "2026-03-27",
+        "title": "内容下架与致歉",
+        "description": "罗技归因代运营员工绕过审核。",
+        "sourceIds": [
+          "logitech-paper",
+          "logitech-response"
+        ]
+      },
+      {
+        "date": "2026-04",
+        "title": "二次讨论",
+        "description": "商品页旧图案被重新解读，关联性仍无证据。",
+        "sourceIds": [
+          "logitech-paper",
+          "logitech-response"
+        ]
+      }
+    ],
+    "propagationChain": [
+      {
+        "stage": "起",
+        "title": "不当文案发布",
+        "description": "一句试图模仿强势网络口吻的促销文案从旗舰店官方账号发出，迅速被截图保存。",
+        "sourceIds": [
+          "logitech-paper"
+        ]
+      },
+      {
+        "stage": "传",
+        "title": "内容下架与致歉",
+        "description": "官方旗舰店账号由第三方运营时，消费者面对的责任主体仍是谁。",
+        "sourceIds": [
+          "logitech-paper"
+        ]
+      },
+      {
+        "stage": "证",
+        "title": "二次讨论",
+        "description": "现有可靠报道保存了涉事视频文案、发布时间、删除过程和罗技声明。",
+        "sourceIds": [
+          "logitech-paper",
+          "logitech-response"
+        ]
+      },
+      {
+        "stage": "余",
+        "title": "尚待续考",
+        "description": "代运营调查和责任处理的完整结果。；品牌内容审核整改是否接受外部验证。",
+        "sourceIds": [
+          "logitech-response",
+          "logitech-follow"
+        ]
+      }
+    ],
+    "publicComments": [],
+    "sources": [
+      {
+        "id": "logitech-paper",
+        "title": "罗技旗舰店侮辱消费者文案事件",
+        "institution": "广西日报法治版",
+        "date": "2026-03-30",
+        "url": "https://ssw.gxrb.com.cn/newspaper/epaper/gxrb/2026-03-30/004/gxrb20260330004.pdf",
+        "note": "保存文案、声明和消费者权益评论。",
+        "sourceRank": 4,
+        "sourceType": "媒体报道",
+        "sourceRole": "历史报道",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "logitech-response",
+        "title": "罗技就旗舰店不当文案致歉",
+        "institution": "罗技中国；界面新闻存档",
+        "date": "2026-03-27",
+        "url": "https://m.jiemian.com/article/14171081.html",
+        "note": "企业原始声明由媒体保存。",
+        "sourceRank": 3,
+        "sourceType": "当事方材料",
+        "sourceRole": "机构回应",
+        "archiveStatus": "仅存转载"
+      },
+      {
+        "id": "logitech-follow",
+        "title": "罗技“狗”营销争议后续",
+        "institution": "雷科技；澎湃新闻存档",
+        "date": "2026-04-04",
+        "url": "https://m.thepaper.cn/newsDetail_forward_32895974",
+        "note": "商品页图片与文案关联仅作传播观察。",
+        "sourceRank": 4,
+        "sourceType": "媒体报道",
+        "sourceRole": "传播链证据",
+        "archiveStatus": "在线"
+      }
+    ],
+    "sectionSources": {
+      "summary": [
+        "logitech-paper",
+        "logitech-response"
+      ],
+      "initialNarrative": [
+        "logitech-paper"
+      ],
+      "publicQuestion": [
+        "logitech-paper",
+        "logitech-response"
+      ],
+      "mediaRole": [
+        "logitech-paper",
+        "logitech-follow"
+      ],
+      "investigation": [
+        "logitech-paper",
+        "logitech-response"
+      ],
+      "finalConclusion": [
+        "logitech-paper",
+        "logitech-response"
+      ]
+    }
+  },
+  "cyber-2018-eq-043": {
+    "summary": "2018年7月至11月：拼多多上市前后，平台内“创维先锋”“小米新品”等傍名牌商品、疑似侵权和质量问题被集中曝光。国家市场监管总局约谈平台经营者，要求履行主体责任、加强入驻商家与商品审核，并部署打击制售假冒伪劣。",
+    "initialNarrative": "低价电视、手机和日用品的商品截图以高度近似商标、包装和型号形成传播冲击。权利人公开维权，消费者和媒体则把“山寨”“假冒商标”“质量不合格”“货不对板”混称为假货，平台上市带来的高关注使旧有治理问题在数日内集中爆发。",
+    "publicQuestion": "平台依靠算法分发和社交拼单获利时，对商标近似、异常低价与重复侵权商家承担怎样的主动审核义务；“山寨不等于假货”的法律区分，能否被用来回避消费者受到误导的整体风险。",
+    "mediaRole": "拼多多媒体沟通会；中国新闻网存档《黄峥回应山寨与假货问题》保存了公开报道。；中国企业家；新浪存档《拼多多山寨与假货争议调查》保存了公开报道。",
+    "investigation": "2018年7月底，上海市区两级工商和市场监管部门先后约谈平台；8月2日，总局网监司行政约谈，要求严格履行平台主体责任、配合各地调查。总局办公厅随后把“傍名牌”、商标侵权、虚假宣传和违法广告列为重点打击目标。黄峥在媒体沟通会承认山寨问题比假货更严重，并承诺推出治理方案。公开材料能够证明监管要求和平台承认治理不足，但没有一份文书认定当时平台上的每件争议商品均为假货。",
+    "finalConclusion": "平台治理缺位与监管约谈已经确认；对具体商品应分别依据商标、质检、宣传和交易证据认定，不能以舆论标签代替执法结论。 “山寨”是社会描述，不是单一法律罪名；平台披露的下架量和拦截量属于企业口径，需要与监管抽检、权利人投诉及个案处罚并读。",
+    "historianNote": "这场危机暴露了低价平台的两套分类法：消费者看到“像不像、会不会被骗”，平台强调“是否构成法定假货”。真正的治理必须同时回应法律边界与普通人的识别成本。",
+    "verifiedFacts": [
+      "平台存在被公开质疑的傍名牌和侵权商品。",
+      "国家市场监管总局于2018年8月2日约谈拼多多。",
+      "总局部署重点打击傍名牌、商标侵权和虚假宣传。",
+      "黄峥公开承认平台山寨治理不足。"
+    ],
+    "disputedClaims": [
+      "当时全平台假货比例没有可独立核验的统一统计。"
+    ],
+    "debunkedClaims": [
+      "“监管部门从未介入，只是媒体炒作”与总局约谈和专项通知不符。"
+    ],
+    "unresolvedQuestions": [
+      "约谈后分品类治理效果及复犯率的长期审计。",
+      "平台向权利人和消费者披露处置数据的可验证程度。"
+    ],
+    "timeline": [
+      {
+        "date": "2018-07下旬",
+        "title": "山寨商品集中曝光",
+        "description": "商品截图、权利人维权和上市新闻叠加。",
+        "sourceIds": [
+          "pdd-samr"
+        ]
+      },
+      {
+        "date": "2018-07-31",
+        "title": "平台召开沟通会",
+        "description": "回应假货与山寨概念并承认治理不足。",
+        "sourceIds": [
+          "pdd-samr",
+          "pdd-notice"
+        ]
+      },
+      {
+        "date": "2018-08-02",
+        "title": "总局行政约谈",
+        "description": "要求严格履行平台主体责任。",
+        "sourceIds": [
+          "pdd-samr",
+          "pdd-notice"
+        ]
+      },
+      {
+        "date": "2018-08后",
+        "title": "部署专项打击",
+        "description": "傍名牌、侵权和虚假宣传被列为重点。",
+        "sourceIds": [
+          "pdd-samr",
+          "pdd-notice"
+        ]
+      }
+    ],
+    "propagationChain": [
+      {
+        "stage": "起",
+        "title": "山寨商品集中曝光",
+        "description": "低价电视、手机和日用品的商品截图以高度近似商标、包装和型号形成传播冲击。",
+        "sourceIds": [
+          "pdd-samr"
+        ]
+      },
+      {
+        "stage": "传",
+        "title": "平台召开沟通会",
+        "description": "平台依靠算法分发和社交拼单获利时，对商标近似、异常低价与重复侵权商家承担怎样的主动审核义务。",
+        "sourceIds": [
+          "pdd-thread"
+        ]
+      },
+      {
+        "stage": "证",
+        "title": "部署专项打击",
+        "description": "2018年7月底，上海市区两级工商和市场监管部门先后约谈平台；8月2日，总局网监司行政约谈，要求严格履行平台主体责任、配合各地调查。",
+        "sourceIds": [
+          "pdd-samr",
+          "pdd-notice"
+        ]
+      },
+      {
+        "stage": "余",
+        "title": "尚待续考",
+        "description": "约谈后分品类治理效果及复犯率的长期审计。；平台向权利人和消费者披露处置数据的可验证程度。",
+        "sourceIds": [
+          "pdd-report",
+          "pdd-thread"
+        ]
+      }
+    ],
+    "publicComments": [],
+    "sources": [
+      {
+        "id": "pdd-samr",
+        "title": "市场监管总局网监司约谈拼多多",
+        "institution": "国家市场监督管理总局",
+        "date": "2018-08-02",
+        "url": "https://www.samr.gov.cn/xw/xwfbt/art/2023/art_daebefaf9e3d4a8aa5ca6acd264dd2b5.html",
+        "note": null,
+        "sourceRank": 1,
+        "sourceType": "行政调查",
+        "sourceRole": "处理结果",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "pdd-notice",
+        "title": "关于加大打击制售假冒伪劣商品违法行为力度的通知",
+        "institution": "国家市场监督管理总局办公厅",
+        "date": "2018-08",
+        "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_93c13a8837a644f2b02247203f8407a2.html",
+        "note": null,
+        "sourceRank": 1,
+        "sourceType": "机构原始材料",
+        "sourceRole": "制度回应",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "pdd-response",
+        "title": "黄峥回应山寨与假货问题",
+        "institution": "拼多多媒体沟通会；中国新闻网存档",
+        "date": "2018-08-01",
+        "url": "https://www.chinanews.com/business/2018/08-01/8586092.shtml",
+        "note": null,
+        "sourceRank": 3,
+        "sourceType": "当事方材料",
+        "sourceRole": "机构回应",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "pdd-report",
+        "title": "拼多多山寨与假货争议调查",
+        "institution": "中国企业家；新浪存档",
+        "date": "2018-08-01",
+        "url": "https://finance.sina.com.cn/chanjing/gsnews/2018-08-01/doc-ihhacrce6798210.shtml",
+        "note": null,
+        "sourceRank": 4,
+        "sourceType": "调查报道",
+        "sourceRole": "传播链证据",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "pdd-thread",
+        "title": "拼多多早期治理争议回顾",
+        "institution": "Reddit用户",
+        "date": "2023-03",
+        "url": "https://www.reddit.com/r/real_China_irl/comments/1263x0m",
+        "note": "后见性讨论，只用于记录长期公众评价。",
+        "sourceRank": 2,
+        "sourceType": "网民原始内容",
+        "sourceRole": "公众讨论",
+        "archiveStatus": "在线"
+      }
+    ],
+    "sectionSources": {
+      "summary": [
+        "pdd-samr",
+        "pdd-notice"
+      ],
+      "initialNarrative": [
+        "pdd-samr",
+        "pdd-thread"
+      ],
+      "publicQuestion": [
+        "pdd-samr",
+        "pdd-notice"
+      ],
+      "mediaRole": [
+        "pdd-report",
+        "pdd-thread"
+      ],
+      "investigation": [
+        "pdd-samr",
+        "pdd-notice"
+      ],
+      "finalConclusion": [
+        "pdd-samr",
+        "pdd-notice"
+      ]
+    }
+  },
+  "cyber-2019-eq-044": {
+    "summary": "2019年5月：《南阳日报》报道青年汽车“水氢发动机在南阳下线”，并使用“车辆只需加水即可行驶”等表述，引发科学界和公众质疑。企业所述技术实为铝合金与水反应制氢，能量与耗材并非来自水本身。",
+    "initialNarrative": "地方报道把领导调研、样车试制、项目投资和技术突破写进同一篇新闻，标题与摘要省略了铝合金等反应材料。“加水就能跑”迅速被理解成水直接供能，与基础能量守恒常识冲突，媒体随后追查企业既往项目、债务和地方合作。",
+    "publicQuestion": "一项颠覆直觉的能源技术需要公开哪些物料平衡、能效、成本、排放和耐久数据；样车试制能否写成产品下线；地方政府考察和签约是否会被企业借作技术信用背书。",
+    "mediaRole": "澎湃新闻《水氢发动机涉事企业及南阳项目调查》保存了公开报道。；澎湃新闻《南阳水氢项目与青年汽车债务调查》保存了公开报道。",
+    "investigation": "南阳高新区解释项目尚未立项、样车只是试制，核心原理为铝合金粉末、催化剂与水反应制氢。工信部回应尚未收到该车型产品准入申请，车型未列入产品公告，不能生产销售、上路或申领新能源汽车补贴。公开报道还记录青年系多地项目失败与大量债务纠纷，后续杭州青年汽车进入破产程序。以上材料否定“只靠水供能”和“已可量产上路”，但不足以直接判定企业在该项目中构成骗补犯罪。",
+    "finalConclusion": "样车试制和化学制氢原理可以确认；“水就是燃料”“车型已经量产获准”“已取得新能源补贴”均不成立，骗补与技术商业可行性仍应依据司法和完整实验数据判断。 铝水制氢作为化学路线并非凭空虚构，争议在于宣传省略耗材、能效和成本；企业债务与技术真假相关但不构成单独科学证据。",
+    "historianNote": "一句“只需加水”删掉了真正被消耗的铝，也删掉了制备铝所需的能量。科技传播最危险的不是术语太难，而是把物料表中最昂贵的一栏从标题里拿走。",
+    "verifiedFacts": [
+      "地方媒体曾使用“只需加水即可行驶”等表述。",
+      "技术说明包含铝合金粉末、催化剂与水反应制氢。",
+      "工信部确认车型未申请准入、不能生产销售上路或申补。",
+      "项目当时仅处于样车试制而非定型量产。"
+    ],
+    "disputedClaims": [
+      "整套技术的实际能效、成本和耐久性没有公开独立复验数据。",
+      "“骗补”指控没有在本事件公开材料中形成司法定论。"
+    ],
+    "debunkedClaims": [
+      "“汽车把水本身作为无需其他耗材的能源”违背公开技术说明。",
+      "“水氢车型已获准量产上路”与工信部回应不符。"
+    ],
+    "unresolvedQuestions": [
+      "样车完整测试报告、铝耗材回收和全生命周期能耗。",
+      "地方项目资金实际投入、资产处置与责任结论。"
+    ],
+    "timeline": [
+      {
+        "date": "2019-05-23",
+        "title": "地方报道引爆争议",
+        "description": "“只需加水”成为传播标题。",
+        "sourceIds": [
+          "hydrogen-miit"
+        ]
+      },
+      {
+        "date": "2019-05-24至26",
+        "title": "企业与地方解释",
+        "description": "补充铝水制氢原理并称样车试制。",
+        "sourceIds": [
+          "hydrogen-miit"
+        ]
+      },
+      {
+        "date": "2019-05-27",
+        "title": "工信部回应",
+        "description": "确认未申请车型准入且不能申补。",
+        "sourceIds": [
+          "hydrogen-miit"
+        ]
+      },
+      {
+        "date": "2019年后续",
+        "title": "企业债务与破产进展",
+        "description": "商业化承诺未按原叙事实现。",
+        "sourceIds": [
+          "hydrogen-miit"
+        ]
+      }
+    ],
+    "propagationChain": [
+      {
+        "stage": "起",
+        "title": "地方报道引爆争议",
+        "description": "地方报道把领导调研、样车试制、项目投资和技术突破写进同一篇新闻，标题与摘要省略了铝合金等反应材料。",
+        "sourceIds": [
+          "hydrogen-miit"
+        ]
+      },
+      {
+        "stage": "传",
+        "title": "企业与地方解释",
+        "description": "一项颠覆直觉的能源技术需要公开哪些物料平衡、能效、成本、排放和耐久数据。",
+        "sourceIds": [
+          "hydrogen-thread"
+        ]
+      },
+      {
+        "stage": "证",
+        "title": "企业债务与破产进展",
+        "description": "南阳高新区解释项目尚未立项、样车只是试制，核心原理为铝合金粉末、催化剂与水反应制氢。",
+        "sourceIds": [
+          "hydrogen-miit"
+        ]
+      },
+      {
+        "stage": "余",
+        "title": "尚待续考",
+        "description": "样车完整测试报告、铝耗材回收和全生命周期能耗。；地方项目资金实际投入、资产处置与责任结论。",
+        "sourceIds": [
+          "hydrogen-debt",
+          "hydrogen-thread"
+        ]
+      }
+    ],
+    "publicComments": [],
+    "sources": [
+      {
+        "id": "hydrogen-miit",
+        "title": "工信部：未收到青年汽车准入申请",
+        "institution": "工业和信息化部；保山市政府存档",
+        "date": "2019-05-27",
+        "url": "https://www.baoshan.gov.cn/info/7603/3430864.htm",
+        "note": null,
+        "sourceRank": 1,
+        "sourceType": "机构原始材料",
+        "sourceRole": "事实依据",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "hydrogen-report",
+        "title": "水氢发动机涉事企业及南阳项目调查",
+        "institution": "澎湃新闻",
+        "date": "2019-05-24",
+        "url": "https://www.thepaper.cn/newsDetail_forward_3523310",
+        "note": null,
+        "sourceRank": 4,
+        "sourceType": "调查报道",
+        "sourceRole": "历史报道",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "hydrogen-debt",
+        "title": "南阳水氢项目与青年汽车债务调查",
+        "institution": "澎湃新闻",
+        "date": "2019-05-23",
+        "url": "https://m.thepaper.cn/wifiKey_detail.jsp?contid=3522775&from=wifiKey",
+        "note": null,
+        "sourceRank": 4,
+        "sourceType": "调查报道",
+        "sourceRole": "技术背景",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "hydrogen-thread",
+        "title": "水氢发动机项目公开讨论",
+        "institution": "Reddit用户",
+        "date": "2019-05",
+        "url": "https://www.reddit.com/r/4832/comments/bsss23",
+        "note": "保留公众科学质疑，不作为骗补定案证据。",
+        "sourceRank": 2,
+        "sourceType": "网民原始内容",
+        "sourceRole": "公众讨论",
+        "archiveStatus": "在线"
+      }
+    ],
+    "sectionSources": {
+      "summary": [
+        "hydrogen-miit"
+      ],
+      "initialNarrative": [
+        "hydrogen-miit",
+        "hydrogen-thread"
+      ],
+      "publicQuestion": [
+        "hydrogen-miit"
+      ],
+      "mediaRole": [
+        "hydrogen-report",
+        "hydrogen-debt",
+        "hydrogen-thread"
+      ],
+      "investigation": [
+        "hydrogen-miit"
+      ],
+      "finalConclusion": [
+        "hydrogen-miit"
+      ]
+    }
+  },
+  "cyber-2022-eq-045": {
+    "summary": "2022年7月：广州消费者反映张小泉菜刀拍蒜时断裂，售后客服答复“菜刀不能拍蒜”，引发对产品适用性与客服态度的质疑。公司随后致歉，称常规刀具可以拍蒜，高硬度或专用刀具横拍存在断裂风险。",
+    "initialNarrative": "消费者把断刀照片和客服对话发布后，“中国菜刀能不能拍蒜”成为极易参与的生活经验争论。随后公司总经理过往谈论中西切菜方法的视频被重新传播，两段不同时间、不同语境的材料合并成“品牌教育中国人不会用刀”的叙事。",
+    "publicQuestion": "企业出售面向中国厨房的菜刀时，是否应在页面显著标明硬度、用途和禁止动作；产品发生断裂后，应先进行批次检验还是先归因消费者使用；专业材料解释如何避免变成对日常经验的居高临下教育。",
+    "mediaRole": "澎湃新闻《张小泉拍蒜断刀与企业回应》保存了公开报道。；张小泉股份有限公司；媒体存档《广州客诉事件情况说明》：企业微博说明由媒体保存。；长江日报《拍蒜断刀行业调查》保存了公开报道。",
+    "investigation": "公司说明经销商客服回复不当，已致歉、退款或换刀，并区分常规刀具与高硬度、专用刀具。媒体询问行业人士和其他品牌后发现，硬度与韧性确有取舍，不同刀型建议不同；但涉事断刀是否存在材料、热处理或个体瑕疵，没有公开的第三方检测报告。2023年国家企业信用信息公示信息显示，张小泉电商公司因在断刀舆情等背景下组织内部人员刷好评，被市场监管部门罚款25万元；该处罚针对刷单，不是对断刀质量的认定。",
+    "finalConclusion": "断刀、客服回复、企业致歉和后续刷好评处罚可以确认；涉事刀具断裂根因没有检测结论，不能简单写成产品必然不合格或消费者必然误用。 旧采访视频能说明沟通方式，却不能自动证明公司对具体投诉的技术结论；2023年刷单处罚也不能倒推出每条产品差评都属实。",
+    "historianNote": "拍蒜既是力学动作，也是产品文化语境。一个老字号若要求用户放弃最熟悉的动作，就必须在购买之前讲清楚，而不是在刀断之后才递上材料学说明。",
+    "verifiedFacts": [
+      "消费者投诉拍蒜断刀，客服曾回复菜刀不能拍蒜。",
+      "公司致歉并称常规刀具可以拍蒜。",
+      "高硬度刀具存在韧性取舍是行业解释之一。",
+      "公司相关电商主体后因组织刷好评被罚25万元。"
+    ],
+    "disputedClaims": [
+      "涉事刀具断裂由产品瑕疵还是特定使用方式造成，无第三方检测定论。",
+      "旧采访被截取后的完整语境与舆论理解存在差异。"
+    ],
+    "debunkedClaims": [
+      "“张小泉官方最终宣布所有菜刀都不能拍蒜”与公司正式说明不符。"
+    ],
+    "unresolvedQuestions": [
+      "涉事刀具批次检测和断口分析。",
+      "产品页面是否长期、显著标注适用动作与风险。"
+    ],
+    "timeline": [
+      {
+        "date": "2022-07-14",
+        "title": "客诉与客服对话传播",
+        "description": "断刀照片和“不能拍蒜”回复登上热搜。",
+        "sourceIds": [
+          "knife-report"
+        ]
+      },
+      {
+        "date": "2022-07-15",
+        "title": "公司发布说明",
+        "description": "致歉并区分常规与高硬度刀具。",
+        "sourceIds": [
+          "knife-penalty"
+        ]
+      },
+      {
+        "date": "2022-07-18后",
+        "title": "旧采访再传播",
+        "description": "争议从产品质量扩展到品牌沟通。",
+        "sourceIds": [
+          "knife-penalty"
+        ]
+      },
+      {
+        "date": "2023-11",
+        "title": "刷好评处罚公开",
+        "description": "监管处罚针对组织虚假好评行为。",
+        "sourceIds": [
+          "knife-penalty"
+        ]
+      }
+    ],
+    "propagationChain": [
+      {
+        "stage": "起",
+        "title": "客诉与客服对话传播",
+        "description": "消费者把断刀照片和客服对话发布后，“中国菜刀能不能拍蒜”成为极易参与的生活经验争论。",
+        "sourceIds": [
+          "knife-report"
+        ]
+      },
+      {
+        "stage": "传",
+        "title": "公司发布说明",
+        "description": "企业出售面向中国厨房的菜刀时，是否应在页面显著标明硬度、用途和禁止动作。",
+        "sourceIds": [
+          "knife-report"
+        ]
+      },
+      {
+        "stage": "证",
+        "title": "刷好评处罚公开",
+        "description": "公司说明经销商客服回复不当，已致歉、退款或换刀，并区分常规刀具与高硬度、专用刀具。",
+        "sourceIds": [
+          "knife-penalty"
+        ]
+      },
+      {
+        "stage": "余",
+        "title": "尚待续考",
+        "description": "涉事刀具批次检测和断口分析。；产品页面是否长期、显著标注适用动作与风险。",
+        "sourceIds": [
+          "knife-industry",
+          "knife-penalty"
+        ]
+      }
+    ],
+    "publicComments": [],
+    "sources": [
+      {
+        "id": "knife-report",
+        "title": "张小泉拍蒜断刀与企业回应",
+        "institution": "澎湃新闻",
+        "date": "2022-07-19",
+        "url": "https://m.thepaper.cn/newsDetail_forward_19080760",
+        "note": null,
+        "sourceRank": 4,
+        "sourceType": "调查报道",
+        "sourceRole": "历史报道",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "knife-response",
+        "title": "广州客诉事件情况说明",
+        "institution": "张小泉股份有限公司；媒体存档",
+        "date": "2022-07-15",
+        "url": "https://www.gamersky.com/news/202207/1500127.shtml",
+        "note": "企业微博说明由媒体保存。",
+        "sourceRank": 3,
+        "sourceType": "当事方材料",
+        "sourceRole": "机构回应",
+        "archiveStatus": "仅存转载"
+      },
+      {
+        "id": "knife-industry",
+        "title": "拍蒜断刀行业调查",
+        "institution": "长江日报",
+        "date": "2022-07-15",
+        "url": "https://news.cjn.cn/zjzycsqpd/wh_20023/202207/t4163379.htm",
+        "note": null,
+        "sourceRank": 4,
+        "sourceType": "调查报道",
+        "sourceRole": "技术背景",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "knife-penalty",
+        "title": "刷单应对拍蒜断刀舆情，张小泉被罚",
+        "institution": "中国消费者报",
+        "date": "2023-11-24",
+        "url": "https://zxb.ccn.com.cn/html/zxb/20231124/123571.html",
+        "note": "处罚对象是刷好评，不是断刀质量。",
+        "sourceRank": 1,
+        "sourceType": "行政处罚",
+        "sourceRole": "处理结果",
+        "archiveStatus": "在线"
+      }
+    ],
+    "sectionSources": {
+      "summary": [
+        "knife-penalty"
+      ],
+      "initialNarrative": [
+        "knife-report"
+      ],
+      "publicQuestion": [
+        "knife-penalty"
+      ],
+      "mediaRole": [
+        "knife-report",
+        "knife-industry"
+      ],
+      "investigation": [
+        "knife-penalty"
+      ],
+      "finalConclusion": [
+        "knife-penalty"
+      ]
+    }
+  },
+  "cyber-2026-eq-046": {
+    "summary": "2026年5月至6月：广东茂名个别7-Eleven门店为新品雪糕制作海报时，将网络热词“夯爆了”误写成“劣爆了”，语义从夸赞变成自我贬低。路人拍摄后形成反向传播，品牌随后撤下物料并处理相关人员。",
+    "initialNarrative": "海报以大字号把错字放在商品和价格旁，现场视频很快被社交平台转发。许多网友调侃“写得差反而想尝”，也有人怀疑这是故意反向营销；一张低成本门店物料因此获得远超正常促销的全国曝光。",
+    "publicQuestion": "总部品牌、区域授权公司和加盟或直营网点如何划分物料审核责任；当错误带来流量和销量，企业是否仍有动力改进审核；公众把偶发错字推测为策划营销，需要什么证据才能成立。",
+    "mediaRole": "新华网《“夯爆了”写成“劣爆了”的门店海报》保存了公开报道。；广东赛壹便利店有限公司；界面新闻存档《广东7-Eleven关于门店不当物料的说明》：企业说明由媒体保存。；中国网《711门店玩梗营销翻车评论》保存了公开报道。",
+    "investigation": "新华社和多家媒体核实了广东门店海报及网络传播。广东赛壹便利店有限公司后续说明，涉事海报由茂名地区极个别门店未经总部审核批准自行制作张贴，违反内部广告宣传管理制度，已责令撤下并按内部规定处理相关员工。公开材料没有显示产品质量确实“劣”，也没有证据证明总部策划错字营销；部分报道把5月雪糕海报与6月另一次“柠檬茶和mini酒”不当用语说明混合，档案只保留可对应的物料和时间。",
+    "finalConclusion": "错字海报、门店自行制作和品牌撤下处理可以确认；“故意反向营销”仍是网友推测，不能作为事实归档。 本事件是广告审核与品牌管理案例，不是雪糕质量抽检事件；网络热度指标来自舆情机构时应注明方法，不能用来证明实际销量增长。",
+    "historianNote": "一个错字把广告从自夸变成自嘲，算法却奖励了它。企业真正要修复的不是汉字输入法，而是门店可以绕过审核、错误又因流量而显得“划算”的激励。",
+    "verifiedFacts": [
+      "广东个别门店张贴“劣爆了”雪糕海报。",
+      "海报原意被解释为“夯爆了”的错写。",
+      "相关物料被撤下，品牌称门店未报总部审核。"
+    ],
+    "disputedClaims": [
+      "事件是否为有意策划的反向营销没有直接证据。",
+      "网络热度是否转化为实际销量缺乏可审计数据。"
+    ],
+    "debunkedClaims": [
+      "“劣爆了”是官方对产品质量作出的检测结论不成立。"
+    ],
+    "unresolvedQuestions": [
+      "区域门店物料审核整改的长期执行情况。",
+      "不同时间两批争议物料是否属于同一内部管理问题。"
+    ],
+    "timeline": [
+      {
+        "date": "2026-05下旬",
+        "title": "门店海报被拍摄",
+        "description": "错字物料进入社交网络。",
+        "sourceIds": [
+          "711-xinhua"
+        ]
+      },
+      {
+        "date": "2026-05-28至29",
+        "title": "媒体核实与集中传播",
+        "description": "客服和区域工作人员回应物料问题。",
+        "sourceIds": [
+          "711-xinhua",
+          "711-response"
+        ]
+      },
+      {
+        "date": "2026-06",
+        "title": "品牌说明与内部处理",
+        "description": "责令撤下并处理相关人员。",
+        "sourceIds": [
+          "711-xinhua",
+          "711-response"
+        ]
+      }
+    ],
+    "propagationChain": [
+      {
+        "stage": "起",
+        "title": "门店海报被拍摄",
+        "description": "海报以大字号把错字放在商品和价格旁，现场视频很快被社交平台转发。",
+        "sourceIds": [
+          "711-xinhua"
+        ]
+      },
+      {
+        "stage": "传",
+        "title": "媒体核实与集中传播",
+        "description": "总部品牌、区域授权公司和加盟或直营网点如何划分物料审核责任。",
+        "sourceIds": [
+          "711-xinhua"
+        ]
+      },
+      {
+        "stage": "证",
+        "title": "品牌说明与内部处理",
+        "description": "新华社和多家媒体核实了广东门店海报及网络传播。",
+        "sourceIds": [
+          "711-xinhua",
+          "711-response"
+        ]
+      },
+      {
+        "stage": "余",
+        "title": "尚待续考",
+        "description": "区域门店物料审核整改的长期执行情况。；不同时间两批争议物料是否属于同一内部管理问题。",
+        "sourceIds": [
+          "711-response",
+          "711-analysis"
+        ]
+      }
+    ],
+    "publicComments": [],
+    "sources": [
+      {
+        "id": "711-xinhua",
+        "title": "“夯爆了”写成“劣爆了”的门店海报",
+        "institution": "新华网",
+        "date": "2026-05-29",
+        "url": "https://www.news.cn/food/20260529/140bab149c58488cb85619e0a6f7b8f2/c.html",
+        "note": null,
+        "sourceRank": 4,
+        "sourceType": "新华社报道",
+        "sourceRole": "事实依据",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "711-response",
+        "title": "广东7-Eleven关于门店不当物料的说明",
+        "institution": "广东赛壹便利店有限公司；界面新闻存档",
+        "date": "2026-06",
+        "url": "https://m.jiemian.com/article/14498803.html",
+        "note": "企业说明由媒体保存。",
+        "sourceRank": 3,
+        "sourceType": "当事方材料",
+        "sourceRole": "机构回应",
+        "archiveStatus": "仅存转载"
+      },
+      {
+        "id": "711-analysis",
+        "title": "711门店玩梗营销翻车评论",
+        "institution": "中国网",
+        "date": "2026-05-28",
+        "url": "https://news.china.com.cn/2026-05/28/content_118518936.shtml",
+        "note": null,
+        "sourceRank": 4,
+        "sourceType": "媒体报道",
+        "sourceRole": "公众讨论",
+        "archiveStatus": "在线"
+      }
+    ],
+    "sectionSources": {
+      "summary": [
+        "711-xinhua",
+        "711-response"
+      ],
+      "initialNarrative": [
+        "711-xinhua"
+      ],
+      "publicQuestion": [
+        "711-xinhua",
+        "711-response"
+      ],
+      "mediaRole": [
+        "711-xinhua",
+        "711-analysis"
+      ],
+      "investigation": [
+        "711-xinhua",
+        "711-response"
+      ],
+      "finalConclusion": [
+        "711-xinhua",
+        "711-response"
+      ]
+    }
+  },
+  "cyber-2024-yc-027": {
+    "summary": "2024年4月至2025年2月：重庆燃气计费异常不仅暴露企业操作错误，也暴露公用事业监管在抄表周期、阶梯计价、换表数据迁移、投诉处理和异常预警上的制度缺口。2024年联合调查后，企业被要求退款整改；2025年又因整改不到位出现新一轮收费争议。",
+    "initialNarrative": "居民无法独立读取后台曲线，监管最初只能围绕表具检定和投诉逐户复核。随着联合调查调取抄表记录、计费系统与价格执行数据，问题从“某块表是否走快”转为“谁监督整套账单生成流程”。",
+    "publicQuestion": "对具有自然垄断特征的公用事业，监管是否应在群众投诉前主动监测零估累抄、超长周期和阶梯跃迁；价格调整前集中清算是否需要特别告知；退款、立案和负责人免职之后，如何证明系统性整改真正完成。",
+    "mediaRole": "财新网《重庆燃气多计多收调查报道》保存了公开报道。",
+    "investigation": "2024年联合调查由市场监管牵头，经信、发改、国资、公安等部门参加，使用第三方审计、现场核查和专家检测，确认多个企业管理与计费问题，要求已确认多收费用全额退还，并推动“月抄、月结”、数据校验和投诉复核。2025年再次通报重庆燃气存在整改责任落实不到位、“零估累抄”等问题，虽部分账单按第一阶梯结算未发现多收，监管仍拟处罚810万元并再次问责，说明第一次处置未形成稳定闭环。",
+    "finalConclusion": "监管纠偏与制度整改已经发生，但2025年复发证明不能用一次发布会代替持续审计；政策评价应同时记录查实错误、未查实指控与后续复发。 企业卷记录经营主体的具体错抄和退费，本卷只讨论监管设计、问责和整改复发；2025年的“零估累抄”与2024年确认多收不是同一事实口径。",
+    "historianNote": "公用事业监管最容易把“表合格”当作答案，却忽略表后还有软件、人工和价格规则。真正可验证的账单应让异常在系统里先被看见，而不是等居民组成舆情后才被调查。",
+    "verifiedFacts": [
+      "2024年跨部门联合调查确认计费管理问题并要求退款整改。",
+      "调查引入第三方审计和多方代表监督。",
+      "2025年再次发现整改不到位和零估累抄等问题。",
+      "监管提出新的处罚和持续整改要求。"
+    ],
+    "disputedClaims": [
+      "现行异常监测是否足以覆盖全部区县和燃气经营企业，缺少持续公开数据。"
+    ],
+    "debunkedClaims": [
+      "“2024年一次调查后制度问题已经彻底解决”被2025年复发事实否定。"
+    ],
+    "unresolvedQuestions": [
+      "跨企业统一账单数据标准与审计接口。",
+      "退款、处罚、问责和技术整改的年度公开评估。"
+    ],
+    "timeline": [
+      {
+        "date": "2024-04-13",
+        "title": "成立跨部门调查组",
+        "description": "围绕表具、计量、价格和服务全面调查。",
+        "sourceIds": [
+          "gas-policy-start"
+        ]
+      },
+      {
+        "date": "2024-04-19",
+        "title": "发布调查与整改",
+        "description": "退款、立案、问责并要求流程改造。",
+        "sourceIds": [
+          "gas-policy-start",
+          "gas-policy-result"
+        ]
+      },
+      {
+        "date": "2025-02-14",
+        "title": "再次通报收费问题",
+        "description": "指出整改流于形式并拟处罚。",
+        "sourceIds": [
+          "gas-policy-result",
+          "gas-policy-repeat"
+        ]
+      }
+    ],
+    "propagationChain": [
+      {
+        "stage": "起",
+        "title": "成立跨部门调查组",
+        "description": "居民无法独立读取后台曲线，监管最初只能围绕表具检定和投诉逐户复核。",
+        "sourceIds": [
+          "gas-policy-start"
+        ]
+      },
+      {
+        "stage": "传",
+        "title": "发布调查与整改",
+        "description": "对具有自然垄断特征的公用事业，监管是否应在群众投诉前主动监测零估累抄、超长周期和阶梯跃迁。",
+        "sourceIds": [
+          "gas-policy-thread"
+        ]
+      },
+      {
+        "stage": "证",
+        "title": "再次通报收费问题",
+        "description": "2024年联合调查由市场监管牵头，经信、发改、国资、公安等部门参加，使用第三方审计、现场核查和专家检测，确认多个企业管理与计费问题，要求已确认多收费用全额退还，并推动“月抄、月结”、数据校验和投诉复核。",
+        "sourceIds": [
+          "gas-policy-start",
+          "gas-policy-result"
+        ]
+      },
+      {
+        "stage": "余",
+        "title": "尚待续考",
+        "description": "跨企业统一账单数据标准与审计接口。；退款、处罚、问责和技术整改的年度公开评估。",
+        "sourceIds": [
+          "gas-policy-thread",
+          "gas-policy-report"
+        ]
+      }
+    ],
+    "publicComments": [],
+    "sources": [
+      {
+        "id": "gas-policy-start",
+        "title": "燃气计量相关情况新闻发布会",
+        "institution": "重庆市人民政府新闻办公室",
+        "date": "2024-04-13",
+        "url": "https://www.cq.gov.cn/igixmj/gkzxft/202404/tInterview_21317.html",
+        "note": null,
+        "sourceRank": 1,
+        "sourceType": "行政调查",
+        "sourceRole": "调查过程",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "gas-policy-result",
+        "title": "重庆燃气调查情况最新进展",
+        "institution": "重庆市联合调查组；重庆市人大存档",
+        "date": "2024-04-19",
+        "url": "https://www.cqrd.gov.cn/site/article/1231994205449289728/web/content_1231994205449289728.html",
+        "note": null,
+        "sourceRank": 1,
+        "sourceType": "行政调查",
+        "sourceRole": "处理结果",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "gas-policy-repeat",
+        "title": "重庆燃气收费问题再次调查及拟处罚",
+        "institution": "重庆市市场监督管理局；地方政府存档",
+        "date": "2025-02-14",
+        "url": "https://www.mztoday.gov.cn/show/80806.html",
+        "note": "用于记录整改复发，不与2024年多收口径混同。",
+        "sourceRank": 1,
+        "sourceType": "行政处罚",
+        "sourceRole": "处理结果",
+        "archiveStatus": "仅存转载"
+      },
+      {
+        "id": "gas-policy-thread",
+        "title": "重庆燃气退款与监管公开讨论",
+        "institution": "Reddit用户",
+        "date": "2024-04",
+        "url": "https://www.reddit.com/r/LiberalGooseGroup/comments/1c9isxl",
+        "note": "记录公众对调查独立性和制度整改的追问。",
+        "sourceRank": 2,
+        "sourceType": "网民原始内容",
+        "sourceRole": "公众讨论",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "gas-policy-report",
+        "title": "重庆燃气多计多收调查报道",
+        "institution": "财新网",
+        "date": "2024-04-20",
+        "url": "https://companies.caixin.com/2024-04-20/102188375.html",
+        "note": null,
+        "sourceRank": 4,
+        "sourceType": "调查报道",
+        "sourceRole": "历史报道",
+        "archiveStatus": "在线"
+      }
+    ],
+    "sectionSources": {
+      "summary": [
+        "gas-policy-start",
+        "gas-policy-result",
+        "gas-policy-repeat"
+      ],
+      "initialNarrative": [
+        "gas-policy-start",
+        "gas-policy-thread"
+      ],
+      "publicQuestion": [
+        "gas-policy-start",
+        "gas-policy-result",
+        "gas-policy-repeat"
+      ],
+      "mediaRole": [
+        "gas-policy-report",
+        "gas-policy-thread"
+      ],
+      "investigation": [
+        "gas-policy-start",
+        "gas-policy-result",
+        "gas-policy-repeat"
+      ],
+      "finalConclusion": [
+        "gas-policy-start",
+        "gas-policy-result",
+        "gas-policy-repeat"
+      ]
+    }
+  },
+  "cyber-2025-yc-028": {
+    "summary": "2025年7月至8月：广西防城港一场乡村道路会车纠纷中，侯某某拿出丈夫黎某的行政执法证，试图吓唬对方退让。行车记录仪视频公开后，调查确认侯某某并非公职人员，证件真实但被冒用，后续侯某某被行政拘留5日，黎某受党内警告且证件被注销。",
+    "initialNarrative": "视频中“要不然我就亮证了”和同行人员说出对方姓名、住址形成强烈公权威慑感。发布者又称民警夜间上门要求删视频，舆论由普通会车争执迅速转向证件来源、个人信息是否被违规查询以及基层处警是否偏袒。",
+    "publicQuestion": "行政执法证为何能被家属取得并用于私人纠纷；即使没有真正实施执法，借证件制造国家工作人员身份威慑是否应受治安处罚；公安处理涉公职人员家属纠纷时，怎样避免关系网络和沟通失当损害中立形象。",
+    "mediaRole": "长安街知事；新浪存档《官方通报亮证女事件多人被问责》：逐项保存处分与问责口径。",
+    "investigation": "8月3日调查通报核实双方因狭窄村道会车争议，证件属于上思县某镇消防救援站二级消防士黎某，侯某某亮证目的是吓唬对方；同行父亲因与对方家庭相识而说出地址，公安系统记录未显示违规查询。8月16日后续通报显示侯某某被行拘5日，黎某受党内警告、执法证被收回注销；出警沟通、法律文书制作审核和领导督办等环节另有6名公职人员被批评教育、诫勉、党内警告或问责。相关单位书面检查并整改。",
+    "finalConclusion": "亮证威慑、证件来源、治安处罚和问责已有官方结论；对早期网传“女司机是公安领导”“一分钟内用系统查出住址”等说法，现有核查不予支持。 通报能够说明系统查询记录和执法记录仪核查结果，公众对地方关系与初期处置的信任质疑仍可记录，但不能把怀疑改写为已查实的滥用职权。",
+    "historianNote": "证件没有真的开始执法，却已经完成了一次权力表演。它之所以能在村道上迫使人退让，依赖的是公众相信证件背后可能跟着查询、处罚和关系；因此保管失当从来不只是遗失风险。",
+    "verifiedFacts": [
+      "侯某某在会车纠纷中冒用丈夫行政执法证威慑对方。",
+      "侯某某非公职人员，证件属于其消防救援人员丈夫。",
+      "侯某某被行政拘留5日，黎某受处分且证件注销。",
+      "另有6名公职人员因处置、文书和监督问题被问责。"
+    ],
+    "disputedClaims": [
+      "发布者对民警“要求删视频否则拘留”的理解与通报所称沟通不规范之间存在表述差异。",
+      "公众对关系网络影响处置的怀疑未形成查实结论。"
+    ],
+    "debunkedClaims": [
+      "网传侯某某本人是公安部门领导不实。",
+      "现有系统核查未发现通过公安系统查询对方及父母信息。"
+    ],
+    "unresolvedQuestions": [
+      "整改后执法证件保管和出警回避机制如何长期检查。",
+      "基层机关面对网络质疑的首次回应流程是否公开改进。"
+    ],
+    "timeline": [
+      {
+        "date": "2025-07-22",
+        "title": "乡村道路会车纠纷",
+        "description": "侯某某亮出行政执法证要求对方退让。",
+        "sourceIds": [
+          "badge-initial"
+        ]
+      },
+      {
+        "date": "2025-07-31至08-01",
+        "title": "视频发布与舆情扩散",
+        "description": "删视频争议和身份猜测集中出现。",
+        "sourceIds": [
+          "badge-initial",
+          "badge-final"
+        ]
+      },
+      {
+        "date": "2025-08-03",
+        "title": "首份调查通报",
+        "description": "核实身份、证件来源和信息来源。",
+        "sourceIds": [
+          "badge-initial",
+          "badge-final"
+        ]
+      },
+      {
+        "date": "2025-08-16",
+        "title": "处罚与问责公布",
+        "description": "行拘、证件注销及多人问责落地。",
+        "sourceIds": [
+          "badge-initial",
+          "badge-final"
+        ]
+      }
+    ],
+    "propagationChain": [
+      {
+        "stage": "起",
+        "title": "乡村道路会车纠纷",
+        "description": "视频中“要不然我就亮证了”和同行人员说出对方姓名、住址形成强烈公权威慑感。",
+        "sourceIds": [
+          "badge-initial"
+        ]
+      },
+      {
+        "stage": "传",
+        "title": "视频发布与舆情扩散",
+        "description": "行政执法证为何能被家属取得并用于私人纠纷。",
+        "sourceIds": [
+          "badge-thread"
+        ]
+      },
+      {
+        "stage": "证",
+        "title": "处罚与问责公布",
+        "description": "8月3日调查通报核实双方因狭窄村道会车争议，证件属于上思县某镇消防救援站二级消防士黎某，侯某某亮证目的是吓唬对方；同行父亲因与对方家庭相识而说出地址，公安系统记录未显示违规查询。",
+        "sourceIds": [
+          "badge-initial",
+          "badge-final"
+        ]
+      },
+      {
+        "stage": "余",
+        "title": "尚待续考",
+        "description": "整改后执法证件保管和出警回避机制如何长期检查。；基层机关面对网络质疑的首次回应流程是否公开改进。",
+        "sourceIds": [
+          "badge-thread",
+          "badge-question"
+        ]
+      }
+    ],
+    "publicComments": [],
+    "sources": [
+      {
+        "id": "badge-initial",
+        "title": "女司机亮证逼迫让路事件调查通报",
+        "institution": "防城港市委市政府调查组；共产党员网存档",
+        "date": "2025-08-03",
+        "url": "https://m.12371.gov.cn/content/2025-08/03/content_496468.html",
+        "note": null,
+        "sourceRank": 1,
+        "sourceType": "行政调查",
+        "sourceRole": "事实依据",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "badge-final",
+        "title": "亮证女事件处理情况通报",
+        "institution": "防城港市委市政府调查组；新华社报刊存档",
+        "date": "2025-08-16",
+        "url": "https://szb.nxrb.cn/nxrb/pc/att/202508/17/aabcbfe3-cb9a-45f1-9cca-91048f31dfc7.pdf",
+        "note": null,
+        "sourceRank": 1,
+        "sourceType": "行政处罚",
+        "sourceRole": "处理结果",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "badge-detail",
+        "title": "官方通报亮证女事件多人被问责",
+        "institution": "长安街知事；新浪存档",
+        "date": "2025-08-16",
+        "url": "https://finance.sina.com.cn/wm/2025-08-16/doc-infmehhc3416526.shtml",
+        "note": "逐项保存处分与问责口径。",
+        "sourceRank": 4,
+        "sourceType": "媒体报道",
+        "sourceRole": "处理结果",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "badge-thread",
+        "title": "亮证女行车记录与早期讨论",
+        "institution": "Reddit用户",
+        "date": "2025-08-02",
+        "url": "https://www.reddit.com/r/LOOK_CHINA/comments/1mfr3ij",
+        "note": "保存视频传播与发布者说法，不采信未经证实身份猜测。",
+        "sourceRank": 2,
+        "sourceType": "网民原始内容",
+        "sourceRole": "传播链证据",
+        "archiveStatus": "在线"
+      },
+      {
+        "id": "badge-question",
+        "title": "亮证事件通报后公众疑问",
+        "institution": "Reddit用户",
+        "date": "2025-08-03",
+        "url": "https://www.reddit.com/r/LOOK_CHINA/comments/1mgq8nn",
+        "note": null,
+        "sourceRank": 2,
+        "sourceType": "网民原始内容",
+        "sourceRole": "公众讨论",
+        "archiveStatus": "在线"
+      }
+    ],
+    "sectionSources": {
+      "summary": [
+        "badge-initial",
+        "badge-final"
+      ],
+      "initialNarrative": [
+        "badge-initial",
+        "badge-thread"
+      ],
+      "publicQuestion": [
+        "badge-initial",
+        "badge-final"
+      ],
+      "mediaRole": [
+        "badge-detail",
+        "badge-thread"
+      ],
+      "investigation": [
+        "badge-initial",
+        "badge-final"
+      ],
+      "finalConclusion": [
+        "badge-initial",
+        "badge-final"
+      ]
+    }
+  }
+}

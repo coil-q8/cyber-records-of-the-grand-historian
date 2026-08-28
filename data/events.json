@@ -1,0 +1,5255 @@
+[
+    {
+        "id":  "cyber-2016-eq-001",
+        "archiveCode":  "CYBER-2016-001",
+        "title":  "校园贷、裸贷乱象",
+        "year":  2016,
+        "date":  "2016",
+        "category":  "恶企",
+        "severity":  "S",
+        "evidenceLevel":  "未核实",
+        "evidenceBasis":  "多部门整治",
+        "status":  "尚无最终定论",
+        "subjectType":  "学校/科研机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "金融风险"
+                 ],
+        "summary":  "面向大学生的高息借贷、暴力催收、裸条担保等乱象集中暴露，部分平台利用年轻人的信息差和消费冲动。",
+        "historicalMeaning":  "金融创新若以弱势人群为风险承接者，所谓便利会迅速滑向掠夺。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2016-eq-001-source-1",
+                            "title":  "原始文档待补证：多部门整治",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2016",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2016-eq-002",
+        "archiveCode":  "CYBER-2016-002",
+        "title":  "魏则西事件与搜索医疗推广",
+        "year":  2016,
+        "date":  "2016",
+        "category":  "恶企",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "联合调查/监管整改",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "公共治理"
+                 ],
+        "summary":  "青年魏则西通过搜索推广接触相关医疗信息后接受治疗，事件引爆对竞价排名、医疗广告、科室合作及搜索平台责任的系统质疑。",
+        "historicalMeaning":  "搜索排序一旦与医疗利益绑定，信息中介就可能变成风险放大器。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2016-eq-002-source-1",
+                            "title":  "原始文档核验链接：魏则西事件与搜索医疗推广",
+                            "institution":  "公开资料",
+                            "date":  "2016",
+                            "url":  "https://www.xinhuanet.com/politics/2016-05/09/c_1118830660.htm",
+                            "note":  null,
+                            "sourceRank":  3,
+                            "sourceType":  "新华社报道",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2017-eq-003",
+        "archiveCode":  "CYBER-2017-003",
+        "title":  "携程亲子园虐童事件",
+        "year":  2017,
+        "date":  "2017",
+        "category":  "恶企",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "公安侦办/企业整改",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "未成年人"
+                 ],
+        "summary":  "托管机构工作人员虐待幼儿的视频在网络传播，引发公众对企业内部托育管理和监督机制的震怒。",
+        "historicalMeaning":  "儿童保护不能寄托于品牌名气和内部自律。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2017-eq-003-source-1",
+                            "title":  "原始文档待补证：公安侦办/企业整改",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2017",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2017-eq-004",
+        "archiveCode":  "CYBER-2017-004",
+        "title":  "红黄蓝幼儿园事件与企业治理危机",
+        "year":  2017,
+        "date":  "2017",
+        "category":  "恶企",
+        "severity":  "S",
+        "evidenceLevel":  "司法定案",
+        "evidenceBasis":  "警方调查/后续司法",
+        "status":  "已定案",
+        "subjectType":  "学校/科研机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "未成年人",
+                     "媒体失真",
+                     "公共治理"
+                 ],
+        "summary":  "北京红黄蓝幼儿园涉幼儿伤害事件引发巨大舆情；真实问题与网络谣言并行扩散，也暴露民办幼教监管和信息披露脆弱。",
+        "historicalMeaning":  "儿童事件中，企业失信和信息真空会同时催生合理质疑与失控谣言。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2017-eq-004-source-1",
+                            "title":  "原始文档待补证：警方调查/后续司法",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2017",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2018-eq-005",
+        "archiveCode":  "CYBER-2018-005",
+        "title":  "权健保健帝国事件",
+        "year":  2018,
+        "date":  "2018",
+        "category":  "恶企",
+        "severity":  "S",
+        "evidenceLevel":  "司法定案",
+        "evidenceBasis":  "司法判决",
+        "status":  "已定案",
+        "subjectType":  "公共事件",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共记忆"
+                 ],
+        "summary":  "“百亿保健帝国”被调查后，传销、夸大宣传等问题进入司法程序，创始人束昱辉等被判刑。",
+        "historicalMeaning":  "伪健康叙事最危险之处，是让患者用希望替代医学证据。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2018-eq-005-source-1",
+                            "title":  "原始文档待补证：司法判决",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2018",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2018-eq-006",
+        "archiveCode":  "CYBER-2018-006",
+        "title":  "滴滴顺风车安全危机",
+        "year":  2018,
+        "date":  "2018",
+        "category":  "恶企",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "公安侦办/平台整改",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "安全事故"
+                 ],
+        "summary":  "接连发生恶性案件后，平台的风险识别、客服处置、顺风车产品设计被集中追责，业务一度下线整改。",
+        "historicalMeaning":  "平台安全不是“用户之间的私事”，而是产品机制的一部分。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2018-eq-006-source-1",
+                            "title":  "原始文档待补证：公安侦办/平台整改",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2018",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2018-eq-007",
+        "archiveCode":  "CYBER-2018-007",
+        "title":  "长春长生问题疫苗",
+        "year":  2018,
+        "date":  "2018",
+        "category":  "恶企",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "官方调查/重罚",
+        "status":  "已有公开处置",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共记忆"
+                 ],
+        "summary":  "企业被查出狂犬病疫苗生产记录造假等严重违法违规，最终被吊销许可证并处巨额罚没。",
+        "historicalMeaning":  "涉及公共健康的质量体系一旦允许造假，任何“事后召回”都无法补回信任。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2018-eq-007-source-1",
+                            "title":  "原始文档核验链接：长春长生问题疫苗",
+                            "institution":  "公开资料",
+                            "date":  "2018",
+                            "url":  "https://www.nmpa.gov.cn/xxgk/zhcjd/zhcjdyp/20211110151141151.html",
+                            "note":  null,
+                            "sourceRank":  1,
+                            "sourceType":  "行政调查",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2020-eq-008",
+        "archiveCode":  "CYBER-2020-008",
+        "title":  "瑞幸咖啡财务造假",
+        "year":  2020,
+        "date":  "2020",
+        "category":  "恶企",
+        "severity":  "S",
+        "evidenceLevel":  "司法定案",
+        "evidenceBasis":  "监管/司法处置",
+        "status":  "已定案",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "摆拍造谣",
+                     "公共治理"
+                 ],
+        "summary":  "公司承认虚构交易后退市并接受监管处罚，成为资本故事、增长崇拜与公司治理失灵的代表。",
+        "historicalMeaning":  "高速增长最容易让投资人把“增长曲线”误当成“真实性证明”。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2020-eq-008-source-1",
+                            "title":  "原始文档待补证：监管/司法处置",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2020",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2020-eq-009",
+        "archiveCode":  "CYBER-2020-009",
+        "title":  "蛋壳公寓爆雷",
+        "year":  2020,
+        "date":  "2020",
+        "category":  "恶企",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "经营危机/监管介入",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "公共治理",
+                     "金融风险"
+                 ],
+        "summary":  "长租公寓资金链断裂后，租客、房东与租金贷机构三方冲突集中爆发，大量普通人承担损失。",
+        "historicalMeaning":  "“长收短付+金融杠杆”的平台模式，本质上可能把住房变成资金池。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2020-eq-009-source-1",
+                            "title":  "原始文档待补证：经营危机/监管介入",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2020",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2021-eq-010",
+        "archiveCode":  "CYBER-2021-010",
+        "title":  "美团“二选一”反垄断案",
+        "year":  2021,
+        "date":  "2021",
+        "category":  "恶企",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "行政处罚",
+        "status":  "已有公开处置",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "垄断"
+                 ],
+        "summary":  "因排他性经营行为被处34.42亿元罚款，并被要求整改。",
+        "historicalMeaning":  "平台不能把商户“选择平台”的权利变成“只能选我”的义务。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2021-eq-010-source-1",
+                            "title":  "原始文档待补证：行政处罚",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2021",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2021-eq-011",
+        "archiveCode":  "CYBER-2021-011",
+        "title":  "阿里巴巴“二选一”反垄断案",
+        "year":  2021,
+        "date":  "2021",
+        "category":  "恶企",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "行政处罚",
+        "status":  "已有公开处置",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "垄断"
+                 ],
+        "summary":  "因滥用市场支配地位实施“二选一”等行为被处182.28亿元罚款。",
+        "historicalMeaning":  "平台一旦同时掌握市场、规则和流量，就必须受到更强的竞争约束。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2021-eq-011-source-1",
+                            "title":  "原始文档待补证：行政处罚",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2021",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2022-eq-012",
+        "archiveCode":  "CYBER-2022-012",
+        "title":  "“土坑酸菜”产业乱象",
+        "year":  2022,
+        "date":  "2022",
+        "category":  "恶企",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "央视调查/监管处置",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "食品安全",
+                     "公共治理",
+                     "安全事故"
+                 ],
+        "summary":  "3·15曝光部分企业使用卫生条件恶劣的土坑腌制酸菜并供应食品企业，涉事企业被查处。",
+        "historicalMeaning":  "供应链越长，品牌越不能把原料安全当成“供应商自己的事”。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2022-eq-012-source-1",
+                            "title":  "原始文档待补证：央视调查/监管处置",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2022",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2022-eq-013",
+        "archiveCode":  "CYBER-2022-013",
+        "title":  "滴滴数据安全案",
+        "year":  2022,
+        "date":  "2022",
+        "category":  "恶企",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "国家网信部门处罚",
+        "status":  "已有公开处置",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "数据与隐私",
+                     "安全事故"
+                 ],
+        "summary":  "因多项违法处理个人信息及数据安全问题被处80.26亿元罚款。",
+        "historicalMeaning":  "“数据越多越好”的增长逻辑必须让位于合法、必要和安全。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2022-eq-013-source-1",
+                            "title":  "原始文档待补证：国家网信部门处罚",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2022",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2023-eq-014",
+        "archiveCode":  "CYBER-2023-014",
+        "title":  "“香精大米”",
+        "year":  2023,
+        "date":  "2023",
+        "category":  "恶企",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "央视3·15/监管查处",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "食品安全",
+                     "公共治理"
+                 ],
+        "summary":  "企业将本地大米添加香精后冒充泰国香米等销售。",
+        "historicalMeaning":  "食品的“风味”不能靠欺骗性化学叙事制造。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2023-eq-014-source-1",
+                            "title":  "原始文档核验链接：“香精大米”",
+                            "institution":  "公开资料",
+                            "date":  "2023",
+                            "url":  "https://tv.cctv.com/2023/03/15/VIDEeU31v8VyvZCVBGFZA7qn230315.shtml",
+                            "note":  null,
+                            "sourceRank":  4,
+                            "sourceType":  "媒体报道",
+                            "sourceRole":  "历史报道",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2024-eq-015",
+        "archiveCode":  "CYBER-2024-015",
+        "title":  "“槽头肉梅菜扣肉”",
+        "year":  2024,
+        "date":  "2024",
+        "category":  "恶企",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "央视3·15/监管查处",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "食品安全",
+                     "公共治理",
+                     "安全事故"
+                 ],
+        "summary":  "部分预制菜企业用未经严格处理的槽头肉制作梅菜扣肉，淋巴和腺体问题引发食品安全震怒。",
+        "historicalMeaning":  "低价预制菜背后若没有透明供应链，消费者无法用肉眼承担审计职责。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2024-eq-015-source-1",
+                            "title":  "原始文档待补证：央视3·15/监管查处",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2024",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2024-eq-016",
+        "archiveCode":  "CYBER-2024-016",
+        "title":  "三只羊“美诚月饼”等直播宣传",
+        "year":  2024,
+        "date":  "2024",
+        "category":  "恶企",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "联合调查/行政处罚",
+        "status":  "已有公开处置",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "食品安全",
+                     "平台责任",
+                     "直播带货"
+                 ],
+        "summary":  "直播推介“香港美诚月饼”等商品时存在虚假、引人误解的商业宣传，拟没收违法所得并罚款合计6894.91万元，后整改。",
+        "historicalMeaning":  "头部主播不是普通消费者分享，而是拥有巨大信息优势的广告经营者。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2024-eq-016-source-1",
+                            "title":  "原始文档待补证：联合调查/行政处罚",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2024",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2024-eq-017",
+        "archiveCode":  "CYBER-2024-017",
+        "title":  "罐车混运食用植物油",
+        "year":  2024,
+        "date":  "2024",
+        "category":  "恶企",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "国务院食安办联合调查",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "食品安全",
+                     "媒体失真",
+                     "公共治理",
+                     "安全事故"
+                 ],
+        "summary":  "媒体曝光罐车在运输煤制油等非食用液体后未经规范清洗即运输食用油。联合调查组认定事件性质极其恶劣。",
+        "historicalMeaning":  "食品安全最大的敌人往往不是“技术不会”，而是行业把违规当成成本最优解。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2024-eq-017-source-1",
+                            "title":  "原始文档核验链接：罐车混运食用植物油",
+                            "institution":  "公开资料",
+                            "date":  "2024",
+                            "url":  "https://www.news.cn/20240825/35ea721fb54e44e18956ff03978ec121/c.html",
+                            "note":  null,
+                            "sourceRank":  3,
+                            "sourceType":  "新华社报道",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2025-eq-018",
+        "archiveCode":  "CYBER-2025-018",
+        "title":  "“保水虾仁”磷酸盐问题",
+        "year":  2025,
+        "date":  "2025",
+        "category":  "恶企",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "央视3·15/监管查封抽检",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "食品安全",
+                     "公共治理"
+                 ],
+        "summary":  "部分企业被曝违规超量使用保水剂提升虾仁重量，监管部门随后查封、抽检并召回。",
+        "historicalMeaning":  "按重量卖的食品，添加剂如果用来“卖水”，就是最直接的信息欺骗。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2025-eq-018-source-1",
+                            "title":  "2025年3·15曝光问题处置进展",
+                            "institution":  "央广网",
+                            "date":  "2025",
+                            "url":  "https://finance.cnr.cn/jdt/20250316/t20250316_527102879.shtml",
+                            "note":  null,
+                            "sourceRank":  4,
+                            "sourceType":  "媒体报道",
+                            "sourceRole":  "历史报道",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2025-eq-019",
+        "archiveCode":  "CYBER-2025-019",
+        "title":  "翻新卫生巾、纸尿裤残次料再销售",
+        "year":  2025,
+        "date":  "2025",
+        "category":  "恶企",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "央视3·15/监管查封",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "食品安全",
+                     "公共治理"
+                 ],
+        "summary":  "企业从生产垃圾中挑选残次卫生用品翻新销售，曝光后涉事企业被查封、负责人被控制。",
+        "historicalMeaning":  "最私密、最敏感的卫生用品不该成为废料套利场。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2025-eq-019-source-1",
+                            "title":  "原始文档核验链接：翻新卫生巾、纸尿裤残次料再销售",
+                            "institution":  "公开资料",
+                            "date":  "2025",
+                            "url":  "https://finance.cnr.cn/jdt/20250316/t20250316_527102879.shtml",
+                            "note":  null,
+                            "sourceRank":  4,
+                            "sourceType":  "媒体报道",
+                            "sourceRole":  "历史报道",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2016-eq-020",
+        "archiveCode":  "CYBER-2016-020",
+        "title":  "“饿了么”黑作坊曝光",
+        "year":  2016,
+        "date":  "2016",
+        "category":  "恶企",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "央视调查/监管处置",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "食品安全",
+                     "平台责任",
+                     "公共治理",
+                     "安全事故"
+                 ],
+        "summary":  "3·15调查曝光平台部分入驻商家无证经营、卫生条件恶劣，引发对外卖平台审核责任的集中追问。",
+        "historicalMeaning":  "平台不能只收佣金而把线下食品安全责任外包给消费者。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2016-eq-020-source-1",
+                            "title":  "原始文档待补证：央视调查/监管处置",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2016",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2016-eq-021",
+        "archiveCode":  "CYBER-2016-021",
+        "title":  "百度“血友病吧”商业化争议",
+        "year":  2016,
+        "date":  "2016",
+        "category":  "恶企",
+        "severity":  "A",
+        "evidenceLevel":  "当事人承认",
+        "evidenceBasis":  "监管约谈/企业承认",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "公共治理"
+                 ],
+        "summary":  "疾病类贴吧的管理权被商业合作侵入，原吧主被撤换引发患者群体强烈反弹；百度随后承认贴吧商业化运营管理失责并停止病种类贴吧商业合作。",
+        "historicalMeaning":  "患者互助社区不能被当作普通流量资产出售。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2016-eq-021-source-1",
+                            "title":  "原始文档核验链接：百度“血友病吧”商业化争议",
+                            "institution":  "公开资料",
+                            "date":  "2016",
+                            "url":  "https://www.xinhuanet.com/politics/2016-01/16/c_1117795992.htm",
+                            "note":  null,
+                            "sourceRank":  3,
+                            "sourceType":  "新华社报道",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2017-eq-022",
+        "archiveCode":  "CYBER-2017-022",
+        "title":  "趣店等校园金融争议",
+        "year":  2017,
+        "date":  "2017",
+        "category":  "恶企",
+        "severity":  "A",
+        "evidenceLevel":  "强争议",
+        "evidenceBasis":  "监管整治/行业争议",
+        "status":  "尚无最终定论",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共治理",
+                     "金融风险"
+                 ],
+        "summary":  "校园贷、现金贷的高成本借贷、催收及用户保护问题持续发酵，互联网金融野蛮扩张受到约束。",
+        "historicalMeaning":  "增长模型若依赖借款人的脆弱性，本身就是风险。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2017-eq-022-source-1",
+                            "title":  "原始文档待补证：监管整治/行业争议",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2017",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2018-eq-023",
+        "archiveCode":  "CYBER-2018-023",
+        "title":  "ofo押金危机",
+        "year":  2018,
+        "date":  "2018",
+        "category":  "恶企",
+        "severity":  "A",
+        "evidenceLevel":  "未核实",
+        "evidenceBasis":  "经营危机/诉讼与执行",
+        "status":  "尚无最终定论",
+        "subjectType":  "公共事件",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "金融风险"
+                 ],
+        "summary":  "共享单车高速扩张后出现大规模押金难退，数以千万计用户排队申请退款。",
+        "historicalMeaning":  "以用户押金支撑扩张，是把经营风险转嫁给最分散的消费者。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2018-eq-023-source-1",
+                            "title":  "原始文档待补证：经营危机/诉讼与执行",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2018",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2019-eq-024",
+        "archiveCode":  "CYBER-2019-024",
+        "title":  "互联网“996”文化",
+        "year":  2019,
+        "date":  "2019",
+        "category":  "恶企",
+        "severity":  "A",
+        "evidenceLevel":  "司法定案",
+        "evidenceBasis":  "司法/行政典型案例后明确违法",
+        "status":  "已定案",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "劳动权益"
+                 ],
+        "summary":  "超长工时长期被部分互联网企业包装为奋斗文化，直到人社部与最高法发布典型案例进一步明确违法边界。",
+        "historicalMeaning":  "把违法加班美化为价值观，是企业话语权对劳动法的侵蚀。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2019-eq-024-source-1",
+                            "title":  "原始文档待补证：司法/行政典型案例后明确违法",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2019",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2019-eq-025",
+        "archiveCode":  "CYBER-2019-025",
+        "title":  "网易员工患病被裁争议",
+        "year":  2019,
+        "date":  "2019",
+        "category":  "恶企",
+        "severity":  "A",
+        "evidenceLevel":  "强争议",
+        "evidenceBasis":  "企业道歉/劳动争议",
+        "status":  "尚无最终定论",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "劳动权益"
+                 ],
+        "summary":  "前员工长文控诉患病期间遭不当绩效与解除劳动关系，引发对大厂劳动管理和人力资源伦理的批评，网易公开道歉。",
+        "historicalMeaning":  "制度化绩效不能消灭对具体人的基本尊重。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2019-eq-025-source-1",
+                            "title":  "原始文档待补证：企业道歉/劳动争议",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2019",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2019-eq-026",
+        "archiveCode":  "CYBER-2019-026",
+        "title":  "西安奔驰女车主维权",
+        "year":  2019,
+        "date":  "2019",
+        "category":  "恶企",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "市场监管处罚",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共治理"
+                 ],
+        "summary":  "新车未开出店即漏油，消费者多次协商无果，最终坐上引擎盖哭诉的视频推动事件解决；涉事经销商后被处罚。",
+        "historicalMeaning":  "当正常投诉渠道失灵，逼人“上热搜”才解决，本身就是服务体系的失败。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2019-eq-026-source-1",
+                            "title":  "原始文档核验链接：西安奔驰女车主维权",
+                            "institution":  "公开资料",
+                            "date":  "2019",
+                            "url":  "https://tv.cctv.com/2019/04/17/VIDETZ4DWQTsWFHXaPzr7OMd190417.shtml",
+                            "note":  null,
+                            "sourceRank":  4,
+                            "sourceType":  "媒体报道",
+                            "sourceRole":  "历史报道",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2019-eq-027",
+        "archiveCode":  "CYBER-2019-027",
+        "title":  "视觉中国“黑洞照片/版权”风波",
+        "year":  2019,
+        "date":  "2019",
+        "category":  "恶企",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "监管整改",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "公共治理"
+                 ],
+        "summary":  "黑洞首张照片发布后，视觉中国的版权标注和商业授权模式被网友追查，国旗国徽等图片标注进一步引爆争议，网站暂停服务整改。",
+        "historicalMeaning":  "知识产权平台若自身权属链条不清，维权就可能异化为“版权碰瓷”的社会观感。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2019-eq-027-source-1",
+                            "title":  "原始文档待补证：监管整改",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2019",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2020-eq-028",
+        "archiveCode":  "CYBER-2020-028",
+        "title":  "外卖平台“算法困住骑手”争议",
+        "year":  2020,
+        "date":  "2020",
+        "category":  "恶企",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "广泛调查/后续政策治理",
+        "status":  "已有公开处置",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "劳动权益",
+                     "公共治理"
+                 ],
+        "summary":  "骑手配送时间、奖惩与路线被算法精细管理，“困在系统里的外卖骑手”成为年度劳动议题。",
+        "historicalMeaning":  "算法不是自然法则；每一个倒计时背后都是平台选择。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2020-eq-028-source-1",
+                            "title":  "原始文档待补证：广泛调查/后续政策治理",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2020",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2020-eq-029",
+        "archiveCode":  "CYBER-2020-029",
+        "title":  "辛巴“燕窝”直播带货",
+        "year":  2020,
+        "date":  "2020",
+        "category":  "恶企",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "市场监管处罚",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "食品安全",
+                     "平台责任",
+                     "公共治理",
+                     "直播带货"
+                 ],
+        "summary":  "直播间对燕窝产品的宣传被认定存在引人误解等问题，团队与品牌均受到处罚。",
+        "historicalMeaning":  "主播信任不能代替成分检测和广告审查。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2020-eq-029-source-1",
+                            "title":  "原始文档待补证：市场监管处罚",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2020",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2021-eq-030",
+        "archiveCode":  "CYBER-2021-030",
+        "title":  "货拉拉乘客坠车案引发平台安全争议",
+        "year":  2021,
+        "date":  "2021",
+        "category":  "恶企",
+        "severity":  "A",
+        "evidenceLevel":  "司法定案",
+        "evidenceBasis":  "司法判决/平台整改",
+        "status":  "已定案",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "数据与隐私",
+                     "安全事故"
+                 ],
+        "summary":  "司机偏航、沟通冲突与乘客坠车死亡引发全国关注，平台录音、路线安全和司乘纠纷处置机制受到审视。",
+        "historicalMeaning":  "低价撮合平台若缺乏安全冗余，极端情况下每个流程空白都会变成人命风险。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2021-eq-030-source-1",
+                            "title":  "原始文档待补证：司法判决/平台整改",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2021",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2022-eq-031",
+        "archiveCode":  "CYBER-2022-031",
+        "title":  "奥迪广告文案抄袭事件",
+        "year":  2022,
+        "date":  "2022",
+        "category":  "恶企",
+        "severity":  "A",
+        "evidenceLevel":  "未核实",
+        "evidenceBasis":  "品牌道歉/下架",
+        "status":  "尚无最终定论",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "劳动权益"
+                 ],
+        "summary":  "刘德华出镜广告被指大段文案与“北大满哥”此前作品高度一致，奥迪公开致歉并下架视频。",
+        "historicalMeaning":  "顶级品牌、明星与代理公司层层审核，仍可能复制一个人的劳动成果。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2022-eq-031-source-1",
+                            "title":  "原始文档待补证：品牌道歉/下架",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2022",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2022-eq-032",
+        "archiveCode":  "CYBER-2022-032",
+        "title":  "知网反垄断处罚",
+        "year":  2022,
+        "date":  "2022",
+        "category":  "恶企",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "行政处罚",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "公共治理",
+                     "垄断"
+                 ],
+        "summary":  "市场监管总局认定知网滥用市场支配地位并处以罚款，长期存在的高价、独家合作等问题受到制度性审视。",
+        "historicalMeaning":  "知识基础设施越接近公共品，越不能只按垄断平台逻辑运行。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2022-eq-032-source-1",
+                            "title":  "原始文档待补证：行政处罚",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2022",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2023-eq-033",
+        "archiveCode":  "CYBER-2023-033",
+        "title":  "国泰航空歧视乘客语言争议",
+        "year":  2023,
+        "date":  "2023",
+        "category":  "恶企",
+        "severity":  "A",
+        "evidenceLevel":  "未核实",
+        "evidenceBasis":  "企业道歉/员工解聘",
+        "status":  "尚无最终定论",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "数据与隐私",
+                     "劳动权益"
+                 ],
+        "summary":  "乘客录音曝光机组人员以语言能力嘲讽旅客，引发广泛批评，国泰道歉并解聘涉事空乘。",
+        "historicalMeaning":  "服务业最大的风险不是口音，而是把优越感当成职业文化。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2023-eq-033-source-1",
+                            "title":  "原始文档待补证：企业道歉/员工解聘",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2023",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2023-eq-034",
+        "archiveCode":  "CYBER-2023-034",
+        "title":  "宝马MINI冰淇淋事件",
+        "year":  2023,
+        "date":  "2023",
+        "category":  "恶企",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "企业道歉/舆论调查",
+        "status":  "已有公开处置",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共记忆"
+                 ],
+        "summary":  "上海车展现场工作人员发放冰淇淋时的区别对待视频引发巨大争议，宝马MINI多次致歉。",
+        "historicalMeaning":  "一次现场服务中的区别对待，足以击穿多年品牌广告塑造的“尊重”。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2023-eq-034-source-1",
+                            "title":  "原始文档待补证：企业道歉/舆论调查",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2023",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2023-eq-035",
+        "archiveCode":  "CYBER-2023-035",
+        "title":  "直播水军产业链",
+        "year":  2023,
+        "date":  "2023",
+        "category":  "恶企",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "央视3·15调查",
+        "status":  "已有公开处置",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "直播带货"
+                 ],
+        "summary":  "调查发现直播间人气、点赞、评论、观看量可批量购买，群控系统制造虚假热度。",
+        "historicalMeaning":  "所谓“万人都在买”，可能只是几十台机器在替你鼓掌。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2023-eq-035-source-1",
+                            "title":  "原始文档核验链接：直播水军产业链",
+                            "institution":  "公开资料",
+                            "date":  "2023",
+                            "url":  "https://tv.cctv.com/2023/03/15/VIDEQhZGRPxRAM8DkZqXRDkJ230315.shtml",
+                            "note":  null,
+                            "sourceRank":  4,
+                            "sourceType":  "媒体报道",
+                            "sourceRole":  "历史报道",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2024-eq-036",
+        "archiveCode":  "CYBER-2024-036",
+        "title":  "听花酒宣传争议",
+        "year":  2024,
+        "date":  "2024",
+        "category":  "恶企",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "央视3·15/监管处置",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共治理",
+                     "直播带货"
+                 ],
+        "summary":  "高价白酒以“提升免疫力、改善睡眠”等健康话术宣传，被3·15曝光并接受监管调查。",
+        "historicalMeaning":  "把普通消费品包装成健康奇迹，是最古老也最有效的营销幻术。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2024-eq-036-source-1",
+                            "title":  "原始文档待补证：央视3·15/监管处置",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2024",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2024-eq-037",
+        "archiveCode":  "CYBER-2024-037",
+        "title":  "重庆燃气计费争议",
+        "year":  2024,
+        "date":  "2024",
+        "category":  "恶企",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "联合调查/整改问责",
+        "status":  "已有公开处置",
+        "subjectType":  "公共事件",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共治理"
+                 ],
+        "summary":  "大量居民反映换表后气费异常上涨，联合调查通报指出存在多计多收、估抄错抄等问题并责令整改。",
+        "historicalMeaning":  "公用事业的账单若不能被普通人验证，就必须承担更高的信息透明义务。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2024-eq-037-source-1",
+                            "title":  "原始文档待补证：联合调查/整改问责",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2024",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2025-eq-038",
+        "archiveCode":  "CYBER-2025-038",
+        "title":  "“维修刺客”啄木鸟家庭维修",
+        "year":  2025,
+        "date":  "2025",
+        "category":  "恶企",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "央视3·15/监管调查",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "摆拍造谣",
+                     "公共治理"
+                 ],
+        "summary":  "维修服务被曝通过小病大修、虚构故障等手段层层加价。",
+        "historicalMeaning":  "当消费者无法判断技术故障，维修者的专业优势就可能异化为定价权。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2025-eq-038-source-1",
+                            "title":  "2025年3·15曝光问题处置进展",
+                            "institution":  "央广网",
+                            "date":  "2025",
+                            "url":  "https://finance.cnr.cn/jdt/20250316/t20250316_527102879.shtml",
+                            "note":  null,
+                            "sourceRank":  4,
+                            "sourceType":  "媒体报道",
+                            "sourceRole":  "历史报道",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2025-eq-039",
+        "archiveCode":  "CYBER-2025-039",
+        "title":  "一次性内裤“不灭菌/货不对板”",
+        "year":  2025,
+        "date":  "2025",
+        "category":  "恶企",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "央视3·15/监管处置",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共治理"
+                 ],
+        "summary":  "多家企业被曝生产环境脏乱、未按宣传灭菌，面料标识与实际不符。",
+        "historicalMeaning":  "“一次性”不是“免检”的同义词。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2025-eq-039-source-1",
+                            "title":  "2025年3·15曝光问题处置进展",
+                            "institution":  "央广网",
+                            "date":  "2025",
+                            "url":  "https://finance.cnr.cn/jdt/20250316/t20250316_527102879.shtml",
+                            "note":  null,
+                            "sourceRank":  4,
+                            "sourceType":  "媒体报道",
+                            "sourceRole":  "历史报道",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2026-eq-040",
+        "archiveCode":  "CYBER-2026-040",
+        "title":  "OPPO母亲节“两个老公”营销事故",
+        "year":  2026,
+        "date":  "2026",
+        "category":  "恶企",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "企业两次道歉/内部问责",
+        "status":  "已有公开处置",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共治理",
+                     "直播带货",
+                     "安全事故"
+                 ],
+        "summary":  "母亲节文案以“我妈有两个‘老公’”制造猎奇，舆论强烈反弹；OPPO下架物料，随后再次道歉并对多名负责人降级、冻结调薪。",
+        "historicalMeaning":  "价值观不是营销素材库；审核链条越长，荒诞文案通过越说明组织集体失灵。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2026-eq-040-source-1",
+                            "title":  "原始文档待补证：企业两次道歉/内部问责",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2026",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2026-eq-041",
+        "archiveCode":  "CYBER-2026-041",
+        "title":  "罗技官方旗舰店侮辱消费者文案",
+        "year":  2026,
+        "date":  "2026",
+        "category":  "恶企",
+        "severity":  "A",
+        "evidenceLevel":  "未核实",
+        "evidenceBasis":  "企业道歉/运营方追责",
+        "status":  "尚无最终定论",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "劳动权益",
+                     "直播带货"
+                 ],
+        "summary":  "官方旗舰店推广视频出现“降价后像狗一样跑过来”等侮辱消费者表述。罗技称授权运营方员工绕过审核并致歉。",
+        "historicalMeaning":  "品牌把消费者当“流量”太久，偶尔会在一句文案里暴露真实的权力感。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2026-eq-041-source-1",
+                            "title":  "原始文档待补证：企业道歉/运营方追责",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2026",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2017-eq-042",
+        "archiveCode":  "CYBER-2017-042",
+        "title":  "水滴直播公共场所直播隐私争议",
+        "year":  2017,
+        "date":  "2017",
+        "category":  "恶企",
+        "severity":  "B",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "企业整改/舆论监督",
+        "status":  "已有公开处置",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "数据与隐私",
+                     "直播带货"
+                 ],
+        "summary":  "摄像头直播被发现涉及课堂、餐饮等公共场景，公众质疑被拍摄者是否充分知情同意。",
+        "historicalMeaning":  "“技术上能直播”不等于“伦理上可以直播”。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2017-eq-042-source-1",
+                            "title":  "原始文档待补证：企业整改/舆论监督",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2017",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2018-eq-043",
+        "archiveCode":  "CYBER-2018-043",
+        "title":  "拼多多“山寨/假货”舆论危机",
+        "year":  2018,
+        "date":  "2018",
+        "category":  "恶企",
+        "severity":  "B",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "监管约谈/平台治理",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "公共治理",
+                     "直播带货"
+                 ],
+        "summary":  "平台上市前后因山寨品牌、侵权和低质商品受到集中质疑，监管部门要求加强治理。",
+        "historicalMeaning":  "低价不能成为侵权与质量失守的遮羞布。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2018-eq-043-source-1",
+                            "title":  "原始文档待补证：监管约谈/平台治理",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2018",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2019-eq-044",
+        "archiveCode":  "CYBER-2019-044",
+        "title":  "青年汽车“水氢发动机”宣传风波",
+        "year":  2019,
+        "date":  "2019",
+        "category":  "恶企",
+        "severity":  "B",
+        "evidenceLevel":  "强争议",
+        "evidenceBasis":  "媒体调查/项目争议",
+        "status":  "尚无最终定论",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "数据与隐私",
+                     "媒体失真"
+                 ],
+        "summary":  "“水氢发动机在南阳下线”等报道引发科学界与网友质疑，地方项目宣传与企业技术叙事成为笑柄。",
+        "historicalMeaning":  "越是“颠覆常识”的科技突破，越需要可复验数据而不是领导参观和新闻标题。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2019-eq-044-source-1",
+                            "title":  "原始文档待补证：媒体调查/项目争议",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2019",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2022-eq-045",
+        "archiveCode":  "CYBER-2022-045",
+        "title":  "张小泉“菜刀不能拍蒜”舆论危机",
+        "year":  2022,
+        "date":  "2022",
+        "category":  "恶企",
+        "severity":  "C",
+        "evidenceLevel":  "强争议",
+        "evidenceBasis":  "企业回应/消费争议",
+        "status":  "尚无最终定论",
+        "subjectType":  "学校/科研机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "食品安全"
+                 ],
+        "summary":  "消费者反映菜刀拍蒜断裂，随后企业负责人旧言论被翻出，演变为传统消费常识与企业产品解释之间的冲突。",
+        "historicalMeaning":  "当品牌需要教育消费者“你不会用”时，往往已输掉一半沟通。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2022-eq-045-source-1",
+                            "title":  "原始文档待补证：企业回应/消费争议",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2022",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2026-eq-046",
+        "archiveCode":  "CYBER-2026-046",
+        "title":  "7-Eleven网络梗营销争议",
+        "year":  2026,
+        "date":  "2026",
+        "category":  "恶企",
+        "severity":  "C",
+        "evidenceLevel":  "强争议",
+        "evidenceBasis":  "品牌舆论争议",
+        "status":  "尚无最终定论",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "直播带货"
+                 ],
+        "summary":  "部分门店/传播物料使用“夯爆了/劣爆了”等网络梗引发低俗化、蹭梗营销争议。",
+        "historicalMeaning":  "企业追热点时最容易把“懂年轻人”误写成“复制年轻人的粗糙梗”。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2026-eq-046-source-1",
+                            "title":  "原始文档待补证：品牌舆论争议",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2026",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2016-yc-001",
+        "archiveCode":  "CYBER-2016-047",
+        "title":  "魏则西事件暴露医疗广告与科室合作监管漏洞",
+        "year":  2016,
+        "date":  "2016",
+        "category":  "庸策",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "联合调查/整改",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "公共治理"
+                 ],
+        "summary":  "事件不仅指向搜索平台，也暴露医疗机构科室合作、广告审批与新技术临床使用监管上的缺口。",
+        "historicalMeaning":  "监管若只盯单个广告，不看利益链条，就会永远慢半步。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2016-yc-001-source-1",
+                            "title":  "国家网信办约谈百度公司负责人",
+                            "institution":  "新华网",
+                            "date":  "2016",
+                            "url":  "https://www.xinhuanet.com/politics/2016-01/16/c_1117795992.htm",
+                            "note":  null,
+                            "sourceRank":  3,
+                            "sourceType":  "新华社报道",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2017-yc-002",
+        "archiveCode":  "CYBER-2017-048",
+        "title":  "幼教机构监管危机：红黄蓝、携程亲子园等连续曝光",
+        "year":  2017,
+        "date":  "2017",
+        "category":  "庸策",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "公安/教育部门处置",
+        "status":  "已有公开处置",
+        "subjectType":  "学校/科研机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "未成年人",
+                     "公共治理"
+                 ],
+        "summary":  "多个虐童事件接连曝光，使公众质疑托幼机构准入、监控、教师管理和事后沟通。",
+        "historicalMeaning":  "儿童不能成为监管缝隙里最沉默的受害者。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2017-yc-002-source-1",
+                            "title":  "原始文档待补证：公安/教育部门处置",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2017",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2018-yc-003",
+        "archiveCode":  "CYBER-2018-049",
+        "title":  "长生疫苗监管失守及问责",
+        "year":  2018,
+        "date":  "2018",
+        "category":  "庸策",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "国务院调查/问责",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共治理",
+                     "安全事故"
+                 ],
+        "summary":  "官方调查不仅处罚企业，也对药品监管系统相关人员追责，承认监管职责存在失守。",
+        "historicalMeaning":  "监管机构若只在造假被曝光后出现，公众不会把它视为“安全网”。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2018-yc-003-source-1",
+                            "title":  "原始文档待补证：国务院调查/问责",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2018",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2018-yc-004",
+        "archiveCode":  "CYBER-2018-050",
+        "title":  "鸿茅药酒“跨省抓医生”事件",
+        "year":  2018,
+        "date":  "2018",
+        "category":  "庸策",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "检察机关介入/撤案后续",
+        "status":  "已有公开处置",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共治理"
+                 ],
+        "summary":  "医生谭秦东因发文质疑鸿茅药酒被跨省刑拘，后经检察机关审查取保并案件变化，引发对企业报案与异地执法边界的强烈讨论。",
+        "historicalMeaning":  "公权力不能成为企业名誉管理的外包部门。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2018-yc-004-source-1",
+                            "title":  "原始文档待补证：检察机关介入/撤案后续",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2018",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2019-yc-005",
+        "archiveCode":  "CYBER-2019-051",
+        "title":  "孙小果案背后的司法保护伞",
+        "year":  2019,
+        "date":  "2019",
+        "category":  "庸策",
+        "severity":  "S",
+        "evidenceLevel":  "司法定案",
+        "evidenceBasis":  "中央督导/司法判决",
+        "status":  "已定案",
+        "subjectType":  "公共事件",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共记忆"
+                 ],
+        "summary":  "一个本应长期服刑的罪犯以异常方式重返社会，后续深挖出多名公职人员违纪违法并获刑。",
+        "historicalMeaning":  "制度最大的耻辱不是出现坏人，而是坏人能长期借制度漏洞获得保护。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2019-yc-005-source-1",
+                            "title":  "原始文档待补证：中央督导/司法判决",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2019",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2020-yc-006",
+        "archiveCode":  "CYBER-2020-052",
+        "title":  "李文亮医生训诫书事件",
+        "year":  2020,
+        "date":  "2020",
+        "category":  "庸策",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "国家监委调查/警方撤销训诫",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "摆拍造谣",
+                     "公共治理"
+                 ],
+        "summary":  "国家监委调查认为派出所对李文亮出具训诫书不当、执法程序不规范，武汉警方撤销训诫书并向家属道歉。",
+        "historicalMeaning":  "面对早期风险信号，治理体系最不该做的是把不确定信息简单等同于恶意造谣。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2020-yc-006-source-1",
+                            "title":  "原始文档核验链接：李文亮医生训诫书事件",
+                            "institution":  "公开资料",
+                            "date":  "2020",
+                            "url":  "https://www.nhc.gov.cn/xcs/fkdt/202003/4d12a76de7be48b2a3e0f503dadee1b7.shtml",
+                            "note":  null,
+                            "sourceRank":  1,
+                            "sourceType":  "行政调查",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2021-yc-007",
+        "archiveCode":  "CYBER-2021-053",
+        "title":  "杭州野生动物世界金钱豹外逃瞒报",
+        "year":  2021,
+        "date":  "2021",
+        "category":  "庸策",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "官方调查/处罚问责",
+        "status":  "已有公开处置",
+        "subjectType":  "公共事件",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共治理",
+                     "安全事故"
+                 ],
+        "summary":  "园方发现豹子外逃后担心影响“五一”经营而未及时报告，引发公共安全风险；相关人员被追责。",
+        "historicalMeaning":  "公共安全信息不能服从门票收入。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2021-yc-007-source-1",
+                            "title":  "原始文档待补证：官方调查/处罚问责",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2021",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2021-yc-008",
+        "archiveCode":  "CYBER-2021-054",
+        "title":  "郑州“7·20”特大暴雨应对与瞒报",
+        "year":  2021,
+        "date":  "2021",
+        "category":  "庸策",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "国务院调查",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "安全事故"
+                 ],
+        "summary":  "调查认定当地风险认识不足、应急处置不当，并查明不同阶段瞒报死亡失踪139人。",
+        "historicalMeaning":  "自然灾害不可避免，迟报瞒报和失职却属于人为选择。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2021-yc-008-source-1",
+                            "title":  "原始文档核验链接：郑州“7·20”特大暴雨应对与瞒报",
+                            "institution":  "公开资料",
+                            "date":  "2021",
+                            "url":  "https://www.mem.gov.cn/xw/bndt/202201/t20220121_407106.shtml",
+                            "note":  null,
+                            "sourceRank":  1,
+                            "sourceType":  "行政调查",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2022-yc-009",
+        "archiveCode":  "CYBER-2022-055",
+        "title":  "丰县“八孩女子”事件",
+        "year":  2022,
+        "date":  "2022",
+        "category":  "庸策",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "省级调查/追责",
+        "status":  "已有公开处置",
+        "subjectType":  "个人/群体",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共治理"
+                 ],
+        "summary":  "短视频引发全国关注，省级调查确认拐卖、婚姻登记及基层管理等一系列问题，多名责任人员被问责。",
+        "historicalMeaning":  "一个人被困多年，说明最可怕的不是某个恶人，而是多层治理长期没把她看见。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2022-yc-009-source-1",
+                            "title":  "原始文档核验链接：丰县“八孩女子”事件",
+                            "institution":  "公开资料",
+                            "date":  "2022",
+                            "url":  "https://www.news.cn/2022-02/23/c_1128408829.htm",
+                            "note":  null,
+                            "sourceRank":  3,
+                            "sourceType":  "新华社报道",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2022-yc-010",
+        "archiveCode":  "CYBER-2022-056",
+        "title":  "南京玄奘寺供奉侵华日军战犯牌位",
+        "year":  2022,
+        "date":  "2022",
+        "category":  "庸策",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "联合调查/处分",
+        "status":  "已有公开处置",
+        "subjectType":  "公共事件",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共记忆"
+                 ],
+        "summary":  "寺内出现侵华日军战犯牌位，调查后寺院负责人、相关管理人员及供奉者受到处理。",
+        "historicalMeaning":  "涉及公共历史记忆的场所，不能把审核当作收费后的形式手续。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2022-yc-010-source-1",
+                            "title":  "原始文档待补证：联合调查/处分",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2022",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2022-yc-011",
+        "archiveCode":  "CYBER-2022-057",
+        "title":  "河南村镇银行储户被赋红码",
+        "year":  2022,
+        "date":  "2022",
+        "category":  "庸策",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "纪委监委调查/问责",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共治理",
+                     "金融风险"
+                 ],
+        "summary":  "1317名村镇银行储户被赋红码，健康码被用于与防疫无关的维权人员管理，多名干部被处分。",
+        "historicalMeaning":  "数字治理工具越强，越必须设置不可越过的用途边界。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2022-yc-011-source-1",
+                            "title":  "村镇银行储户被赋红码问题调查问责",
+                            "institution":  "纪检监察机关",
+                            "date":  "2022",
+                            "url":  "https://www.smxlz.gov.cn/sitesources/pyjjw/page_pc/xsqjw/qfx/ywyl/article63da58ebcd1b4cd49befccf1bf4583a3.html",
+                            "note":  null,
+                            "sourceRank":  1,
+                            "sourceType":  "纪委监察",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2022-yc-012",
+        "archiveCode":  "CYBER-2022-058",
+        "title":  "西安孕妇流产事件与就医门槛",
+        "year":  2022,
+        "date":  "2022",
+        "category":  "庸策",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "官方调查/问责",
+        "status":  "已有公开处置",
+        "subjectType":  "公共事件",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共治理",
+                     "安全事故"
+                 ],
+        "summary":  "孕妇因防疫查验等原因延误入院后流产，医院道歉，相关责任人受到处理。",
+        "historicalMeaning":  "公共卫生规则不能让急危重症患者在门口等待规则解释。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2022-yc-012-source-1",
+                            "title":  "原始文档待补证：官方调查/问责",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2022",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2022-yc-013",
+        "archiveCode":  "CYBER-2022-059",
+        "title":  "贵州疫情转运大巴侧翻事故",
+        "year":  2022,
+        "date":  "2022",
+        "category":  "庸策",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "官方调查/问责",
+        "status":  "已有公开处置",
+        "subjectType":  "公共事件",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共治理",
+                     "安全事故"
+                 ],
+        "summary":  "夜间转运隔离人员的大巴发生事故造成重大伤亡，随后对转运安排、夜间行车等提出强烈反思。",
+        "historicalMeaning":  "任何政策目标都不能凌驾于基本交通安全常识。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2022-yc-013-source-1",
+                            "title":  "原始文档待补证：官方调查/问责",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2022",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2023-yc-014",
+        "archiveCode":  "CYBER-2023-060",
+        "title":  "江西“鼠头鸭脖”事件",
+        "year":  2023,
+        "date":  "2023",
+        "category":  "庸策",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "省级联合调查",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共治理"
+                 ],
+        "summary":  "学生称食堂吃出鼠头，校方和当地监管早期称为鸭脖；省级调查最终认定为啮齿类动物头部并追责。",
+        "historicalMeaning":  "最荒诞之处不是鼠头，而是证明“鼠头是鼠头”竟需要省级调查组。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2023-yc-014-source-1",
+                            "title":  "原始文档待补证：省级联合调查",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2023",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2023-yc-015",
+        "archiveCode":  "CYBER-2023-061",
+        "title":  "齐齐哈尔体育馆坍塌事故中的信息与安全责任",
+        "year":  2023,
+        "date":  "2023",
+        "category":  "庸策",
+        "severity":  "S",
+        "evidenceLevel":  "司法定案",
+        "evidenceBasis":  "官方调查/司法追责",
+        "status":  "已定案",
+        "subjectType":  "公共事件",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "安全事故"
+                 ],
+        "summary":  "体育馆屋顶坍塌造成重大伤亡，违规施工、材料堆放和安全管理问题进入调查追责。",
+        "historicalMeaning":  "“大家一直这么干”是工程安全最危险的一句话。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2023-yc-015-source-1",
+                            "title":  "原始文档待补证：官方调查/司法追责",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2023",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2024-yc-016",
+        "archiveCode":  "CYBER-2024-062",
+        "title":  "罐车混运背后的运输监管漏洞",
+        "year":  2024,
+        "date":  "2024",
+        "category":  "庸策",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "国务院食安办联合调查",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "食品安全",
+                     "公共治理"
+                 ],
+        "summary":  "联合调查追查涉事企业和运输链条，暴露食用油散装运输标准、罐体清洗和全链条监管的制度缺口。",
+        "historicalMeaning":  "只有把每一车油的前序货物可追溯，才不必靠记者跟车发现问题。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2024-yc-016-source-1",
+                            "title":  "原始文档核验链接：罐车混运背后的运输监管漏洞",
+                            "institution":  "公开资料",
+                            "date":  "2024",
+                            "url":  "https://www.news.cn/20240825/35ea721fb54e44e18956ff03978ec121/c.html",
+                            "note":  null,
+                            "sourceRank":  3,
+                            "sourceType":  "新华社报道",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2025-yc-017",
+        "archiveCode":  "CYBER-2025-063",
+        "title":  "武汉大学图书馆事件的纪律处分复核",
+        "year":  2025,
+        "date":  "2025",
+        "category":  "庸策",
+        "severity":  "S",
+        "evidenceLevel":  "司法定案",
+        "evidenceBasis":  "司法终审/学校撤销处分",
+        "status":  "已定案",
+        "subjectType":  "学校/科研机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共治理"
+                 ],
+        "summary":  "2023年学校曾对肖某瑫记过；2025年法院二审维持一审驳回杨某媛全部诉请，学校随后复核并撤销记过，同时处分/问责多名管理人员。",
+        "historicalMeaning":  "校园治理应先固化证据、再作纪律评价；一纸处分如果建立在不足的事实判断上，纠错成本可能持续多年。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2025-yc-017-source-1",
+                            "title":  "原始文档核验链接：武汉大学图书馆事件的纪律处分复核",
+                            "institution":  "公开资料",
+                            "date":  "2025",
+                            "url":  "https://www.news.cn/politics/20250920/9ebf1e3922b4482581099d8d97bc4145/c.html",
+                            "note":  null,
+                            "sourceRank":  3,
+                            "sourceType":  "新华社报道",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2025-yc-018",
+        "archiveCode":  "CYBER-2025-064",
+        "title":  "甘肃天水幼儿园血铅事件及检测数据失真",
+        "year":  2025,
+        "date":  "2025",
+        "category":  "庸策",
+        "severity":  "S",
+        "evidenceLevel":  "司法定案",
+        "evidenceBasis":  "省委省政府调查/刑事与纪法处理",
+        "status":  "已定案",
+        "subjectType":  "学校/科研机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "食品安全",
+                     "数据与隐私",
+                     "未成年人",
+                     "媒体失真",
+                     "公共治理"
+                 ],
+        "summary":  "幼儿园违规使用含铅彩绘颜料制作食品，233名幼儿血铅异常；后续调查还确认省疾控检测数据严重失真、医院违规修改血铅检验数据，多人被立案调查。",
+        "historicalMeaning":  "伤害发生已是灾难；负责检测真相的系统再失真，是对信任的第二次伤害。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2025-yc-018-source-1",
+                            "title":  "原始文档核验链接：甘肃天水幼儿园血铅事件及检测数据失真",
+                            "institution":  "公开资料",
+                            "date":  "2025",
+                            "url":  "https://www.gansu.gov.cn/gsszf/gsyw/202507/174177765.shtml",
+                            "note":  null,
+                            "sourceRank":  1,
+                            "sourceType":  "行政调查",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2019-yc-019",
+        "archiveCode":  "CYBER-2019-065",
+        "title":  "南阳“水氢汽车”地方背书争议",
+        "year":  2019,
+        "date":  "2019",
+        "category":  "庸策",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "媒体调查/地方回应",
+        "status":  "已有公开处置",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "媒体失真"
+                 ],
+        "summary":  "地方媒体以高规格报道企业“水氢发动机”，并牵涉项目投资和地方支持，引发技术常识与招商冲动之间的争议。",
+        "historicalMeaning":  "招商不能替代科学审查，官媒标题更不能替代实验报告。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2019-yc-019-source-1",
+                            "title":  "原始文档待补证：媒体调查/地方回应",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2019",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2019-yc-020",
+        "archiveCode":  "CYBER-2019-066",
+        "title":  "成都七中实验学校食品安全舆情与信息混乱",
+        "year":  2019,
+        "date":  "2019",
+        "category":  "庸策",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "联合调查/学校整改",
+        "status":  "已有公开处置",
+        "subjectType":  "学校/科研机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "食品安全",
+                     "媒体失真",
+                     "安全事故"
+                 ],
+        "summary":  "家长曝光食堂食材问题后舆情迅速爆发；后续调查对部分网传图片来源也作出澄清。",
+        "historicalMeaning":  "学校食品安全要及时公开检测和供应链证据，不能让信息真空交给谣言填补。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2019-yc-020-source-1",
+                            "title":  "原始文档待补证：联合调查/学校整改",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2019",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2020-yc-021",
+        "archiveCode":  "CYBER-2020-067",
+        "title":  "湖北红十字会物资分配争议",
+        "year":  2020,
+        "date":  "2020",
+        "category":  "庸策",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "官方问责/整改",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共治理"
+                 ],
+        "summary":  "疫情早期物资分配和信息公开遭到强烈质疑，相关负责人被问责。",
+        "historicalMeaning":  "危机时刻，透明度本身就是救灾物资。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2020-yc-021-source-1",
+                            "title":  "原始文档待补证：官方问责/整改",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2020",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2020-yc-022",
+        "archiveCode":  "CYBER-2020-068",
+        "title":  "黄冈卫健系统“一问三不知”",
+        "year":  2020,
+        "date":  "2020",
+        "category":  "庸策",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "公开问责",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共治理"
+                 ],
+        "summary":  "督查现场对定点医院收治能力、床位等基本情况回答不清，相关负责人随后被免职。",
+        "historicalMeaning":  "应急管理最怕“表格都填了，情况却没人知道”。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2020-yc-022-source-1",
+                            "title":  "原始文档待补证：公开问责",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2020",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2021-yc-023",
+        "archiveCode":  "CYBER-2021-069",
+        "title":  "安阳“狗咬人”多部门推诿",
+        "year":  2021,
+        "date":  "2021",
+        "category":  "庸策",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "媒体监督/官方问责",
+        "status":  "已有公开处置",
+        "subjectType":  "公共事件",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "媒体失真",
+                     "公共治理"
+                 ],
+        "summary":  "普通犬伤纠纷持续两个月，多部门回应迟缓，直到电视节目和全国舆论推动才解决，多个单位作检查、人员受处理。",
+        "historicalMeaning":  "一件小事需要全国热搜才能解决，说明日常治理成本被转嫁给受害者。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2021-yc-023-source-1",
+                            "title":  "原始文档待补证：媒体监督/官方问责",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2021",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2022-yc-024",
+        "archiveCode":  "CYBER-2022-070",
+        "title":  "“层层加码”防疫政策执行",
+        "year":  2022,
+        "date":  "2022",
+        "category":  "庸策",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "国务院联防联控机制持续纠偏",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共治理"
+                 ],
+        "summary":  "一些地方随意扩大管控范围、延长时间、限制人员流动，引发广泛民怨，中央多次点名整治“一刀切”“层层加码”。",
+        "historicalMeaning":  "政策越紧急，越需要边界；否则执行者会把风险全转嫁给普通人。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2022-yc-024-source-1",
+                            "title":  "原始文档待补证：国务院联防联控机制持续纠偏",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2022",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2022-yc-025",
+        "archiveCode":  "CYBER-2022-071",
+        "title":  "人教版小学数学教材插图事件",
+        "year":  2022,
+        "date":  "2022",
+        "category":  "庸策",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "教育部调查/问责",
+        "status":  "已有公开处置",
+        "subjectType":  "学校/科研机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共治理"
+                 ],
+        "summary":  "教材插图审美、人物形象等遭全国质疑，教育部调查后对相关单位和人员作出处理并重新绘制。",
+        "historicalMeaning":  "教材不是普通出版物；任何一层“差不多”都会被几代孩子看到。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2022-yc-025-source-1",
+                            "title":  "原始文档待补证：教育部调查/问责",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2022",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2023-yc-026",
+        "archiveCode":  "CYBER-2023-072",
+        "title":  "四川大学地铁偷拍事件的校内处置争议",
+        "year":  2023,
+        "date":  "2023",
+        "category":  "庸策",
+        "severity":  "A",
+        "evidenceLevel":  "强争议",
+        "evidenceBasis":  "学校处分/后续争议",
+        "status":  "尚无最终定论",
+        "subjectType":  "学校/科研机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共记忆"
+                 ],
+        "summary":  "学生在未发现偷拍内容后仍公开视频并作负面指控，学校后续给予处分；事件引发高校在网络舆论与学生权利之间如何处置的争论。",
+        "historicalMeaning":  "高校纪律处分不能跟着热搜跑，也不能在事实未清时只做舆情管理。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2023-yc-026-source-1",
+                            "title":  "原始文档待补证：学校处分/后续争议",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2023",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2024-yc-027",
+        "archiveCode":  "CYBER-2024-073",
+        "title":  "重庆燃气计费异常与公用事业监管",
+        "year":  2024,
+        "date":  "2024",
+        "category":  "庸策",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "联合调查/问责整改",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共治理",
+                     "垄断"
+                 ],
+        "summary":  "调查发现错抄、估抄、计费周期混乱等问题，企业被责令退费整改，相关人员问责。",
+        "historicalMeaning":  "垄断型公用事业最需要“可核验账单”。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2024-yc-027-source-1",
+                            "title":  "原始文档待补证：联合调查/问责整改",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2024",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2025-yc-028",
+        "archiveCode":  "CYBER-2025-074",
+        "title":  "广西“亮证女”道路纠纷与公权力边界争议",
+        "year":  2025,
+        "date":  "2025",
+        "category":  "庸策",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "官方调查处理",
+        "status":  "已有公开处置",
+        "subjectType":  "公共事件",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共治理"
+                 ],
+        "summary":  "普通道路纠纷中展示行政执法证件形成威慑，引发网友追问证件使用、公职身份与个人纠纷边界，后续相关部门调查处理。",
+        "historicalMeaning":  "证件代表公权力，不能在私人争执中当作“身份武器”。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2025-yc-028-source-1",
+                            "title":  "原始文档待补证：官方调查处理",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2025",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2025-yc-029",
+        "archiveCode":  "CYBER-2025-075",
+        "title":  "江油未成年人欺凌事件及处置争议",
+        "year":  2025,
+        "date":  "2025",
+        "category":  "庸策",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "警方/教育部门处置",
+        "status":  "已有公开处置",
+        "subjectType":  "学校/科研机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "未成年人",
+                     "公共治理"
+                 ],
+        "summary":  "校园欺凌视频引发全国关注，公众同时质疑早期处置、信息公开和对未成年施暴行为的矫治机制。",
+        "historicalMeaning":  "对校园欺凌的敷衍，会把校内冲突升级成社会对治理公正的怀疑。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2025-yc-029-source-1",
+                            "title":  "原始文档待补证：警方/教育部门处置",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2025",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2020-yc-030",
+        "archiveCode":  "CYBER-2020-076",
+        "title":  "地方“一刀切”防疫执行争议",
+        "year":  2020,
+        "date":  "2020",
+        "category":  "庸策",
+        "severity":  "B",
+        "evidenceLevel":  "未核实",
+        "evidenceBasis":  "多轮中央纠偏要求",
+        "status":  "尚无最终定论",
+        "subjectType":  "公共事件",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共记忆"
+                 ],
+        "summary":  "疫情期间多地出现层层加码、简单封堵等执行争议，中央层面多次要求反对形式主义和过度防控。",
+        "historicalMeaning":  "非常时期需要非常措施，但“非常”不是基层任意加码的许可证。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2020-yc-030-source-1",
+                            "title":  "原始文档待补证：多轮中央纠偏要求",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2020",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2021-yc-031",
+        "archiveCode":  "CYBER-2021-077",
+        "title":  "成都四十九中学生坠亡舆情应对",
+        "year":  2021,
+        "date":  "2021",
+        "category":  "庸策",
+        "severity":  "B",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "警方调查/舆情反思",
+        "status":  "已有公开处置",
+        "subjectType":  "学校/科研机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "媒体失真",
+                     "安全事故"
+                 ],
+        "summary":  "学生坠亡后，学校与相关部门早期信息发布不足，网络迅速生长出监控被删、尸体被运等大量传言，后续警方公布调查。",
+        "historicalMeaning":  "信息发布越慢，阴谋论的“解释优势”越大。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2021-yc-031-source-1",
+                            "title":  "原始文档待补证：警方调查/舆情反思",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2021",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2024-yc-032",
+        "archiveCode":  "CYBER-2024-078",
+        "title":  "“贵州消防栓没水”等基层设施争议",
+        "year":  2024,
+        "date":  "2024",
+        "category":  "庸策",
+        "severity":  "B",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "调查整改/舆论监督",
+        "status":  "已有公开处置",
+        "subjectType":  "公共事件",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "安全事故"
+                 ],
+        "summary":  "多地公共安全设施在突发事件中暴露维护、检查和责任落实问题，部分事件经网络视频才引起集中整治。",
+        "historicalMeaning":  "基础设施最怕“检查时存在，出事时失灵”。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2024-yc-032-source-1",
+                            "title":  "原始文档待补证：调查整改/舆论监督",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2024",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2020-jr-001",
+        "archiveCode":  "CYBER-2020-079",
+        "title":  "杭州取快递女子被造黄谣",
+        "year":  2020,
+        "date":  "2020",
+        "category":  "奸人",
+        "severity":  "S",
+        "evidenceLevel":  "司法定案",
+        "evidenceBasis":  "法院判决",
+        "status":  "已定案",
+        "subjectType":  "个人/群体",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "摆拍造谣",
+                     "网络暴力"
+                 ],
+        "summary":  "两名男子偷拍陌生女子并伪造色情聊天记录，出于寻求刺激、博取关注在网络传播，最终均以诽谤罪获刑一年、缓刑二年。",
+        "historicalMeaning":  "普通人的人生可以被两个人几分钟编造的黄色段子摧毁；这是网络造谣最应被记住的案例之一。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2020-jr-001-source-1",
+                            "title":  "原始文档核验链接：杭州取快递女子被造黄谣",
+                            "institution":  "公开资料",
+                            "date":  "2020",
+                            "url":  "https://www.xinhuanet.com/2021-04/30/c_1127399099.htm",
+                            "note":  null,
+                            "sourceRank":  3,
+                            "sourceType":  "新华社报道",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2021-jr-002",
+        "archiveCode":  "CYBER-2021-080",
+        "title":  "吴亦凡刑事案件",
+        "year":  2021,
+        "date":  "2021",
+        "category":  "奸人",
+        "severity":  "S",
+        "evidenceLevel":  "司法定案",
+        "evidenceBasis":  "法院终审",
+        "status":  "已定案",
+        "subjectType":  "个人/群体",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共记忆"
+                 ],
+        "summary":  "曾具巨大互联网影响力的艺人因强奸、聚众淫乱等罪被判刑，二审维持原判。",
+        "historicalMeaning":  "粉丝规模、商业代言和舆论护城河都不能覆盖刑事责任。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2021-jr-002-source-1",
+                            "title":  "原始文档待补证：法院终审",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2021",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2021-jr-003",
+        "archiveCode":  "CYBER-2021-081",
+        "title":  "薇娅偷逃税",
+        "year":  2021,
+        "date":  "2021",
+        "category":  "奸人",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "税务处罚",
+        "status":  "已有公开处置",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "直播带货"
+                 ],
+        "summary":  "头部主播通过隐匿收入、虚假申报等方式偷逃税，被追缴税款、滞纳金并处罚款合计13.41亿元。",
+        "historicalMeaning":  "个人IP做到企业规模，就必须承担企业级透明度和合规责任。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2021-jr-003-source-1",
+                            "title":  "原始文档待补证：税务处罚",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2021",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2021-jr-004",
+        "archiveCode":  "CYBER-2021-082",
+        "title":  "郑爽偷逃税与“阴阳合同”问题",
+        "year":  2021,
+        "date":  "2021",
+        "category":  "奸人",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "税务处罚",
+        "status":  "已有公开处置",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任"
+                 ],
+        "summary":  "演艺人员通过合同拆分等方式偷逃税并受到巨额处罚，平台与明星天价片酬生态再受审视。",
+        "historicalMeaning":  "流量不能成为税法之外的特殊币种。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2021-jr-004-source-1",
+                            "title":  "原始文档待补证：税务处罚",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2021",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2024-jr-005",
+        "archiveCode":  "CYBER-2024-083",
+        "title":  "“凉山孟阳/凉山阿泽”虚假人设助农带货",
+        "year":  2024,
+        "date":  "2024",
+        "category":  "奸人",
+        "severity":  "S",
+        "evidenceLevel":  "司法定案",
+        "evidenceBasis":  "法院判决",
+        "status":  "已定案",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "摆拍造谣",
+                     "直播带货"
+                 ],
+        "summary":  "公司雇人摆拍贫困悲惨身世，包装网红，以“助农”名义销售非凉山商品，销售额超3000万元、非法牟利超1000万元；8人因虚假广告罪获刑。",
+        "historicalMeaning":  "把贫困、善意和乡村振兴同时变成销售脚本，是“人设经济”最完整的犯罪样本。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2024-jr-005-source-1",
+                            "title":  "原始文档核验链接：“凉山孟阳/凉山阿泽”虚假人设助农带货",
+                            "institution":  "公开资料",
+                            "date":  "2024",
+                            "url":  "https://www.news.cn/legal/20240517/c64260ffc3fe44509000bc38d71c2466/c.html",
+                            "note":  null,
+                            "sourceRank":  3,
+                            "sourceType":  "新华社报道",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2024-jr-006",
+        "archiveCode":  "CYBER-2024-084",
+        "title":  "“猫一杯”巴黎秦朗寒假作业造假",
+        "year":  2024,
+        "date":  "2024",
+        "category":  "奸人",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "公安行政处罚",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共记忆"
+                 ],
+        "summary":  "博主与同事为吸粉引流共同策划脚本、网购作业本，自拍制作“巴黎捡到秦朗作业”系列视频并散播。",
+        "historicalMeaning":  "最可恶的不是一个假段子，而是故意把假段子伪装成新闻，让全社会免费帮它传播。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2024-jr-006-source-1",
+                            "title":  "原始文档核验链接：“猫一杯”巴黎秦朗寒假作业造假",
+                            "institution":  "公开资料",
+                            "date":  "2024",
+                            "url":  "https://www.news.cn/legal/20240412/1af935361d2547dcad8657577793a718/c.html",
+                            "note":  null,
+                            "sourceRank":  3,
+                            "sourceType":  "新华社报道",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2024-jr-007",
+        "archiveCode":  "CYBER-2024-085",
+        "title":  "“胖猫”事件中的隐私曝光与舆论操纵",
+        "year":  2024,
+        "date":  "2024",
+        "category":  "奸人",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "警方调查",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "数据与隐私",
+                     "网络暴力"
+                 ],
+        "summary":  "警方调查认定“胖猫”与谭某存在真实恋爱关系且经济往来不构成诈骗；其姐姐刘某存在曝光隐私、片面发布信息、购买流量等行为并接受进一步调查。",
+        "historicalMeaning":  "私人悲剧一旦被剪成单方叙事并购买流量，就可能迅速升级为全国性网络暴力。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2024-jr-007-source-1",
+                            "title":  "原始文档核验链接：“胖猫”事件中的隐私曝光与舆论操纵",
+                            "institution":  "公开资料",
+                            "date":  "2024",
+                            "url":  "https://www.shyp.gov.cn/shypq/djyy2024/20240526/455709.html",
+                            "note":  null,
+                            "sourceRank":  1,
+                            "sourceType":  "行政调查",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2024-jr-008",
+        "archiveCode":  "CYBER-2024-086",
+        "title":  "“铁头惩恶扬善”涉嫌敲诈勒索",
+        "year":  2024,
+        "date":  "2024",
+        "category":  "奸人",
+        "severity":  "S",
+        "evidenceLevel":  "司法定案",
+        "evidenceBasis":  "公安侦办/司法程序",
+        "status":  "已定案",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "摆拍造谣",
+                     "公共治理"
+                 ],
+        "summary":  "以“打假”“惩恶”为网络人设的博主后因涉嫌敲诈勒索被公安机关采取强制措施，引发对流量式私力执法的反思。",
+        "historicalMeaning":  "当正义成为可变现人设，监督者也需要被监督。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2024-jr-008-source-1",
+                            "title":  "原始文档待补证：公安侦办/司法程序",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2024",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2025-jr-009",
+        "archiveCode":  "CYBER-2025-087",
+        "title":  "“南京阿红”偷拍传播私密视频案",
+        "year":  2025,
+        "date":  "2025",
+        "category":  "奸人",
+        "severity":  "S",
+        "evidenceLevel":  "司法定案",
+        "evidenceBasis":  "公安刑事侦办",
+        "status":  "已定案",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "数据与隐私"
+                 ],
+        "summary":  "网传人物以女性装扮与多人发生关系并偷拍视频、传播牟利，引发隐私和公共卫生讨论；警方抓获涉案嫌疑人。",
+        "historicalMeaning":  "互联网的匿名与猎奇不能把他人的身体和隐私变成可售卖文件。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2025-jr-009-source-1",
+                            "title":  "原始文档待补证：公安刑事侦办",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2025",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2025-jr-010",
+        "archiveCode":  "CYBER-2025-088",
+        "title":  "“高考作弊、家长花钱摆平”摆拍",
+        "year":  2025,
+        "date":  "2025",
+        "category":  "奸人",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "公安查处",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "摆拍造谣"
+                 ],
+        "summary":  "利用高考公平这一高度敏感议题编造作弊和“花钱摆平”剧情吸粉，扰乱考试公信力。",
+        "historicalMeaning":  "拿考试公平制造流量，伤害的是所有考生对规则的信任。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2025-jr-010-source-1",
+                            "title":  "原始文档待补证：公安查处",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2025",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2025-jr-011",
+        "archiveCode":  "CYBER-2025-089",
+        "title":  "武汉大学杨某媛公开指控事件（奸人疑传）",
+        "year":  2025,
+        "date":  "2025",
+        "category":  "奸人",
+        "severity":  "S",
+        "evidenceLevel":  "司法定案",
+        "evidenceBasis":  "民事诉讼败诉/学校撤销对方处分；主观恶意未被司法认定",
+        "status":  "已定案",
+        "subjectType":  "学校/科研机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "媒体失真",
+                     "摆拍造谣"
+                 ],
+        "summary":  "杨某媛公开指控肖某瑫性骚扰并推动舆论发酵；2025年一审、二审均驳回其全部诉请，武大撤销肖某瑫记过处分。必须注明：法院未认定杨某媛构成诬告陷害或刑事意义的恶意造谣。",
+        "historicalMeaning":  "本传之“奸”是按网络舆论伤害型事件编类，不是法律定罪。公开指控的不可逆性，要求发声者、媒体和学校都承担更高核实义务。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2025-jr-011-source-1",
+                            "title":  "原始文档核验链接：武汉大学杨某媛公开指控事件（奸人疑传）",
+                            "institution":  "公开资料",
+                            "date":  "2025",
+                            "url":  "https://www.news.cn/politics/20250920/9ebf1e3922b4482581099d8d97bc4145/c.html",
+                            "note":  null,
+                            "sourceRank":  3,
+                            "sourceType":  "新华社报道",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2016-jr-012",
+        "archiveCode":  "CYBER-2016-090",
+        "title":  "凉山“伪慈善”直播：发钱后收回",
+        "year":  2016,
+        "date":  "2016",
+        "category":  "奸人",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "警方/平台治理报道",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "媒体失真",
+                     "摆拍造谣",
+                     "公共治理",
+                     "直播带货"
+                 ],
+        "summary":  "部分主播在贫困地区直播“发钱”，镜头结束后收回，以慈善人设吸粉获利。",
+        "historicalMeaning":  "拿弱者的贫困当布景，是互联网流量经济最早的一批恶例。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2016-jr-012-source-1",
+                            "title":  "原始文档待补证：警方/平台治理报道",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2016",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2019-jr-013",
+        "archiveCode":  "CYBER-2019-091",
+        "title":  "咪蒙《一个出身寒门的状元之死》",
+        "year":  2019,
+        "date":  "2019",
+        "category":  "奸人",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "平台处置/作者道歉",
+        "status":  "已有公开处置",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "摆拍造谣"
+                 ],
+        "summary":  "爆款文章被广泛质疑虚构与消费苦难，账号随后停更、注销，成为“情绪工业化写作”的标志性翻车。",
+        "historicalMeaning":  "当故事只为击中情绪按钮，真实就会被当成可牺牲的成本。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2019-jr-013-source-1",
+                            "title":  "原始文档待补证：平台处置/作者道歉",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2019",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2019-jr-014",
+        "archiveCode":  "CYBER-2019-092",
+        "title":  "翟天临“不知知网”牵出学术不端",
+        "year":  2019,
+        "date":  "2019",
+        "category":  "奸人",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "高校调查/学位处理",
+        "status":  "已有公开处置",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "学术权力",
+                     "直播带货"
+                 ],
+        "summary":  "直播中的一句“不知知网”引发网友查论文，最终牵出学术不端并被相关高校处理。",
+        "historicalMeaning":  "互联网最大的偶然审计，往往始于一句随口炫耀。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2019-jr-014-source-1",
+                            "title":  "原始文档待补证：高校调查/学位处理",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2019",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2020-jr-015",
+        "archiveCode":  "CYBER-2020-093",
+        "title":  "仝卓“往届生改应届生”自曝事件",
+        "year":  2020,
+        "date":  "2020",
+        "category":  "奸人",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "官方调查/相关人员处理",
+        "status":  "已有公开处置",
+        "subjectType":  "学校/科研机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "直播带货"
+                 ],
+        "summary":  "艺人在直播中自述通过操作将往届生身份改为应届生，引发网友追查，最终牵出教育招考环节违规和多人被处理。",
+        "historicalMeaning":  "炫耀特权常常是特权网络最意外的证据。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2020-jr-015-source-1",
+                            "title":  "原始文档待补证：官方调查/相关人员处理",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2020",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2020-jr-016",
+        "archiveCode":  "CYBER-2020-094",
+        "title":  "清华“学姐社会性死亡”事件",
+        "year":  2020,
+        "date":  "2020",
+        "category":  "奸人",
+        "severity":  "A",
+        "evidenceLevel":  "未核实",
+        "evidenceBasis":  "监控澄清/双方和解",
+        "status":  "尚无最终定论",
+        "subjectType":  "公共事件",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "数据与隐私",
+                     "安全事故",
+                     "网络暴力"
+                 ],
+        "summary":  "女生认为自己遭到性骚扰，在事实未核清前公开男生个人信息并使用“社会性死亡”等表达；监控后显示为误会。",
+        "historicalMeaning":  "维权权利不等于先行判决他人的权利，公开身份信息尤其不可逆。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2020-jr-016-source-1",
+                            "title":  "原始文档待补证：监控澄清/双方和解",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2020",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2020-jr-017",
+        "archiveCode":  "CYBER-2020-095",
+        "title":  "辛巴直播“燕窝”宣传",
+        "year":  2020,
+        "date":  "2020",
+        "category":  "奸人",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "监管处罚",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "食品安全",
+                     "平台责任",
+                     "公共治理",
+                     "直播带货"
+                 ],
+        "summary":  "头部主播团队将产品宣传得远超其实际成分和属性，消费者质疑后检测与监管介入。",
+        "historicalMeaning":  "流量越大，越不能把“我也是消费者”当广告责任的盾牌。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2020-jr-017-source-1",
+                            "title":  "原始文档待补证：监管处罚",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2020",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2021-jr-018",
+        "archiveCode":  "CYBER-2021-096",
+        "title":  "网络主播雪梨、林珊珊偷逃税案例",
+        "year":  2021,
+        "date":  "2021",
+        "category":  "奸人",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "税务处罚",
+        "status":  "已有公开处置",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "公共治理",
+                     "直播带货"
+                 ],
+        "summary":  "头部主播税务问题被查处，成为直播电商税收治理的一部分。",
+        "historicalMeaning":  "“个人工作室”不应成为收入性质转换的魔法门。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2021-jr-018-source-1",
+                            "title":  "原始文档待补证：税务处罚",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2021",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2023-jr-019",
+        "archiveCode":  "CYBER-2023-097",
+        "title":  "四川大学学生地铁“偷拍”指控事件",
+        "year":  2023,
+        "date":  "2023",
+        "category":  "奸人",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "警方查验/学校处分",
+        "status":  "已有公开处置",
+        "subjectType":  "学校/科研机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "网络暴力"
+                 ],
+        "summary":  "当事人在检查对方手机未发现偷拍内容后仍将可识别视频发到网络并作负面表达，导致男子遭网络攻击；学校后给予处分。",
+        "historicalMeaning":  "“先挂人再核实”是把平台舆论当成私刑。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2023-jr-019-source-1",
+                            "title":  "原始文档待补证：警方查验/学校处分",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2023",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2024-jr-020",
+        "archiveCode":  "CYBER-2024-098",
+        "title":  "“怀孕5个月征婚”假孕肚摆拍",
+        "year":  2024,
+        "date":  "2024",
+        "category":  "奸人",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "公安行政处罚",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "媒体失真",
+                     "摆拍造谣"
+                 ],
+        "summary":  "自媒体博主网购假孕肚道具，乔装孕妇自导自演征婚视频吸引流量，被警方处罚。",
+        "historicalMeaning":  "以性别、婚恋和伦理冲突制造真实感，是摆拍流量的高频套路。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2024-jr-020-source-1",
+                            "title":  "原始文档核验链接：“怀孕5个月征婚”假孕肚摆拍",
+                            "institution":  "公开资料",
+                            "date":  "2024",
+                            "url":  "https://www.news.cn/legal/20240517/c64260ffc3fe44509000bc38d71c2466/c.html",
+                            "note":  null,
+                            "sourceRank":  3,
+                            "sourceType":  "新华社报道",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2024-jr-021",
+        "archiveCode":  "CYBER-2024-099",
+        "title":  "“救灾羽绒服被倒卖”造谣",
+        "year":  2024,
+        "date":  "2024",
+        "category":  "奸人",
+        "severity":  "A",
+        "evidenceLevel":  "司法定案",
+        "evidenceBasis":  "司法判决/公安查处",
+        "status":  "已定案",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "摆拍造谣"
+                 ],
+        "summary":  "行为人利用地震救灾物资这一高敏感议题编造“援助羽绒服被二手倒卖”内容，造成恶劣影响并受到刑事处罚。",
+        "historicalMeaning":  "越是公众善意最集中的地方，造谣者越容易借愤怒套利。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2024-jr-021-source-1",
+                            "title":  "原始文档待补证：司法判决/公安查处",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2024",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2024-jr-022",
+        "archiveCode":  "CYBER-2024-100",
+        "title":  "“给同事下药”摆拍",
+        "year":  2024,
+        "date":  "2024",
+        "category":  "奸人",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "公安行政处罚",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "摆拍造谣"
+                 ],
+        "summary":  "创作者从真实热点获得灵感，自导自演“给同事水杯下药”视频，引发打工人恐慌后被警方查明并处罚。",
+        "historicalMeaning":  "社会恐惧不是免费素材。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2024-jr-022-source-1",
+                            "title":  "原始文档核验链接：“给同事下药”摆拍",
+                            "institution":  "公开资料",
+                            "date":  "2024",
+                            "url":  "https://www.news.cn/legal/20240517/c64260ffc3fe44509000bc38d71c2466/c.html",
+                            "note":  null,
+                            "sourceRank":  3,
+                            "sourceType":  "新华社报道",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2024-jr-023",
+        "archiveCode":  "CYBER-2024-101",
+        "title":  "摆拍“让住院婆婆吃泡面”",
+        "year":  2024,
+        "date":  "2024",
+        "category":  "奸人",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "公安处罚",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "摆拍造谣",
+                     "直播带货"
+                 ],
+        "summary":  "网民伙同家人摆拍恶媳妇虐待婆婆的冲突剧情，以愤怒流量吸粉带货，后被查处。",
+        "historicalMeaning":  "“先制造坏人，再卖货给愤怒的人”已成为可复制商业模板。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2024-jr-023-source-1",
+                            "title":  "原始文档待补证：公安处罚",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2024",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2025-jr-024",
+        "archiveCode":  "CYBER-2025-102",
+        "title":  "AI/摆拍“贫困农村儿童”卖惨",
+        "year":  2025,
+        "date":  "2025",
+        "category":  "奸人",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "中央网信办处置",
+        "status":  "已有公开处置",
+        "subjectType":  "学校/科研机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "未成年人",
+                     "摆拍造谣",
+                     "AI生成"
+                 ],
+        "summary":  "多个账号摆拍或用AI生成山区儿童贫困、教育艰苦场景，以扮惨博同情吸粉，账号被禁言并暂停营利。",
+        "historicalMeaning":  "AI让“虚构苦难”的成本降到极低，公众善意从此必须面对工业化伪造。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2025-jr-024-source-1",
+                            "title":  "原始文档核验链接：AI/摆拍“贫困农村儿童”卖惨",
+                            "institution":  "公开资料",
+                            "date":  "2025",
+                            "url":  "https://www.cac.gov.cn/2025-05/30/c_1750315260446541.htm",
+                            "note":  null,
+                            "sourceRank":  1,
+                            "sourceType":  "行政调查",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2025-jr-025",
+        "archiveCode":  "CYBER-2025-103",
+        "title":  "“农业伪科普”带货伪劣农资",
+        "year":  2025,
+        "date":  "2025",
+        "category":  "奸人",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "中央网信办处置",
+        "status":  "已有公开处置",
+        "subjectType":  "公共事件",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "直播带货"
+                 ],
+        "summary":  "账号借农技科普夸大产品功效，部分农药无生产销售资质，被禁言并暂停营利。",
+        "historicalMeaning":  "面对信息弱势的农户，伪科普造成的损失不只是一单退货。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2025-jr-025-source-1",
+                            "title":  "原始文档核验链接：“农业伪科普”带货伪劣农资",
+                            "institution":  "公开资料",
+                            "date":  "2025",
+                            "url":  "https://www.cac.gov.cn/2025-05/30/c_1750315260446541.htm",
+                            "note":  null,
+                            "sourceRank":  1,
+                            "sourceType":  "行政调查",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2025-jr-026",
+        "archiveCode":  "CYBER-2025-104",
+        "title":  "“捡奢侈品包索要5万元”摆拍",
+        "year":  2025,
+        "date":  "2025",
+        "category":  "奸人",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "公安/平台查处",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "摆拍造谣"
+                 ],
+        "summary":  "以老人捡包、索要巨款制造代际与道德冲突的视频被查为摆拍引流。",
+        "historicalMeaning":  "最容易爆的道德冲突，也最值得先问一句：摄像机为什么刚好在那里？",
+        "sources":  [
+                        {
+                            "id":  "cyber-2025-jr-026-source-1",
+                            "title":  "原始文档待补证：公安/平台查处",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2025",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2025-jr-027",
+        "archiveCode":  "CYBER-2025-105",
+        "title":  "“萧鑫传媒”等摆拍侮辱外卖骑手",
+        "year":  2025,
+        "date":  "2025",
+        "category":  "奸人",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "中央网信办处置",
+        "status":  "已有公开处置",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "劳动权益",
+                     "摆拍造谣",
+                     "直播带货"
+                 ],
+        "summary":  "多个账号摆拍殴打、侮辱外卖骑手，虚构骑手与消费者、保安群体对立，借公众善意博流量营销，账号被关闭。",
+        "historicalMeaning":  "把真实弱势群体当冲突剧本的道具，会透支公众以后对真受害者的同情。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2025-jr-027-source-1",
+                            "title":  "原始文档核验链接：“萧鑫传媒”等摆拍侮辱外卖骑手",
+                            "institution":  "公开资料",
+                            "date":  "2025",
+                            "url":  "https://www.cac.gov.cn/2025-05/30/c_1750315260446541.htm",
+                            "note":  null,
+                            "sourceRank":  1,
+                            "sourceType":  "行政调查",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2025-jr-028",
+        "archiveCode":  "CYBER-2025-106",
+        "title":  "“道隐咨询”等玄学诱导付费",
+        "year":  2025,
+        "date":  "2025",
+        "category":  "奸人",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "中央网信办处置",
+        "status":  "已有公开处置",
+        "subjectType":  "公共事件",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任"
+                 ],
+        "summary":  "账号借“国学”名义宣扬玄学、八字命理等，逼迫或诱导用户付费“镇邪”“聚财”“化灾”，相关账号被关闭。",
+        "historicalMeaning":  "把焦虑包装成“命数”，再出售解除焦虑的服务，是古老骗局的算法版。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2025-jr-028-source-1",
+                            "title":  "原始文档核验链接：“道隐咨询”等玄学诱导付费",
+                            "institution":  "公开资料",
+                            "date":  "2025",
+                            "url":  "https://www.cac.gov.cn/2025-05/30/c_1750315260446541.htm",
+                            "note":  null,
+                            "sourceRank":  1,
+                            "sourceType":  "行政调查",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2026-jr-029",
+        "archiveCode":  "CYBER-2026-107",
+        "title":  "2026高考“答案/试卷”网络谣言群",
+        "year":  2026,
+        "date":  "2026",
+        "category":  "奸人",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "公安行政处罚",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "媒体失真",
+                     "摆拍造谣",
+                     "安全事故",
+                     "AI生成"
+                 ],
+        "summary":  "公安部网安局公布10起典型案例：有人用AI生成假试卷、谎称出售答案、编造考生死亡等，目的包括博取关注、吸粉引流。",
+        "historicalMeaning":  "AI让伪造试卷只需几分钟，但高考公平的社会信任修复需要多年。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2026-jr-029-source-1",
+                            "title":  "原始文档核验链接：2026高考“答案/试卷”网络谣言群",
+                            "institution":  "公开资料",
+                            "date":  "2026",
+                            "url":  "https://www.news.cn/20260608/324ff0797c374a5a9d2e3ab37efbfda8/c.html",
+                            "note":  null,
+                            "sourceRank":  3,
+                            "sourceType":  "新华社报道",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2026-jr-030",
+        "archiveCode":  "CYBER-2026-108",
+        "title":  "“鹅腿阿姨”鹅腿/鸭腿宣传争议（截至8月15日）",
+        "year":  2026,
+        "date":  "2026",
+        "category":  "奸人",
+        "severity":  "A",
+        "evidenceLevel":  "强争议",
+        "evidenceBasis":  "当事方承认原料为鸭腿/监管核查中",
+        "status":  "尚无最终定论",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "食品安全",
+                     "摆拍造谣",
+                     "公共治理",
+                     "直播带货"
+                 ],
+        "summary":  "走红高校圈的“鹅腿阿姨”被曝实际原料为鸭腿；海淀市场监管部门通报正对涉嫌误导消费者等行为进一步核查。截至本书截止日不预判最终行政结论。",
+        "historicalMeaning":  "草根IP一旦商品名、人设与真实原料绑定，最基本的真实性就不能靠“大家都这么叫”解释。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2026-jr-030-source-1",
+                            "title":  "原始文档核验链接：“鹅腿阿姨”鹅腿/鸭腿宣传争议（截至8月15日）",
+                            "institution":  "公开资料",
+                            "date":  "2026",
+                            "url":  "https://www.news.cn/fortune/20260611/108cf429d4a442e2b568bd0783ce4431/c.html",
+                            "note":  null,
+                            "sourceRank":  3,
+                            "sourceType":  "新华社报道",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2026-jr-031",
+        "archiveCode":  "CYBER-2026-109",
+        "title":  "涉汛涉灾AI造谣群",
+        "year":  2026,
+        "date":  "2026",
+        "category":  "奸人",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "公安/辟谣平台处置",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "媒体失真",
+                     "摆拍造谣",
+                     "安全事故",
+                     "AI生成"
+                 ],
+        "summary":  "多地出现AI合成洪灾、台风、官方通知等虚假信息，以灾害焦虑换取流量，公安机关持续公布典型案例。",
+        "historicalMeaning":  "灾害谣言最卑劣之处，是把公众求生信息通道当作流量场。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2026-jr-031-source-1",
+                            "title":  "原始文档待补证：公安/辟谣平台处置",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2026",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2023-jr-032",
+        "archiveCode":  "CYBER-2023-110",
+        "title":  "“北极鲶鱼”炫富辱骂与家族问题曝光",
+        "year":  2023,
+        "date":  "2023",
+        "category":  "奸人",
+        "severity":  "B",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "纪委调查/祖父被处分",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "数据与隐私",
+                     "网络暴力"
+                 ],
+        "summary":  "网民以炫富和侮辱性言论引发网友考古，后续其曾任公职的祖父被纪检监察机关调查并处理。",
+        "historicalMeaning":  "互联网炫耀有时会成为意外的反腐线索，但开盒式围猎也应与合法调查区分。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2023-jr-032-source-1",
+                            "title":  "原始文档待补证：纪委调查/祖父被处分",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2023",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2025-jr-033",
+        "archiveCode":  "CYBER-2025-111",
+        "title":  "冒用“大学生”身份低俗擦边",
+        "year":  2025,
+        "date":  "2025",
+        "category":  "奸人",
+        "severity":  "B",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "中央网信办处置",
+        "status":  "已有公开处置",
+        "subjectType":  "学校/科研机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任"
+                 ],
+        "summary":  "账号以大学宿舍和“大学生”标签包装低俗擦边内容，相关账号被禁言并暂停营利。",
+        "historicalMeaning":  "身份标签一旦能提高点击率，就会被内容工厂批量盗用。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2025-jr-033-source-1",
+                            "title":  "原始文档核验链接：冒用“大学生”身份低俗擦边",
+                            "institution":  "公开资料",
+                            "date":  "2025",
+                            "url":  "https://www.cac.gov.cn/2025-05/30/c_1750315260446541.htm",
+                            "note":  null,
+                            "sourceRank":  1,
+                            "sourceType":  "行政调查",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2025-jr-034",
+        "archiveCode":  "CYBER-2025-112",
+        "title":  "虚夸“负债翻身”账号收割流量",
+        "year":  2025,
+        "date":  "2025",
+        "category":  "奸人",
+        "severity":  "B",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "中央网信办处置",
+        "status":  "已有公开处置",
+        "subjectType":  "公共事件",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任"
+                 ],
+        "summary":  "多个账号复制负债、逆袭文案，宣称短期还债、帮助上岸，诱导关注并收割流量。",
+        "historicalMeaning":  "苦难叙事可以被流水线生产，励志也会成为销售漏斗。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2025-jr-034-source-1",
+                            "title":  "原始文档核验链接：虚夸“负债翻身”账号收割流量",
+                            "institution":  "公开资料",
+                            "date":  "2025",
+                            "url":  "https://www.cac.gov.cn/2025-05/30/c_1750315260446541.htm",
+                            "note":  null,
+                            "sourceRank":  1,
+                            "sourceType":  "行政调查",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2026-jr-035",
+        "archiveCode":  "CYBER-2026-113",
+        "title":  "14岁“手搓航空发动机”主动造神争议（奸人疑传）",
+        "year":  2026,
+        "date":  "2026",
+        "category":  "奸人",
+        "severity":  "B",
+        "evidenceLevel":  "强争议",
+        "evidenceBasis":  "公开报道可核实实物；故意欺骗/牟利未证实",
+        "status":  "尚无最终定论",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "未成年人",
+                     "媒体失真"
+                 ],
+        "summary":  "少年主动在短视频平台记录制作过程并获得大量关注，网络标题常被压缩为“手搓航空发动机”。但权威报道明确写明其知道自己做不出真正涡喷发动机，制作的是模型，且首次试验未实现自持。",
+        "historicalMeaning":  "按本书体例收进“奸人疑传”，是记录“主动经营神童叙事”的公众质疑，而非认定未成年人诈骗。现有证据反而要求把主要责任更多指向夸张标题与媒体造神。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2026-jr-035-source-1",
+                            "title":  "原始文档核验链接：14岁“手搓航空发动机”主动造神争议（奸人疑传）",
+                            "institution":  "公开资料",
+                            "date":  "2026",
+                            "url":  "https://people.cctv.com/2026/04/18/ARTI6yi0dQIUsUH1p2NhAijx260418.shtml",
+                            "note":  null,
+                            "sourceRank":  4,
+                            "sourceType":  "媒体报道",
+                            "sourceRole":  "历史报道",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2026-jr-036",
+        "archiveCode":  "CYBER-2026-114",
+        "title":  "9岁“1000万行代码、40多款游戏”神童宣传争议（奸人疑传）",
+        "year":  2026,
+        "date":  "2026",
+        "category":  "奸人",
+        "severity":  "B",
+        "evidenceLevel":  "强争议",
+        "evidenceBasis":  "媒体报道存在；1000万行缺独立技术审计",
+        "status":  "尚无最终定论",
+        "subjectType":  "公共事件",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "未成年人",
+                     "媒体失真"
+                 ],
+        "summary":  "公开报道传播“9岁开发40多款游戏”“1000万行代码”等说法，引发程序员群体强烈质疑。截止8月15日，未见可信第三方对代码仓库、重复/生成代码、依赖库和版本累计方式作独立审计。",
+        "historicalMeaning":  "最夸张的技术数字最需要可复验材料。未审计前，应把它记作“宣传争议”，不能直接写成诈骗实锤。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2026-jr-036-source-1",
+                            "title":  "原始文档待补证：媒体报道存在；1000万行缺独立技术审计",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2026",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2016-jr-037",
+        "archiveCode":  "CYBER-2016-115",
+        "title":  "罗一笑募捐与营销合作争议",
+        "year":  2016,
+        "date":  "2016",
+        "category":  "奸人",
+        "severity":  "C",
+        "evidenceLevel":  "强争议",
+        "evidenceBasis":  "事实争议/平台退款",
+        "status":  "尚无最终定论",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "直播带货",
+                     "金融风险"
+                 ],
+        "summary":  "刷屏文章激起大规模捐赠，随后家庭资产、医疗费用和营销公司合作关系引发质疑；事件不能简单定性为诈骗，但慈善叙事透明度受到冲击。",
+        "historicalMeaning":  "善意越容易被转化为流量，募捐越需要把费用、利益关系和传播合作讲清楚。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2016-jr-037-source-1",
+                            "title":  "原始文档待补证：事实争议/平台退款",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2016",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2023-cj-001",
+        "archiveCode":  "CYBER-2023-116",
+        "title":  "胡鑫宇事件：受害者被卷入阴谋论狂欢",
+        "year":  2023,
+        "date":  "2023",
+        "category":  "丑角",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "联合工作专班调查",
+        "status":  "已有公开处置",
+        "subjectType":  "公共事件",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "数据与隐私",
+                     "媒体失真",
+                     "安全事故"
+                 ],
+        "summary":  "失踪106天后遗体被发现，官方调查认定系自缢死亡并公布录音笔内容；此前网络充斥器官移植、监控调包等大量未经证实叙事。胡鑫宇本人是受害者，不是“丑闻人物”。",
+        "historicalMeaning":  "本篇的“丑”在围观机制：信息真空、算法推荐和阴谋论账号共同把一个家庭悲剧加工成连续剧。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2023-cj-001-source-1",
+                            "title":  "原始文档待补证：联合工作专班调查",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2023",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2024-cj-002",
+        "archiveCode":  "CYBER-2024-117",
+        "title":  "“胖猫”作为被网络叙事重构的悲剧人物",
+        "year":  2024,
+        "date":  "2024",
+        "category":  "丑角",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "警方调查",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "安全事故"
+                 ],
+        "summary":  "其死亡被迅速包装成单一“被骗钱殉情”故事，后警方调查证实真实恋爱关系并否定诈骗犯罪指控。",
+        "historicalMeaning":  "死者无法为自己解释，越是悲剧人物越容易被活人拿去制造阵营。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2024-cj-002-source-1",
+                            "title":  "“胖猫”事件调查细节",
+                            "institution":  "重庆警方公开信息",
+                            "date":  "2024",
+                            "url":  "https://www.shyp.gov.cn/shypq/djyy2024/20240526/455709.html",
+                            "note":  null,
+                            "sourceRank":  1,
+                            "sourceType":  "公安通报",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2018-cj-003",
+        "archiveCode":  "CYBER-2018-118",
+        "title":  "重庆公交坠江前“女司机逆行”误传",
+        "year":  2018,
+        "date":  "2018",
+        "category":  "丑角",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "警方调查后辟谣",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "媒体失真",
+                     "安全事故"
+                 ],
+        "summary":  "事故初期部分媒体和网友迅速将责任指向一名女司机，后续事实证明与最初叙事完全不同。",
+        "historicalMeaning":  "抢在事实前寻找“坏人”，是互联网反转新闻最经典的病。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2018-cj-003-source-1",
+                            "title":  "原始文档待补证：警方调查后辟谣",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2018",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2018-cj-004",
+        "archiveCode":  "CYBER-2018-119",
+        "title":  "高铁“霸座男”",
+        "year":  2018,
+        "date":  "2018",
+        "category":  "丑角",
+        "severity":  "B",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "铁路公安处罚",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共记忆"
+                 ],
+        "summary":  "普通乘客强占他人座位、拒不配合的视频引爆全网，最终被罚款并纳入铁路失信体系。",
+        "historicalMeaning":  "互联网第一次让一种“小到不够上报纸”的公共失德，在全国范围被共同审判。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2018-cj-004-source-1",
+                            "title":  "原始文档待补证：铁路公安处罚",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2018",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2023-cj-005",
+        "archiveCode":  "CYBER-2023-120",
+        "title":  "“北极鲶鱼”作为炫富自曝型丑角",
+        "year":  2023,
+        "date":  "2023",
+        "category":  "丑角",
+        "severity":  "B",
+        "evidenceLevel":  "未核实",
+        "evidenceBasis":  "公开言论/纪检后续",
+        "status":  "尚无最终定论",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "媒体失真"
+                 ],
+        "summary":  "其网络炫富与侮辱性言论既属失德，也意外成为追查家庭公职背景的线索；更严重的部分已在“庸策/纪法”层记录。",
+        "historicalMeaning":  "有些互联网丑角不靠媒体造神，而靠一句句自曝把自己送进历史。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2023-cj-005-source-1",
+                            "title":  "原始文档待补证：公开言论/纪检后续",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2023",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2023-cj-006",
+        "archiveCode":  "CYBER-2023-121",
+        "title":  "“大国工匠拧急停按钮”配画争议",
+        "year":  2023,
+        "date":  "2023",
+        "category":  "丑角",
+        "severity":  "B",
+        "evidenceLevel":  "强争议",
+        "evidenceBasis":  "传播争议/缺完整原片语境核验",
+        "status":  "尚无最终定论",
+        "subjectType":  "公共事件",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "媒体失真"
+                 ],
+        "summary":  "节目片段中“微调精度”的解说与工人旋转机床急停按钮的画面被拼接传播，技术网友群嘲。现有材料不足以证明工匠本人声称“急停按钮能调精度”。",
+        "historicalMeaning":  "真正该记的不是嘲笑工匠，而是专业报道为何会让技术画面与解说产生如此低级的错配观感。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2023-cj-006-source-1",
+                            "title":  "原始文档待补证：传播争议/缺完整原片语境核验",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2023",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2023-cj-007",
+        "archiveCode":  "CYBER-2023-122",
+        "title":  "李佳琦“79元眉笔哪里贵了”",
+        "year":  2023,
+        "date":  "2023",
+        "category":  "丑角",
+        "severity":  "B",
+        "evidenceLevel":  "未核实",
+        "evidenceBasis":  "直播原话/公开道歉",
+        "status":  "尚无最终定论",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "直播带货"
+                 ],
+        "summary":  "头部主播面对消费者对价格的质疑，反问“哪里贵了”并称应反思自己工资是否涨，迅速引发舆论反噬并道歉。",
+        "historicalMeaning":  "一个靠普通消费者托举起来的主播，最危险的时刻是忘了自己和观众的距离。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2023-cj-007-source-1",
+                            "title":  "原始文档待补证：直播原话/公开道歉",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2023",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2024-cj-008",
+        "archiveCode":  "CYBER-2024-123",
+        "title":  "“巴黎秦朗”中被虚构的孩子与家长",
+        "year":  2024,
+        "date":  "2024",
+        "category":  "丑角",
+        "severity":  "B",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "公安确认故事虚构",
+        "status":  "已有公开处置",
+        "subjectType":  "公共机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "摆拍造谣"
+                 ],
+        "summary":  "全网寻找一个根本不存在于故事中的“秦朗”和母亲，甚至出现蹭热度的“舅舅”。",
+        "historicalMeaning":  "当虚假事件足够可爱，整个互联网会自愿替编剧补齐角色。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2024-cj-008-source-1",
+                            "title":  "“拾到小学生秦朗丢失的作业本”视频系编造",
+                            "institution":  "新华网",
+                            "date":  "2024",
+                            "url":  "https://www.news.cn/legal/20240412/1af935361d2547dcad8657577793a718/c.html",
+                            "note":  null,
+                            "sourceRank":  3,
+                            "sourceType":  "新华社报道",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2024-cj-009",
+        "archiveCode":  "CYBER-2024-124",
+        "title":  "姜萍数学竞赛造神事件",
+        "year":  2024,
+        "date":  "2024",
+        "category":  "丑角",
+        "severity":  "B",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "赛事组委会调查",
+        "status":  "已有公开处置",
+        "subjectType":  "学校/科研机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "媒体失真"
+                 ],
+        "summary":  "中专女生以预选赛高排名被塑造成“数学天才”并得到全国性报道；后赛事组委会确认指导教师在预选赛中提供帮助、违反规则，二人决赛均未获奖。现无证据证明姜萍本人主导媒体造神。",
+        "historicalMeaning":  "姜萍应记为“被造神者”，真正值得追问的是赛事、学校、媒体与平台为什么都需要一个天才童话。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2024-cj-009-source-1",
+                            "title":  "原始文档待补证：赛事组委会调查",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2024",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2025-cj-010",
+        "archiveCode":  "CYBER-2025-125",
+        "title":  "网络“卖惨人设”群像",
+        "year":  2025,
+        "date":  "2025",
+        "category":  "丑角",
+        "severity":  "B",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "中央网信办集中处置",
+        "status":  "已有公开处置",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "未成年人",
+                     "摆拍造谣",
+                     "AI生成"
+                 ],
+        "summary":  "贫困儿童、负债翻身、外卖员受辱等内容大量被模板化摆拍或AI生成，网信部门一次曝光多类账号。",
+        "historicalMeaning":  "丑角不再是一个人，而可能是一套可以批量生成的角色模板。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2025-cj-010-source-1",
+                            "title":  "原始文档核验链接：网络“卖惨人设”群像",
+                            "institution":  "公开资料",
+                            "date":  "2025",
+                            "url":  "https://www.cac.gov.cn/2025-05/30/c_1750315260446541.htm",
+                            "note":  null,
+                            "sourceRank":  1,
+                            "sourceType":  "行政调查",
+                            "sourceRole":  "事实依据",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2026-cj-011",
+        "archiveCode":  "CYBER-2026-126",
+        "title":  "14岁涡喷模型少年：媒体标题制造的“航空发动机神童”",
+        "year":  2026,
+        "date":  "2026",
+        "category":  "丑角",
+        "severity":  "B",
+        "evidenceLevel":  "多方证实",
+        "evidenceBasis":  "权威报道明确“模型”",
+        "status":  "已有公开处置",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "未成年人",
+                     "媒体失真"
+                 ],
+        "summary":  "同一事件在“奸人疑传”中记录主动经营账号的争议；在本篇则记录媒体标题如何把“模型、未自持、外协加工”压缩成“手搓航空发动机”。",
+        "historicalMeaning":  "当限定词被标题删掉，事实没有变，公众理解却已换了一个物种。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2026-cj-011-source-1",
+                            "title":  "原始文档核验链接：14岁涡喷模型少年：媒体标题制造的“航空发动机神童”",
+                            "institution":  "公开资料",
+                            "date":  "2026",
+                            "url":  "https://people.cctv.com/2026/04/18/ARTI6yi0dQIUsUH1p2NhAijx260418.shtml",
+                            "note":  null,
+                            "sourceRank":  4,
+                            "sourceType":  "媒体报道",
+                            "sourceRole":  "历史报道",
+                            "archiveStatus":  "在线"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2026-cj-012",
+        "archiveCode":  "CYBER-2026-127",
+        "title":  "9岁代码神童：千万行数字迷思",
+        "year":  2026,
+        "date":  "2026",
+        "category":  "丑角",
+        "severity":  "B",
+        "evidenceLevel":  "强争议",
+        "evidenceBasis":  "缺独立技术审计",
+        "status":  "尚无最终定论",
+        "subjectType":  "公共事件",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "未成年人",
+                     "媒体失真"
+                 ],
+        "summary":  "“40多款游戏、1000万行代码”等说法成为传播核心，普通程序员以工程常识质疑统计口径。",
+        "historicalMeaning":  "技术报道若不给仓库、提交记录和统计口径，天文数字就只是广告词。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2026-cj-012-source-1",
+                            "title":  "原始文档待补证：缺独立技术审计",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2026",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2019-cj-013",
+        "archiveCode":  "CYBER-2019-128",
+        "title":  "“乔碧萝殿下”露脸事件",
+        "year":  2019,
+        "date":  "2019",
+        "category":  "丑角",
+        "severity":  "C",
+        "evidenceLevel":  "未核实",
+        "evidenceBasis":  "直播事故/平台关注",
+        "status":  "尚无最终定论",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "摆拍造谣",
+                     "直播带货",
+                     "安全事故"
+                 ],
+        "summary":  "主播直播中遮脸画面消失，真实形象与观众想象差距引发全民围观，成为早期“网络人设与真实身份”符号。",
+        "historicalMeaning":  "这类事件伤害有限，却预示了滤镜、虚拟身份和人设经济将长期成为互联网常态。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2019-cj-013-source-1",
+                            "title":  "原始文档待补证：直播事故/平台关注",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2019",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2020-cj-014",
+        "archiveCode":  "CYBER-2020-129",
+        "title":  "“名媛拼单”群像",
+        "year":  2020,
+        "date":  "2020",
+        "category":  "丑角",
+        "severity":  "C",
+        "evidenceLevel":  "强争议",
+        "evidenceBasis":  "媒体调查/社会争议",
+        "status":  "尚无最终定论",
+        "subjectType":  "公共事件",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "媒体失真"
+                 ],
+        "summary":  "所谓“名媛群”拼酒店、下午茶、奢侈品拍照的聊天记录引发围观，真假混杂但“精致生活可被拼装”成为时代隐喻。",
+        "historicalMeaning":  "社交媒体把生活变成展品后，人们开始为照片而购买“几分钟的身份”。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2020-cj-014-source-1",
+                            "title":  "原始文档待补证：媒体调查/社会争议",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2020",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2020-cj-015",
+        "archiveCode":  "CYBER-2020-130",
+        "title":  "马保国与“耗子尾汁”",
+        "year":  2020,
+        "date":  "2020",
+        "category":  "丑角",
+        "severity":  "C",
+        "evidenceLevel":  "未核实",
+        "evidenceBasis":  "网络迷因",
+        "status":  "尚无最终定论",
+        "subjectType":  "公共事件",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "公共记忆"
+                 ],
+        "summary":  "传统武术人物比赛失利及夸张言论被全网二创，“年轻人不讲武德”等成为年度迷因。",
+        "historicalMeaning":  "丑角未必是恶人；互联网会把夸张人格放大成公共娱乐资源。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2020-cj-015-source-1",
+                            "title":  "原始文档待补证：网络迷因",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2020",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2021-cj-016",
+        "archiveCode":  "CYBER-2021-131",
+        "title":  "“人类高质量男性”徐勤根",
+        "year":  2021,
+        "date":  "2021",
+        "category":  "丑角",
+        "severity":  "C",
+        "evidenceLevel":  "强争议",
+        "evidenceBasis":  "网络营销/后续争议",
+        "status":  "尚无最终定论",
+        "subjectType":  "公共事件",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "直播带货"
+                 ],
+        "summary":  "以高度符号化妆容和求偶视频走红，随后围绕付费群、商业变现等引发讨论。",
+        "historicalMeaning":  "互联网能在数日内把一个奇异表达包装成可售卖IP。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2021-cj-016-source-1",
+                            "title":  "原始文档待补证：网络营销/后续争议",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2021",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2021-cj-017",
+        "archiveCode":  "CYBER-2021-132",
+        "title":  "“潘嘎之交”",
+        "year":  2021,
+        "date":  "2021",
+        "category":  "丑角",
+        "severity":  "C",
+        "evidenceLevel":  "未核实",
+        "evidenceBasis":  "网络舆论",
+        "status":  "尚无最终定论",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任",
+                     "直播带货"
+                 ],
+        "summary":  "潘长江劝谢孟伟少直播卖酒，后自己也直播带货，引发“潘嘎之交”讽刺梗。",
+        "historicalMeaning":  "网友最擅长保存的是言行反差。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2021-cj-017-source-1",
+                            "title":  "原始文档待补证：网络舆论",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2021",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2022-cj-018",
+        "archiveCode":  "CYBER-2022-133",
+        "title":  "张小泉“菜刀不能拍蒜”",
+        "year":  2022,
+        "date":  "2022",
+        "category":  "丑角",
+        "severity":  "C",
+        "evidenceLevel":  "未核实",
+        "evidenceBasis":  "消费舆论",
+        "status":  "尚无最终定论",
+        "subjectType":  "学校/科研机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "食品安全"
+                 ],
+        "summary":  "一把断裂菜刀把企业负责人旧采访推上热搜，最终演成“西式刀法教育中国消费者”的网络笑谈。",
+        "historicalMeaning":  "企业沟通失误可以把产品问题变成文化冲突。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2022-cj-018-source-1",
+                            "title":  "原始文档待补证：消费舆论",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2022",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2024-cj-019",
+        "archiveCode":  "CYBER-2024-134",
+        "title":  "“点读机女孩”患病视频时序争议",
+        "year":  2024,
+        "date":  "2024",
+        "category":  "丑角",
+        "severity":  "C",
+        "evidenceLevel":  "强争议",
+        "evidenceBasis":  "机构回应/平台争议",
+        "status":  "尚无最终定论",
+        "subjectType":  "企业/平台",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "平台责任"
+                 ],
+        "summary":  "童星高君雨团队发布患病治疗视频后被质疑视频拍摄时间与发布叙事不一致，团队回应素材为提前拍摄，账号受到平台处置/关注。",
+        "historicalMeaning":  "健康与苦难内容一旦按“剧情更新”运营，最容易让真实经历也失去信任。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2024-cj-019-source-1",
+                            "title":  "原始文档待补证：机构回应/平台争议",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2024",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2022-cj-020",
+        "archiveCode":  "CYBER-2022-135",
+        "title":  "《二舅治好了我的精神内耗》真实性争议",
+        "year":  2022,
+        "date":  "2022",
+        "category":  "丑角",
+        "severity":  "D",
+        "evidenceLevel":  "强争议",
+        "evidenceBasis":  "部分细节争议/无整体造假定论",
+        "status":  "尚无最终定论",
+        "subjectType":  "公共事件",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "摆拍造谣"
+                 ],
+        "summary":  "视频以亲属人生经历打动大量网友，随后部分细节被质疑，作者回应。没有充分证据证明整个故事为从零编造。",
+        "historicalMeaning":  "它更像“正能量爆款被全民考据”的样本，而非与猫一杯同级的造假案。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2022-cj-020-source-1",
+                            "title":  "原始文档待补证：部分细节争议/无整体造假定论",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2022",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2017-js-001",
+        "archiveCode":  "CYBER-2017-136",
+        "title":  "西交杨宝德事件：科研之外的“家务型导师权力”",
+        "year":  2017,
+        "date":  "2017",
+        "category":  "桀师",
+        "severity":  "S",
+        "evidenceLevel":  "强争议",
+        "evidenceBasis":  "校方调查/取消招生；死亡因果未定",
+        "status":  "尚无最终定论",
+        "subjectType":  "学校/科研机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "学术权力",
+                     "安全事故"
+                 ],
+        "summary":  "博士生杨宝德于2017年12月死亡。校方调查确认导师曾让学生到家中打扫卫生、陪同购物、洗车等与科研教学无关事项，并取消其研究生招生资格；警方未发现刑事案件证据。公开调查未确认这些行为与杨宝德死亡之间的因果关系。",
+        "historicalMeaning":  "导师掌握课题、评价与毕业资源时，“帮老师私事”未必是平等关系中的自愿。制度应让学生能拒绝与培养无关的私人差遣，而不担心学业报复。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2017-js-001-source-1",
+                            "title":  "原始文档待补证：校方调查/取消招生；死亡因果未定",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2017",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2018-js-002",
+        "archiveCode":  "CYBER-2018-137",
+        "title":  "武汉理工陶崇园坠亡与“认义父子”导学关系",
+        "year":  2018,
+        "date":  "2018",
+        "category":  "桀师",
+        "severity":  "S",
+        "evidenceLevel":  "强争议",
+        "evidenceBasis":  "校方调查/停止招生；更多指控存分歧",
+        "status":  "尚无最终定论",
+        "subjectType":  "学校/科研机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "学术权力",
+                     "安全事故"
+                 ],
+        "summary":  "研究生陶崇园坠亡后，家属公开指称其长期承受导师压力。校方调查确认导师存在要求学生“认义父子”等与教学科研无关的行为，并停止其研究生招生资格；对家属提出的其他部分指控，校方调查结论与家属叙述存在差异。死亡与导师行为的因果关系不在本书中作推定。",
+        "historicalMeaning":  "导学关系一旦越出学术边界并混入私人服从，学生很难判断“拒绝”是否会影响毕业。真正的防线不是导师自律，而是可更换导师、独立申诉和可追溯的培养程序。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2018-js-002-source-1",
+                            "title":  "原始文档待补证：校方调查/停止招生；更多指控存分歧",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2018",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2019-js-003",
+        "archiveCode":  "CYBER-2019-138",
+        "title":  "南邮谭大伟实验室身亡与导师张某某师德失范",
+        "year":  2019,
+        "date":  "2019",
+        "category":  "桀师",
+        "severity":  "S",
+        "evidenceLevel":  "强争议",
+        "evidenceBasis":  "学校调查/解聘；死亡因果未定",
+        "status":  "尚无最终定论",
+        "subjectType":  "学校/科研机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "劳动权益",
+                     "学术权力",
+                     "安全事故"
+                 ],
+        "summary":  "研究生谭大伟2019年末在实验室死亡。后续校方调查认定其导师存在严重师德失范并作出取消相关资格、解除聘用等处理；早期校方回应亦承认存在侮辱性言语、让学生参与与培养无关的私人事务等问题。公开结论未确认导师行为与死亡之间存在法律上的直接因果。",
+        "historicalMeaning":  "当导师同时扮演“老板”、掌握学生劳务与毕业去留，课题组就可能从培养共同体滑向私人权力场。学生的科研劳动、人格尊严和安全必须有校外于导师的救济出口。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2019-js-003-source-1",
+                            "title":  "原始文档待补证：学校调查/解聘；死亡因果未定",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2019",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2023-js-004",
+        "archiveCode":  "CYBER-2023-139",
+        "title":  "中山二院乳腺肿瘤中心三人患癌疑云",
+        "year":  2023,
+        "date":  "2023",
+        "category":  "桀师",
+        "severity":  "A",
+        "evidenceLevel":  "强争议",
+        "evidenceBasis":  "院方确认三人患癌；实验室因果未定",
+        "status":  "尚无最终定论",
+        "subjectType":  "学校/科研机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "学术权力",
+                     "安全事故"
+                 ],
+        "summary":  "2023年院方确认：曾在乳腺肿瘤中心实验室工作或学习的三人罹患癌症，其中两人为本院医生、一人为外单位来院学习人员；院方同时称在读学生无人患癌，并表示愿接受第三方评估实验室环境、试剂暴露等是否与疾病相关。本版截至2026年8月15日未检得可据以定案的公开权威因果结论，故不写成“实验室致癌”。",
+        "historicalMeaning":  "三人患癌的聚集事实值得留档，因果关系则必须守住证据边界。事件真正提出的问题是：当年轻研究者对导师、课题和毕业高度依赖时，职业暴露记录、独立安全审计与拒绝高风险操作的权利能否真正存在。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2023-js-004-source-1",
+                            "title":  "原始文档待补证：院方确认三人患癌；实验室因果未定",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2023",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2024-js-005",
+        "archiveCode":  "CYBER-2024-140",
+        "title":  "北邮15名研究生联名举报导师郑某",
+        "year":  2024,
+        "date":  "2024",
+        "category":  "桀师",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "校方查实/取消导师资格",
+        "status":  "已有公开处置",
+        "subjectType":  "学校/科研机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "劳动权益",
+                     "学术权力"
+                 ],
+        "summary":  "15名研究生联名举报导师后，北邮调查确认其存在未认真履行导师职责、疏于学业指导和关心关爱、要求学生从事与学习科研无关事项、未按规定发放助研津贴等问题。学校取消其研究生导师资格、停止教学并降级，相关学生可重新选择导师。",
+        "historicalMeaning":  "一封联名信背后通常意味着单个学生早已难以通过内部关系解决问题。导师经费、津贴和毕业权必须被拆开监督，不能靠学生集体“赌上前途”才触发纠错。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2024-js-005-source-1",
+                            "title":  "原始文档待补证：校方查实/取消导师资格",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2024",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    },
+    {
+        "id":  "cyber-2024-js-006",
+        "archiveCode":  "CYBER-2024-141",
+        "title":  "人大王某某师德失范与“不能毕业”威胁",
+        "year":  2024,
+        "date":  "2024",
+        "category":  "桀师",
+        "severity":  "S",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "校方调查：举报属实/解除聘用",
+        "status":  "已有公开处置",
+        "subjectType":  "学校/科研机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "学术权力",
+                     "公共治理"
+                 ],
+        "summary":  "中国人民大学博士生公开举报导师存在性骚扰、强制猥亵以及在遭拒后以不让其毕业相威胁等行为。学校随后通报称举报情况属实，给予撤销教师岗位、解除聘用、撤销研究生导师资格等处理，并将相关线索报送有关机关。本书只记录校方已确认的师德处理，不把它替代为刑事定罪。",
+        "historicalMeaning":  "当毕业权被拿来换取私人服从，它就不再只是师德问题，而是学术权力对学生人身与前途的直接控制。毕业评价必须可复核、可申诉、不能由单一导师一票决定。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2024-js-006-source-1",
+                            "title":  "原始文档待补证：校方调查：举报属实/解除聘用",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2024",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  true
+    },
+    {
+        "id":  "cyber-2026-js-007",
+        "archiveCode":  "CYBER-2026-142",
+        "title":  "川大王竹卿被研究生集体举报",
+        "year":  2026,
+        "date":  "2026",
+        "category":  "桀师",
+        "severity":  "A",
+        "evidenceLevel":  "官方调查",
+        "evidenceBasis":  "学校调查/停止招生；仅录学生权益相关部分",
+        "status":  "已有公开处置",
+        "subjectType":  "学校/科研机构",
+        "subjects":  [
+
+                     ],
+        "tags":  [
+                     "劳动权益",
+                     "学术权力"
+                 ],
+        "summary":  "多名研究生举报后，四川大学调查确认王竹卿存在不当署名、科研经费等问题，并指出其在研究生指导过程中沟通方式失当、与部分学生矛盾突出；学校作出降低岗位等级、停止研究生招生等处理，并为相关学生调整导师。本卷不收其纯学术造假部分，只保留与学生署名、培养关系和权益直接相关的已确认事项。",
+        "historicalMeaning":  "“学术不端”只有触碰学生劳动成果、署名权、经费或培养权时，才进入本卷。把学生成果当导师私产，是导学权力异化的另一种形式。",
+        "sources":  [
+                        {
+                            "id":  "cyber-2026-js-007-source-1",
+                            "title":  "原始文档待补证：学校调查/停止招生；仅录学生权益相关部分",
+                            "institution":  "《赛博史记》资料索引",
+                            "date":  "2026",
+                            "url":  null,
+                            "note":  "Word 原稿标记为“查”，尚未附直接链接。",
+                            "sourceRank":  5,
+                            "sourceType":  "其他",
+                            "sourceRole":  "线索",
+                            "archiveStatus":  "待补证"
+                        }
+                    ],
+        "featured":  false
+    }
+]

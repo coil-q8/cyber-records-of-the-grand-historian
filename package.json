@@ -1,0 +1,42 @@
+{
+  "name": "cyber-records-of-the-grand-historian",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "check": "tsc -b",
+    "test:smoke": "node scripts/smoke-test.mjs",
+    "research:progress": "node scripts/generate-research-progress.mjs",
+    "research:batch02": "node scripts/generate-phase2-batch-02.mjs && node scripts/generate-research-progress.mjs",
+    "research:batch03": "node scripts/generate-phase2-batch-03.mjs && node scripts/generate-research-progress.mjs",
+    "research:batch04": "node scripts/generate-phase2-batch-04.mjs && node scripts/generate-research-progress.mjs",
+    "research:batch05": "node scripts/generate-phase2-batch-05.mjs && node scripts/generate-research-progress.mjs",
+    "research:batch06": "node scripts/generate-phase2-batch-06.mjs && node scripts/generate-research-progress.mjs",
+    "research:batch07": "node scripts/generate-phase2-batch-07.mjs && node scripts/generate-research-progress.mjs",
+    "research:batch08": "node scripts/generate-phase2-batch-08.mjs && node scripts/generate-research-progress.mjs",
+    "research:batch09": "node scripts/generate-phase2-batch-09.mjs && node scripts/generate-research-progress.mjs",
+    "research:batch10": "node scripts/generate-phase2-batch-10.mjs && node scripts/generate-research-progress.mjs",
+    "research:batch11": "node scripts/generate-phase2-batch-11.mjs && node scripts/generate-research-progress.mjs",
+    "research:expand-batch": "node scripts/expand-phase2-batch.mjs",
+    "audit": "node scripts/audit-events.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "framer-motion": "latest",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "recharts": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "playwright-core": "^1.62.1",
+    "typescript": "latest",
+    "vite": "6.4.3"
+  }
+}

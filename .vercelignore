@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.git/
+.vercel/
+*.tsbuildinfo
+*.docx
+PHASE2_REPORT.md
+PHASE3_REPORT.md
+scripts/

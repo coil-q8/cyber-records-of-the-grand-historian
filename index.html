@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b0d0d" />
+    <meta name="description" content="《赛博史记》：2016—2026 中国互联网公共事件数字档案。记录、核验、记忆。" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>赛博史记｜2016—2026 数字公共记忆档案</title>
+  </head>
+  <body>
+    <script>
+      try {
+        var savedTheme = localStorage.getItem('cyber-shiji-theme');
+        document.documentElement.dataset.theme = savedTheme === 'light' ? 'light' : 'dark';
+        document.documentElement.style.colorScheme = document.documentElement.dataset.theme;
+      } catch (error) {
+        document.documentElement.dataset.theme = 'dark';
+      }
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/app/main.tsx"></script>
+  </body>
+</html>

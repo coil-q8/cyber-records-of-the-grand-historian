@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="4" fill="#0b0d0d"/>
+  <rect x="9" y="9" width="46" height="46" fill="none" stroke="#bd9b5c" stroke-width="2"/>
+  <rect x="14" y="14" width="36" height="36" fill="none" stroke="#8e7444" stroke-width="1"/>
+  <text x="32" y="43" text-anchor="middle" font-size="31" font-family="serif" fill="#e9e2d4">史</text>
+</svg>
