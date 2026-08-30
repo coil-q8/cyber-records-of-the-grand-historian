@@ -1,0 +1,27 @@
+name: Public deployment smoke test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Verify public Cloudflare deployment
+        env:
+          CYBER_ARCHIVE_URL: https://cyber-records-of-the-grand-historian.cyber-records-of-the-grand-historian.workers.dev
+          CYBER_BROWSER_PATH: /usr/bin/google-chrome
+        run: npm run test:deployment
