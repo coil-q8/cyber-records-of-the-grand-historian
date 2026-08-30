@@ -6,9 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "deploy": "npm run build && wrangler deploy",
     "preview": "vite preview",
+    "preview:cloudflare": "npm run build && wrangler dev",
     "check": "tsc -b",
     "test:smoke": "node scripts/smoke-test.mjs",
+    "test:deployment": "node scripts/deployment-smoke.mjs",
     "research:progress": "node scripts/generate-research-progress.mjs",
     "research:batch02": "node scripts/generate-phase2-batch-02.mjs && node scripts/generate-research-progress.mjs",
     "research:batch03": "node scripts/generate-phase2-batch-03.mjs && node scripts/generate-research-progress.mjs",
@@ -37,6 +40,7 @@
     "@types/react-dom": "latest",
     "playwright-core": "^1.62.1",
     "typescript": "latest",
-    "vite": "6.4.3"
+    "vite": "6.4.3",
+    "wrangler": "4.127.1"
   }
 }
