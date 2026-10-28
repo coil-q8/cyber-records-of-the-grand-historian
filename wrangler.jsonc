@@ -1,9 +1,15 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "cyber-records-of-the-grand-historian",
+  "main": "worker/index.ts",
   "compatibility_date": "2026-08-30",
+  "compatibility_flags": ["nodejs_compat"],
+  "vars": {"PUBLIC_ORIGIN": "https://cyber-records-of-the-grand-historian.cyber-records-of-the-grand-historian.workers.dev"},
+  "d1_databases": [{"binding": "DB", "database_name": "cyber-records-community", "database_id": "235474b2-40f4-42b9-a54d-671a9b6ccdad", "migrations_dir": "migrations"}],
   "assets": {
     "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api", "/api/*"],
     "not_found_handling": "single-page-application"
   }
 }

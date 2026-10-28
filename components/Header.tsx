@@ -1,4 +1,4 @@
-import { Bookmark, Dices, Menu, Search, X } from 'lucide-react'
+import { Bookmark, Dices, Menu, Search, UserRound, X } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { NavLink, useLocation, useNavigate } from 'react-router-dom'
 import { getRandomEvent } from '../lib/events'
@@ -15,6 +15,7 @@ const navItems = [
   ['索引', '/archive'],
   ['续编', '/updates'],
   ['对读', '/compare'],
+  ['共撰', '/community'],
   ['关于', '/about'],
 ] as const
 
@@ -50,6 +51,7 @@ export function Header() {
           <div className="header-actions">
             <button type="button" onClick={() => navigate(`/event/${getRandomEvent().id}`)} aria-label="随机翻史"><Dices size={18} /></button>
             <NavLink to="/favorites" aria-label="我的私档"><Bookmark size={18} /></NavLink>
+            <NavLink to="/account" aria-label="我的账号" title="登录、撰稿与审核"><UserRound size={18} /></NavLink>
             <ThemeToggle />
             <button className="header-search" type="button" onClick={() => setSearchOpen(true)}><Search size={18} /><span>检索</span><kbd>/</kbd></button>
             <button className="menu-toggle" type="button" onClick={() => setMenuOpen(!menuOpen)} aria-label={menuOpen ? '关闭菜单' : '打开菜单'}>{menuOpen ? <X /> : <Menu />}</button>
@@ -60,6 +62,7 @@ export function Header() {
         <nav className="mobile-nav" aria-label="移动端导航">
           {navItems.map(([label, href]) => <NavLink key={href} to={href}>{label}<span>↗</span></NavLink>)}
           <NavLink to="/favorites">我的私档<span>↗</span></NavLink>
+          <NavLink to="/account">账号与投稿<span>↗</span></NavLink>
         </nav>
       )}
       <SearchDialog open={searchOpen} onClose={() => setSearchOpen(false)} />

@@ -6,11 +6,16 @@
   "scripts": {
     "dev": "vite",
     "prebuild": "npm run research:progress",
-    "build": "tsc -b && vite build",
-    "deploy": "npm run build && wrangler deploy",
+    "build": "tsc -b && tsc -p tsconfig.worker.json && vite build",
+    "deploy": "npm run build && wrangler d1 migrations apply DB --remote && wrangler deploy",
     "preview": "vite preview",
     "preview:cloudflare": "npm run build && wrangler dev",
-    "check": "tsc -b",
+    "check": "tsc -b && tsc -p tsconfig.worker.json",
+    "dev:api": "wrangler dev --port 8787",
+    "db:local": "wrangler d1 migrations apply DB --local",
+    "db:migrate": "wrangler d1 migrations apply DB --remote",
+    "admin:setup": "node scripts/prepare-admin-setup.mjs",
+    "test:community": "node scripts/community-smoke.mjs",
     "test:smoke": "node scripts/smoke-test.mjs",
     "test:deployment": "node scripts/deployment-smoke.mjs",
     "research:progress": "node scripts/generate-research-progress.mjs",
@@ -38,6 +43,8 @@
     "recharts": "latest"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261028.1",
+    "@types/node": "^26.6.5",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "playwright-core": "^1.62.1",

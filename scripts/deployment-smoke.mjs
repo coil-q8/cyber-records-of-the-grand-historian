@@ -16,6 +16,12 @@ const routes = [
   '/about',
   '/updates',
   '/compare',
+  '/community',
+  '/account',
+  '/account?mode=register',
+  '/write',
+  '/admin',
+  '/admin/setup',
   '/compare?left=cyber-2026-eq-047&right=cyber-2026-yc-033',
   '/event/cyber-2016-eq-002',
 ]
@@ -30,6 +36,11 @@ assert.equal(homeResponse.status, 200, '首页 HTTP 状态不是 200')
 assert.match(homeResponse.headers.get('content-type') ?? '', /text\/html/i)
 const homeHtml = await homeResponse.text()
 assert.match(homeHtml, /<div id="root"><\/div>/)
+const health = await fetch(`${baseUrl}/api/health`)
+assert.equal(health.status, 200, '账号与投稿数据库未就绪')
+assert.equal((await health.json()).ok, true)
+const anonymousSession = await fetch(`${baseUrl}/api/auth/session`)
+assert.equal((await anonymousSession.json()).user, null, '匿名访问不应取得账号')
 
 for (const route of routes) {
   const response = await fetch(`${baseUrl}${route}`, { headers: { 'Sec-Fetch-Mode': 'navigate' } })

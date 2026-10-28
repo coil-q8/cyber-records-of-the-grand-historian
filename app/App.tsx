@@ -2,6 +2,7 @@ import { lazy, Suspense } from 'react'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import { Layout } from '../components/Layout'
 import { HomePage } from './pages/HomePage'
+import { AccountProvider } from '../lib/account'
 
 const AboutPage = lazy(() => import('./pages/AboutPage').then((module) => ({ default: module.AboutPage })))
 const ArchivePage = lazy(() => import('./pages/ArchivePage').then((module) => ({ default: module.ArchivePage })))
@@ -17,7 +18,25 @@ const VolumesPage = lazy(() => import('./pages/VolumesPage').then((module) => ({
 const YearPage = lazy(() => import('./pages/YearPage').then((module) => ({ default: module.YearPage })))
 const UpdatesPage = lazy(() => import('./pages/UpdatesPage').then((module) => ({ default: module.UpdatesPage })))
 const ComparePage = lazy(() => import('./pages/ComparePage').then((module) => ({ default: module.ComparePage })))
+const AccountPage = lazy(() => import('./pages/AccountPage').then((module) => ({ default: module.AccountPage })))
+const CommunityPage = lazy(() => import('./pages/CommunityPage').then((module) => ({ default: module.CommunityPage })))
+const CommunityArticlePage = lazy(() => import('./pages/CommunityPage').then((module) => ({ default: module.CommunityArticlePage })))
+const WritePage = lazy(() => import('./pages/WritePage').then((module) => ({ default: module.WritePage })))
+const AdminPage = lazy(() => import('./pages/AdminPage').then((module) => ({ default: module.AdminPage })))
+const AdminReviewPage = lazy(() => import('./pages/AdminPage').then((module) => ({ default: module.AdminReviewPage })))
 
 export function App() {
-  return <BrowserRouter><Suspense fallback={<div className="archive-loading"><span>检索卷宗……</span><i /></div>}><Routes><Route element={<Layout />}><Route index element={<HomePage />} /><Route path="volumes" element={<VolumesPage />} /><Route path="volume/:category" element={<VolumePage />} /><Route path="timeline" element={<TimelinePage />} /><Route path="year/:year" element={<YearPage />} /><Route path="archive" element={<ArchivePage />} /><Route path="event/:id" element={<EventPage />} /><Route path="insights" element={<InsightsPage />} /><Route path="statistics" element={<StatisticsPage />} /><Route path="graph" element={<GraphPage />} /><Route path="favorites" element={<FavoritesPage />} /><Route path="about" element={<AboutPage />} /><Route path="updates" element={<UpdatesPage />} /><Route path="compare" element={<ComparePage />} /><Route path="404" element={<NotFoundPage />} /><Route path="*" element={<Navigate to="/404" replace />} /></Route></Routes></Suspense></BrowserRouter>
+  return <AccountProvider><BrowserRouter><Suspense fallback={<div className="archive-loading"><span>检索卷宗……</span><i /></div>}><Routes><Route element={<Layout />}>
+    <Route index element={<HomePage />} />
+    <Route path="volumes" element={<VolumesPage />} /><Route path="volume/:category" element={<VolumePage />} />
+    <Route path="timeline" element={<TimelinePage />} /><Route path="year/:year" element={<YearPage />} />
+    <Route path="archive" element={<ArchivePage />} /><Route path="event/:id" element={<EventPage />} />
+    <Route path="insights" element={<InsightsPage />} /><Route path="statistics" element={<StatisticsPage />} />
+    <Route path="graph" element={<GraphPage />} /><Route path="favorites" element={<FavoritesPage />} />
+    <Route path="about" element={<AboutPage />} /><Route path="updates" element={<UpdatesPage />} /><Route path="compare" element={<ComparePage />} />
+    <Route path="community" element={<CommunityPage />} /><Route path="community/:id" element={<CommunityArticlePage />} />
+    <Route path="account" element={<AccountPage />} /><Route path="write" element={<WritePage />} /><Route path="write/:id" element={<WritePage />} />
+    <Route path="admin/setup" element={<AccountPage setup />} /><Route path="admin" element={<AdminPage />} /><Route path="admin/review/:id" element={<AdminReviewPage />} />
+    <Route path="404" element={<NotFoundPage />} /><Route path="*" element={<Navigate to="/404" replace />} />
+  </Route></Routes></Suspense></BrowserRouter></AccountProvider>
 }

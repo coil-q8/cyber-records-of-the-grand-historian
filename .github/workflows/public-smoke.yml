@@ -2,6 +2,11 @@ name: Public deployment smoke test
 
 on:
   workflow_dispatch:
+    inputs:
+      community:
+        description: 'Run temporary-account contribution and moderation tests'
+        type: boolean
+        default: false
 
 jobs:
   smoke:
@@ -25,3 +30,12 @@ jobs:
           CYBER_ARCHIVE_URL: https://cyber-records-of-the-grand-historian.cyber-records-of-the-grand-historian.workers.dev
           CYBER_BROWSER_PATH: /usr/bin/google-chrome
         run: npm run test:deployment
+
+      - name: Verify account and editorial workflow
+        if: ${{ inputs.community }}
+        env:
+          CYBER_ARCHIVE_URL: https://cyber-records-of-the-grand-historian.cyber-records-of-the-grand-historian.workers.dev
+          CYBER_BROWSER_PATH: /usr/bin/google-chrome
+          CYBER_TEST_ADMIN_USERNAME: ${{ secrets.CYBER_TEST_ADMIN_USERNAME }}
+          CYBER_TEST_ADMIN_PASSWORD: ${{ secrets.CYBER_TEST_ADMIN_PASSWORD }}
+        run: npm run test:community
