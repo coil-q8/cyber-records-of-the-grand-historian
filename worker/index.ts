@@ -1,5 +1,6 @@
 import { randomBytes, scrypt, timingSafeEqual, createHash } from 'node:crypto'
 import type { Account, ArticleInput, SessionInfo, SubmissionStatus } from '../types/community'
+import { PASSWORD_MIN_LENGTH, PASSWORD_MAX_LENGTH } from '../types/community'
 
 interface Env { DB: D1Database; ASSETS: Fetcher; PUBLIC_ORIGIN: string }
 interface UserRow { id: string; username: string; display_name: string; role: 'member' | 'admin'; password_hash: string; recovery_hash: string; disabled: number }
@@ -68,7 +69,7 @@ function username(value: unknown) {
   return name
 }
 function password(value: unknown) {
-  if (typeof value !== 'string' || value.length < 12 || value.length > 128) fail(400, '密码需要12—128个字符，建议使用较长且独立的口令。')
+  if (typeof value !== 'string' || value.length < PASSWORD_MIN_LENGTH || value.length > PASSWORD_MAX_LENGTH) fail(400, `密码需要${PASSWORD_MIN_LENGTH}—${PASSWORD_MAX_LENGTH}个字符。`)
   return value
 }
 async function derive(value: string, salt: string) {

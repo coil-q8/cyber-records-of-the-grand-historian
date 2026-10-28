@@ -1,4 +1,6 @@
 export type SubmissionStatus = 'draft' | 'pending' | 'approved' | 'rejected'
+export const PASSWORD_MIN_LENGTH = 8
+export const PASSWORD_MAX_LENGTH = 128
 export interface Account { id: string; username: string; displayName: string; role: 'member' | 'admin' }
 export interface SessionInfo { user: Account | null; csrfToken: string | null }
 export interface ArticleSource { title: string; url: string }

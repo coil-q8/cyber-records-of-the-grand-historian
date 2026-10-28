@@ -16,6 +16,7 @@
     "db:migrate": "wrangler d1 migrations apply DB --remote",
     "admin:setup": "node scripts/prepare-admin-setup.mjs",
     "test:community": "node scripts/community-smoke.mjs",
+    "test:password-policy": "node scripts/password-policy-smoke.mjs",
     "test:smoke": "node scripts/smoke-test.mjs",
     "test:deployment": "node scripts/deployment-smoke.mjs",
     "research:progress": "node scripts/generate-research-progress.mjs",

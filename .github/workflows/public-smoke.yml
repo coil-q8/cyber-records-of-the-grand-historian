@@ -7,6 +7,10 @@ on:
         description: 'Run temporary-account contribution and moderation tests'
         type: boolean
         default: false
+      password_policy:
+        description: 'Verify 8-character password boundaries with a temporary member account'
+        type: boolean
+        default: false
 
 jobs:
   smoke:
@@ -30,6 +34,13 @@ jobs:
           CYBER_ARCHIVE_URL: https://cyber-records-of-the-grand-historian.cyber-records-of-the-grand-historian.workers.dev
           CYBER_BROWSER_PATH: /usr/bin/google-chrome
         run: npm run test:deployment
+
+      - name: Verify password length boundaries
+        if: ${{ inputs.password_policy }}
+        env:
+          CYBER_ARCHIVE_URL: https://cyber-records-of-the-grand-historian.cyber-records-of-the-grand-historian.workers.dev
+          CYBER_BROWSER_PATH: /usr/bin/google-chrome
+        run: npm run test:password-policy
 
       - name: Verify account and editorial workflow
         if: ${{ inputs.community }}
