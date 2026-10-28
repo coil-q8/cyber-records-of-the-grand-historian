@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import { ArrowDown, ArrowRight, Search } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { categories } from '../../data/categories'
-import { events, getEventsByCategory } from '../../lib/events'
+import { archiveMeta, events, getEventsByCategory, latestAdditions } from '../../lib/events'
 import { EventCard } from '../../components/EventCard'
 import { RandomHistoryButton } from '../../components/RandomHistoryButton'
 import { SectionHeading } from '../../components/SectionHeading'
@@ -28,7 +28,7 @@ export function HomePage() {
         <div className="home-hero__year-stream" aria-hidden="true"><span>2016</span><span>2020</span><span>2026</span></div>
         <div className="home-hero__inner page-shell">
           <motion.div className="home-hero__kicker" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.8 }}>
-            <span>CYBER SHIJI ARCHIVE</span><span>卷宗 0001—0142</span><span>资料截止 2026.08.15</span>
+            <span>CYBER SHIJI ARCHIVE</span><span>卷宗 0001—{String(events.length).padStart(4, '0')}</span><Link to="/updates">续编检索至 {archiveMeta.researchCutoff.replaceAll('-', '.')}</Link>
           </motion.div>
           <motion.div className="home-hero__title" initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.72, delay: 0.08 }}>
             <div className="hero-seal" aria-hidden="true">记</div>
@@ -49,6 +49,8 @@ export function HomePage() {
       </section>
 
       <section className="principle-strip"><nav className="chronicle-index page-shell" aria-label="史记体卷目"><Link to="/timeline"><strong>本纪</strong><span>十年主线</span></Link><Link to="/volumes"><strong>世家</strong><span>五卷门类</span></Link><Link to="/archive"><strong>列传</strong><span>人物与个案</span></Link><Link to="/statistics"><strong>表</strong><span>年代与分布</span></Link><Link to="/insights"><strong>书</strong><span>机制与制度</span></Link><Link to="/archive"><strong>索隐</strong><span>检索与互见</span></Link></nav></section>
+
+      <section className="section page-shell home-continuations"><SectionHeading eyebrow="NEW LEAVES / 续编" title="热搜之后，仍记下文" description={`本轮新增 ${latestAdditions.length} 篇，检索截至 ${archiveMeta.researchCutoff}。旧稿未在本轮全量复核，材料缺口仍明列。`} aside={<Link className="text-link" to="/updates">查看续编 <ArrowRight size={15} /></Link>} /><div className="event-grid">{latestAdditions.slice(0, 3).map((event, index) => <EventCard key={event.id} event={event} index={index} />)}</div></section>
 
       <section className="section page-shell" id="volumes">
         <SectionHeading eyebrow="THE FIVE VOLUMES / 五卷" title="五卷分纪，照见十年" description="文学分部不是法律罪名。每一卷保存一种反复出现的公共机制。" aside={<Link className="text-link" to="/volumes">查看卷目 <ArrowRight size={15} /></Link>} />
@@ -85,7 +87,7 @@ export function HomePage() {
           <span className="eyebrow">今日旧闻 / ON THIS ARCHIVE DAY</span>
           <div className="today-record__body"><div><span className="today-record__date">{String(new Date().getMonth() + 1).padStart(2, '0')}.{String(new Date().getDate()).padStart(2, '0')}</span><small>原稿多数条目未载月日，故按今日序号轮值一则旧闻，不虚构纪念日。</small></div><div><span>{todayEvent.year} · {todayEvent.category}</span><h2>{todayEvent.title}</h2><p>{todayEvent.summary}</p><Link className="text-link" to={`/event/${todayEvent.id}`}>进入档案 <ArrowRight size={15} /></Link></div></div>
         </div>
-        <div className="random-panel"><span className="random-panel__seal">鉴</span><span className="eyebrow">RANDOM ARCHIVE</span><h2>不知道从何读起？</h2><p>让档案随机打开。每次选择都从 142 条真实数据中产生。</p><RandomHistoryButton /></div>
+        <div className="random-panel"><span className="random-panel__seal">鉴</span><span className="eyebrow">RANDOM ARCHIVE</span><h2>不知道从何读起？</h2><p>让档案随机打开。每次选择都从 {events.length} 篇收录档案中产生。</p><RandomHistoryButton /></div>
       </section>
 
       <section className="section page-shell home-insight">

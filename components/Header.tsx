@@ -13,6 +13,8 @@ const navItems = [
   ['表', '/statistics'],
   ['书', '/insights'],
   ['索引', '/archive'],
+  ['续编', '/updates'],
+  ['对读', '/compare'],
   ['关于', '/about'],
 ] as const
 

@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prebuild": "npm run research:progress",
     "build": "tsc -b && vite build",
     "deploy": "npm run build && wrangler deploy",
     "preview": "vite preview",
@@ -24,6 +25,7 @@
     "research:batch10": "node scripts/generate-phase2-batch-10.mjs && node scripts/generate-research-progress.mjs",
     "research:batch11": "node scripts/generate-phase2-batch-11.mjs && node scripts/generate-research-progress.mjs",
     "research:expand-batch": "node scripts/expand-phase2-batch.mjs",
+    "preaudit": "npm run research:progress",
     "audit": "node scripts/audit-events.mjs"
   },
   "dependencies": {
@@ -40,7 +42,7 @@
     "@types/react-dom": "latest",
     "playwright-core": "^1.62.1",
     "typescript": "latest",
-    "vite": "6.4.3",
-    "wrangler": "4.127.1"
+    "vite": "6.4.5",
+    "wrangler": "4.154.0"
   }
 }

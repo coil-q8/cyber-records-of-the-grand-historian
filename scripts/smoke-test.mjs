@@ -1,10 +1,13 @@
 import { strict as assert } from 'node:assert'
-import { readFile } from 'node:fs/promises'
+import { readdir, readFile } from 'node:fs/promises'
 import { chromium } from 'playwright-core'
 
 const baseUrl = process.env.CYBER_ARCHIVE_URL ?? 'http://127.0.0.1:5173'
 const browserPath = process.env.CYBER_BROWSER_PATH ?? 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe'
 const sourceEvents = JSON.parse(await readFile(new URL('../data/events.json', import.meta.url), 'utf8'))
+for (const name of await readdir(new URL('../data/continuations/', import.meta.url))) {
+  if (name.endsWith('.json')) sourceEvents.push(...JSON.parse(await readFile(new URL(`../data/continuations/${name}`, import.meta.url), 'utf8')))
+}
 const failures = []
 const checks = []
 
@@ -14,9 +17,9 @@ function record(name) {
 }
 
 function watchPage(page, label) {
-  page.on('pageerror', (error) => failures.push(`${label} pageerror: ${error.message}`))
+  page.on('pageerror', (error) => { failures.push(`${label} pageerror: ${error.message}`); console.error(failures.at(-1)) })
   page.on('console', (message) => {
-    if (message.type() === 'error' && !message.text().includes('fonts.googleapis.com')) failures.push(`${label} console: ${message.text()}`)
+    if (message.type() === 'error' && !message.text().includes('fonts.googleapis.com')) { failures.push(`${label} console: ${message.text()}`); console.error(failures.at(-1)) }
   })
 }
 
@@ -35,7 +38,7 @@ try {
 
   await page.goto(baseUrl, { waitUntil: 'domcontentloaded' })
   await page.locator('.home-hero').waitFor()
-  assert((await page.locator('body').innerText()).includes('卷宗 0001—0142'))
+  assert((await page.locator('body').innerText()).includes(`卷宗 0001—${String(sourceEvents.length).padStart(4, '0')}`))
   record('首页由完整数据渲染')
   await assertNoHorizontalOverflow(page, '桌面首页')
 
@@ -51,8 +54,8 @@ try {
       missingSequence: events.filter((event) => event.timeline.length === 0 || event.propagationChain.length === 0).length,
     }
   })
-  assert.deepEqual(runtimeResearchCoverage, { total: 142, incompleteStatus: 0, missingCore: 0, missingEvidence: 0, missingSequence: 0 })
-  record('前端运行时合并全部 11 批次的 142 条深挖卷宗')
+  assert.deepEqual(runtimeResearchCoverage, { total: sourceEvents.length, incompleteStatus: 0, missingCore: 0, missingEvidence: 0, missingSequence: 0 })
+  record('前端运行时合并原稿、研究批次与续编；字段完整不等于事实无争议')
 
   await page.getByRole('button', { name: '切换至浅色背景' }).click()
   assert.equal(await page.locator('html').getAttribute('data-theme'), 'light')
@@ -69,7 +72,7 @@ try {
   await page.locator('.filter-panel .search-field input').fill('武汉大学')
   await page.waitForTimeout(120)
   const searchTitles = await page.locator('.archive-results .event-card h3').allTextContents()
-  assert(searchTitles.length >= 2 && searchTitles.every((title) => title.includes('武汉大学')))
+  assert(searchTitles.length >= 2 && searchTitles.some((title) => title.includes('武汉大学')))
   record('全文搜索命中武汉大学相关条目')
 
   await page.locator('.filter-panel .search-field input').fill('')

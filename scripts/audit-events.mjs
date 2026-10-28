@@ -3,7 +3,11 @@ import { readdir, readFile } from 'node:fs/promises'
 const dataDirectory = new URL('../data/', import.meta.url)
 const readJson = async (path) => JSON.parse(await readFile(new URL(path, dataDirectory), 'utf8'))
 
-const rawEvents = await readJson('events.json')
+const originalEvents = await readJson('events.json')
+const archiveMeta = await readJson('archive-meta.json')
+const continuationFiles = (await readdir(new URL('continuations/', dataDirectory))).filter((name) => name.endsWith('.json')).sort()
+const continuationEvents = (await Promise.all(continuationFiles.map((name) => readJson(`continuations/${name}`)))).flat()
+const rawEvents = [...originalEvents, ...continuationEvents]
 const progress = await readJson('research-progress.json')
 const batchFiles = (await readdir(dataDirectory))
   .filter((name) => /^phase2-batch-\d+\.json$/u.test(name))
@@ -24,6 +28,16 @@ for (const batchFile of batchFiles) {
     batchDataById[id] = details
     batchNameById[id] = batchFile
   }
+}
+for (const event of continuationEvents) {
+  if (batchDataById[event.id]) structuralErrors.push(`${event.id}: duplicated continuation/research data`)
+  batchDataById[event.id] = event
+  batchNameById[event.id] = 'continuations'
+  for (const field of ['firstRecordedAt', 'lastReviewedAt', 'updateNote']) {
+    if (!event[field]) structuralErrors.push(`${event.id}: continuation missing ${field}`)
+  }
+  if (event.lastReviewedAt > archiveMeta.researchCutoff) structuralErrors.push(`${event.id}: review date exceeds cutoff`)
+  if (event.date > archiveMeta.researchCutoff && /^\d{4}-\d{2}-\d{2}$/u.test(event.date)) structuralErrors.push(`${event.id}: event date exceeds cutoff`)
 }
 
 const rawById = new Map(rawEvents.map((event) => [event.id, event]))
@@ -65,6 +79,7 @@ const validSourceRoles = new Set([
 ])
 const validArchiveStatuses = new Set(['在线', '已删除', '已失效', '链接失效', '仅存截图', '仅存转载', '已有网页存档', '待补证'])
 const mediaSourceTypes = new Set(['新华社报道', '调查报道', '媒体报道', '门户转载', '自媒体'])
+const isRetrievableSource = (source) => Boolean(source.url) && !['待补证', '已失效', '链接失效', '已删除'].includes(source.archiveStatus)
 
 const ids = new Set()
 for (const event of rawEvents) {
@@ -144,6 +159,7 @@ for (const event of merged) {
 
   const sourceIds = new Set()
   const ranks = new Set()
+  const usableRanks = new Set()
   for (const source of event.sources) {
     if (!source.id || sourceIds.has(source.id)) structuralErrors.push(`${event.id}: invalid/duplicate source id ${source.id}`)
     sourceIds.add(source.id)
@@ -156,6 +172,7 @@ for (const event of merged) {
       structuralErrors.push(`${event.id}/${source.id}: invalid sourceRank ${source.sourceRank}`)
     } else {
       ranks.add(source.sourceRank)
+      if (isRetrievableSource(source)) usableRanks.add(source.sourceRank)
       sourceRankCounts[source.sourceRank]++
     }
     if (!validSourceTypes.has(source.sourceType)) structuralErrors.push(`${event.id}/${source.id}: invalid sourceType ${source.sourceType}`)
@@ -167,10 +184,13 @@ for (const event of merged) {
     } else {
       try { new URL(source.url) } catch { structuralErrors.push(`${event.id}/${source.id}: invalid URL ${source.url}`) }
     }
+    if (source.archiveStatus === '待补证' && source.url) qualityWarnings.push(`${event.id}/${source.id}: URL exists but full source is still pending verification`)
+    if (source.checkedAt && source.checkedAt > archiveMeta.researchCutoff) structuralErrors.push(`${event.id}/${source.id}: checkedAt exceeds cutoff`)
+    if (/^\d{4}-\d{2}-\d{2}$/u.test(source.date) && source.date > archiveMeta.researchCutoff) structuralErrors.push(`${event.id}/${source.id}: source published after cutoff`)
   }
   for (const rank of ranks) rankEventCounts[rank]++
-  if (!ranks.has(1)) lacksRank1Count++
-  if (!ranks.has(2)) lacksRank2Count++
+  if (!usableRanks.has(1)) lacksRank1Count++
+  if (!usableRanks.has(2)) lacksRank2Count++
   if (event.sources.every((source) => mediaSourceTypes.has(source.sourceType))) mediaOnlyCount++
 
   const citationLists = [
@@ -225,10 +245,10 @@ for (const event of researchedEvents) {
   for (const field of requiredArrays) {
     if (!Array.isArray(event[field])) qualityWarnings.push(`${event.id}: 已研究条目缺少 ${field} 数组`)
   }
-  if (!event.sources.some((source) => source.sourceRank === 1)) {
+  if (!event.sources.some((source) => source.sourceRank === 1 && isRetrievableSource(source))) {
     qualityWarnings.push(`${event.id}: 已研究条目缺第一等史料`)
   }
-  if (!event.sources.some((source) => source.sourceRank === 2)) {
+  if (!event.sources.some((source) => source.sourceRank === 2 && isRetrievableSource(source))) {
     qualityWarnings.push(`${event.id}: 已研究条目缺第二等互联网史料`)
   }
 }
@@ -306,7 +326,8 @@ if (mediaOnlyCount) qualityWarnings.push(`${mediaOnlyCount} 条事件只有媒�
 console.log('\n《赛博史记》第三阶段全库审计')
 console.log('='.repeat(64))
 console.log(`批次文件: ${batchFiles.length ? batchFiles.join(', ') : '无'}`)
-console.log(`总事件数: ${merged.length}`)
+console.log(`总篇目数: ${merged.length}（原稿 ${originalEvents.length} / 续编 ${continuationEvents.length}）`)
+console.log(`本轮检索截止: ${archiveMeta.researchCutoff}；不代表旧稿已全部重新复核`)
 console.log(`五卷数量: ${Object.entries(categoryCounts).map(([key, value]) => `${key} ${value}`).join(' / ')}`)
 console.log(`已研究事件: ${researchedEvents.length}`)
 console.log(`researched: ${statusCounts.researched}`)
@@ -333,6 +354,7 @@ console.log(`证据/时间线结构缺失合计: ${missingEvidenceFieldTotal}`)
 
 console.log('\n5. 缺第一等史料数量')
 console.log(`数量: ${lacksRank1Count}`)
+console.log('口径：无URL、已失效或标记待补证的来源不计为可回溯覆盖。')
 
 console.log('\n6. 缺第二等史料数量')
 console.log(`数量: ${lacksRank2Count}`)
@@ -361,7 +383,7 @@ console.log(`缺核验元数据的逐字原话: ${incompleteOriginalCommentCount
 
 console.log('\n审校结论')
 if (contentReviewComplete) {
-  console.log('全库内容审校：通过。142 条均已进入实质研究且核心字段完整。')
+  console.log(`全库内容审校：通过。${merged.length} 条均已进入实质研究且核心字段完整。`)
 } else {
   console.log('全库内容审校：未通过／尚未完成。')
   console.log(`原因: untouched=${untouchedCount}, researching=${researchingCount}, needs-review=${statusCounts['needs-review']}, disputed=${statusCounts.disputed}, 缺第一等史料=${lacksRank1Count}, 缺第二等史料=${lacksRank2Count}, 核心正文缺失=${missingCoreFieldTotal}, 结构错误=${structuralErrors.length}`)

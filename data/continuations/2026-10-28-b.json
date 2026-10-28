@@ -1,0 +1,771 @@
+[
+  {
+    "id": "cyber-2026-yc-033",
+    "archiveCode": "CYBER-2026-146",
+    "title": "“明厨亮灶”镜头跑偏与外卖监督失真",
+    "year": 2026,
+    "date": "2026-10-04",
+    "category": "庸策",
+    "severity": "B",
+    "evidenceLevel": "多方证实",
+    "evidenceBasis": "央视原始调查、南华县监管排查工作原件及跟进报道",
+    "status": "多地核查处置，最终处罚及整改效果待续考",
+    "subjectType": "企业/平台",
+    "subjects": [
+      "涉事网络餐饮商户",
+      "网络餐饮平台"
+    ],
+    "tags": [
+      "食品安全",
+      "平台责任",
+      "外卖",
+      "监管可视化"
+    ],
+    "featured": false,
+    "researchStatus": "needs-review",
+    "firstRecordedAt": "2026-10-28",
+    "lastReviewedAt": "2026-10-28",
+    "updateNote": "补入10月调查、地方监管排查原件与跟进；区分接入摄像头、有效监督和最终结案。",
+    "summary": "2026年10月4日，《每周质量报告》调查了部分外卖商户的“明厨亮灶”展示：摄像头朝向地面、墙角等位置，未覆盖关键加工环节，而现场仍有卫生问题。随后报道记载，市场监管总局部署相关地方开展核查。事件暴露的不是缺少一个摄像头，而是页面上的“可看见”能否代表加工过程真正受监督。",
+    "initialNarrative": "顾客面对陌生商家时，往往把后厨画面、平台巡检标识当成额外保证。但摄像头是否在线，与画面是否覆盖切配、烹饪和洗消，是不同问题。一个空镜头也可以持续传送真实画面，却不提供消费者需要的信息。\n\n原始调查把线上页面与线下经营现场放在一起核对，使监督失效有了具体场景。本篇收录这种形式化透明，并不把记者走访样本推算成全国门店比例。",
+    "publicQuestion": "平台所说的巡检检查了什么，发现镜头偏移后如何整改？谁确认展示画面确实属于对应店铺、覆盖关键加工区域，而不是仅确认摄像头接入成功？",
+    "mediaRole": "原节目是调查报道，不因播出机构身份自动列为第一等史料。后续报道用于记录监管介入，尚未补齐各地最终处罚原件；社区对该话题的讨论也不能证明所有门店存在相同行为。",
+    "investigation": "央视次日跟进报道确认，监管部门已针对镜头偏移、关键区域未入镜等问题部署核查。其他跟进报道记录了武汉商户立案调查、丽江有关门店停业整顿等处置进展，但这些阶段性行动不等于最终处罚决定。\n\n截至本轮检索，本条仍缺全部涉事商户的最终处理原件及整改后复查记录。对网络文章扩展出的全国性比例或“所有直播均为录像”等说法，不在本篇已证实范围；调查镜头拍到的卫生问题，也不能代替具体食品批次的检测结论。\n\n10月8日南华县政府网站公开当地市场监管部门对节目所涉共性问题开展专项排查，明确检查镜头偏移、虚假公示和平台巡查等环节。它提供了可回溯的地方监管响应记录，但南华县并非原节目所有曝光商户的所在地，工作通报也不能替代其他地方的最终处罚和整改验收。",
+    "finalConclusion": "部分商户展示画面未覆盖关键后厨区域及其引发的监管核查，有原始节目与跟进报道支持。原件和复查结果仍待补足，保持待复核，不把行政调查阶段写成案件已经全部办结。",
+    "historicalMeaning": "数字化监督可能只增加一个标志，而没有增加可验证的信息。",
+    "historianNote": "透明需要让关键过程进入视线。倘若只考核有没有摄像头，不考核它照向哪里，技术便可能成为形式主义的新装饰。",
+    "verifiedFacts": [
+      "2026年10月4日原始节目展示部分餐饮商户摄像头偏移与后厨卫生问题。",
+      "央视10月5日跟进报道记载总局部署地方核查处置。"
+    ],
+    "disputedClaims": [],
+    "debunkedClaims": [],
+    "unresolvedQuestions": [
+      "各地涉事主体最终处罚与整改复查记录。",
+      "平台巡检规则、违规处理和展示区域校验如何执行。"
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-04",
+        "title": "原始调查播出",
+        "description": "将线上后厨展示与实地环境对照。",
+        "sourceIds": [
+          "kitchen-program"
+        ]
+      },
+      {
+        "date": "2026-10-05",
+        "title": "跟进核查部署",
+        "description": "报道记载相关地方监管部门开展核查。",
+        "sourceIds": [
+          "kitchen-followup"
+        ]
+      },
+      {
+        "date": "2026-10-08",
+        "title": "地方监管公开排查工作",
+        "description": "南华县政府网站公开专项排查安排；这是地方响应记录，不是全部曝光商户的结案文书。",
+        "sourceIds": [
+          "kitchen-nanhua"
+        ]
+      }
+    ],
+    "propagationChain": [
+      {
+        "stage": "承诺",
+        "title": "页面展示监督标志",
+        "description": "摄像头接入形成消费者可见的信任信号。",
+        "sourceIds": [
+          "kitchen-program"
+        ]
+      },
+      {
+        "stage": "核对",
+        "title": "镜头与关键区域错开",
+        "description": "实地调查揭示形式上的可视化与有效监督存在距离。",
+        "sourceIds": [
+          "kitchen-program"
+        ]
+      },
+      {
+        "stage": "续考",
+        "title": "核查后还需复查",
+        "description": "把行政行动与长期运行效果分别记录。",
+        "sourceIds": [
+          "kitchen-followup"
+        ]
+      }
+    ],
+    "publicComments": [],
+    "sectionSources": {
+      "summary": [
+        "kitchen-program",
+        "kitchen-followup"
+      ],
+      "investigation": [
+        "kitchen-program",
+        "kitchen-followup",
+        "kitchen-local",
+        "kitchen-nanhua"
+      ],
+      "finalConclusion": [
+        "kitchen-program",
+        "kitchen-followup"
+      ]
+    },
+    "sources": [
+      {
+        "id": "kitchen-program",
+        "title": "《每周质量报告》20261004：“跑偏”的明厨亮灶",
+        "institution": "央视网／每周质量报告",
+        "date": "2026-10-04",
+        "url": "https://tv.cctv.com/2026/10/04/VIDEkHyrWFXqSNhe213DGL2l261004.shtml",
+        "sourceRank": 4,
+        "sourceType": "调查报道",
+        "sourceRole": "事实依据",
+        "archiveStatus": "在线",
+        "checkedAt": "2026-10-28",
+        "note": "原始调查节目及简介；样本不得外推全国。"
+      },
+      {
+        "id": "kitchen-followup",
+        "title": "市场监管部门将持续规范实施“明厨亮灶”",
+        "institution": "央视网",
+        "date": "2026-10-05",
+        "url": "https://news.cctv.com/2026/10/05/ARTIR4mTUZodlZLl8jwHp5Rf261005.shtml",
+        "sourceRank": 4,
+        "sourceType": "媒体报道",
+        "sourceRole": "调查过程",
+        "archiveStatus": "在线",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "id": "kitchen-local",
+        "title": "总台曝光外卖明厨亮灶问题后多地核查处置",
+        "institution": "央视新闻／澎湃新闻保存",
+        "date": "2026-10-04",
+        "url": "https://m.thepaper.cn/newsDetail_forward_34199004",
+        "sourceRank": 5,
+        "sourceType": "门户转载",
+        "sourceRole": "调查过程",
+        "archiveStatus": "仅存转载",
+        "checkedAt": "2026-10-28",
+        "note": "记录地方处置的报道存本；不是各地处罚决定书。"
+      },
+      {
+        "id": "kitchen-nanhua",
+        "title": "南华县市场监管局对跑偏明厨亮灶问题开展专项排查整治",
+        "institution": "南华县人民政府／县市场监督管理局",
+        "date": "2026-10-08",
+        "url": "https://www.ynnh.gov.cn/info/1041/406017.htm",
+        "sourceRank": 1,
+        "sourceType": "行政调查",
+        "sourceRole": "制度回应",
+        "archiveStatus": "在线",
+        "checkedAt": "2026-10-28",
+        "note": "地方监管机关原始工作记录；不能证明其他城市曝光门店已完成整改。"
+      }
+    ]
+  },
+  {
+    "id": "cyber-2026-jr-038",
+    "archiveCode": "CYBER-2026-147",
+    "title": "“盲人女孩被撞反遭斥责”虚假摆拍",
+    "year": 2026,
+    "date": "2026-05",
+    "category": "奸人",
+    "severity": "B",
+    "evidenceLevel": "官方调查",
+    "evidenceBasis": "公安部案例公开存本",
+    "status": "已采取刑事强制措施，终局裁判待核",
+    "subjectType": "自媒体/网红",
+    "subjects": [
+      "江某某",
+      "刘某"
+    ],
+    "tags": [
+      "摆拍造假",
+      "流量变现",
+      "弱势叙事",
+      "短视频"
+    ],
+    "featured": false,
+    "researchStatus": "needs-review",
+    "firstRecordedAt": "2026-10-28",
+    "lastReviewedAt": "2026-10-28",
+    "updateNote": "据9月公开案例补入；刑事强制措施与法院定罪分开表述。",
+    "summary": "公安部公布的网络违法犯罪典型案例记载，2026年5月，一段表现盲人女孩在盲道上被电动车撞击、反遭训斥的视频引发关注。北京警方核查认为，视频中的两人是共同运营账号的合作方，冲突经过虚假摆拍。公开材料记载两人已被采取刑事强制措施，并非已经获得生效有罪判决。",
+    "initialNarrative": "盲道被侵占、视障者通行困难，本就是值得重视的公共问题。摆拍视频把这种真实处境编入一场设计好的对立，通过受助者与冒犯者的反差，降低观众继续核实的意愿。\n\n当警情公布参与者实际存在合作关系时，改变的是视频所声称的遭遇真实性，而不是现实中无障碍通行问题的存在。本篇保留对造假行为的记录，同时避免把个案反转变成对所有求助者的不信任。",
+    "publicQuestion": "观看者能否从短片判断冲突是否真实？账号商业合作、出镜安排与剧情声明是否透明，平台如何避免把公众对弱势者的关心变成可重复出售的情绪素材？",
+    "mediaRole": "现存官方公开版本保存公安部案例内容，用于确认警方查明的合作关系和处置阶段；本轮没有取得原视频完整存本，不复原视频中每一句对白，也不根据媒体绰号补写普通人的身份信息。 本轮另打开社区原帖与两条评论永久链接，保存对信任损耗和无障碍通行的不同关切；评论不用于证明案情。",
+    "investigation": "官方案例将两名出镜者的合作关系、共同运营账号与虚构冲突联系起来，核心核验对象是视频叙事是否属于真实偶发事件。处置记载为刑事强制措施；这种措施属于侦查程序，不能写成法院已经认定全部犯罪事实。\n\n截至2026年10月28日，本轮未取得终局裁判、完整侦查卷宗或原账号收益数据。因此不填写获利金额、粉丝数量与具体刑期，也不对出镜者是否确有视力障碍作材料之外的推断。",
+    "finalConclusion": "警方公开案例支持该冲突视频属于合作摆拍，并记载相关人员进入刑事程序。公开材料的证明范围止于此；判决结果和账号收益仍待后续材料，不把侦查阶段的处置写成司法定案。",
+    "historicalMeaning": "真实的弱势处境可能被借用为虚构冲突的可信外壳。",
+    "historianNote": "关心弱者无需先交出判断力。揭穿一场摆拍，也不应顺手抹去那些没有镜头帮助的人所面对的困难。",
+    "verifiedFacts": [
+      "官方案例记载视频发生于2026年5月。",
+      "警方公开材料称两名出镜者为合作运营账号者，视频冲突系虚假摆拍。",
+      "公开处置是刑事强制措施，而非本轮已取得的生效判决。"
+    ],
+    "disputedClaims": [],
+    "debunkedClaims": [
+      "视频将双方包装成陌生人的偶发冲突，与警方公布的合作摆拍情况不符。"
+    ],
+    "unresolvedQuestions": [
+      "案件后续裁判与具体法律责任。",
+      "原始完整视频、账号收益及平台处理记录。"
+    ],
+    "timeline": [
+      {
+        "date": "2026-05",
+        "title": "冲突视频传播",
+        "description": "月份来自官方案例，不补造首发日。",
+        "sourceIds": [
+          "blind-case"
+        ]
+      },
+      {
+        "date": "2026-09-21",
+        "title": "案例公开存本",
+        "description": "浙江网信保存公安部案例，列明合作摆拍及刑事处置阶段。",
+        "sourceIds": [
+          "blind-case"
+        ]
+      }
+    ],
+    "propagationChain": [
+      {
+        "stage": "叙事",
+        "title": "借无障碍通行困境制造冲突",
+        "description": "视频以弱势遭遇组织公众同情。",
+        "sourceIds": [
+          "blind-case"
+        ]
+      },
+      {
+        "stage": "核查",
+        "title": "合作关系改变视频解释",
+        "description": "警方公布共同运营账号与摆拍情况。",
+        "sourceIds": [
+          "blind-case"
+        ]
+      },
+      {
+        "stage": "续考",
+        "title": "等待司法进程",
+        "description": "不将采取强制措施替代终局裁判。",
+        "sourceIds": [
+          "blind-case"
+        ]
+      }
+    ],
+    "publicComments": [
+      {
+        "text": "这东西真的就像扶老人被讹一样，一旦出现这种事情，后续大家遇到这种情况，不管是不是真盲人被撞了，都会第一反应质疑",
+        "quoteType": "原话",
+        "platform": "Reddit r/China_irl",
+        "date": "2026-05",
+        "author": "Cautious-Jacket-3870",
+        "url": "https://www.reddit.com/r/China_irl/comments/1tenbmw/comment/om3wf2j/",
+        "context": "原帖讨论警方公布摆拍情况之后的公众信任后果；这是一名评论者的担忧，不是社会调查结论。",
+        "evidenceGrade": "A",
+        "verificationStatus": "已核验",
+        "originType": "回复",
+        "sourceId": "blind-discussion",
+        "independentVerification": "已打开评论永久链接核对文字和作者显示名；仅核验表达存在，不验证其类比及对公众反应的推断。"
+      },
+      {
+        "text": "我国盲人出行问题确实很大 真的希望重视起来 而非因为造假就忽视这个问题了 哎",
+        "quoteType": "原话",
+        "platform": "Reddit r/China_irl",
+        "date": "2026-05",
+        "author": "Valuable_Arm_2390",
+        "url": "https://www.reddit.com/r/China_irl/comments/1tenbmw/comment/om6zn4j/",
+        "context": "同帖跟评提醒不要因一场摆拍忽略现实中的无障碍通行问题；不将其当作案件证据。",
+        "evidenceGrade": "A",
+        "verificationStatus": "已核验",
+        "originType": "回复",
+        "sourceId": "blind-discussion",
+        "independentVerification": "已打开评论永久链接核对；页面为相对时间，故只保留月份。"
+      }
+    ],
+    "sectionSources": {
+      "summary": [
+        "blind-case"
+      ],
+      "investigation": [
+        "blind-case"
+      ],
+      "finalConclusion": [
+        "blind-case"
+      ]
+    },
+    "sources": [
+      {
+        "id": "blind-case",
+        "title": "公安部公布打击整治网络违法犯罪10起典型案例（案例一）",
+        "institution": "公安部／浙江网信网公开存本",
+        "date": "2026-09-21",
+        "url": "https://www.zjwx.gov.cn/col/col1694597/art/2026/art_9c6680d27560053ef3d6dd234cd45e2d.html",
+        "sourceRank": 1,
+        "sourceType": "公安通报",
+        "sourceRole": "调查过程",
+        "archiveStatus": "仅存转载",
+        "checkedAt": "2026-10-28",
+        "note": "官方门户保存的公安部通报；不是法院裁判文书。"
+      },
+      {
+        "id": "blind-discussion",
+        "title": "盲道被撞系摆拍：原帖及关于公共信任、无障碍出行的跟评",
+        "institution": "Reddit r/China_irl",
+        "date": "2026-05",
+        "url": "https://www.reddit.com/r/China_irl/comments/1tenbmw/",
+        "sourceRank": 2,
+        "sourceType": "网民原始内容",
+        "sourceRole": "公众讨论",
+        "archiveStatus": "在线",
+        "checkedAt": "2026-10-28",
+        "note": "已打开原帖和评论永久链接；相对时间仅精确到月，不虚构点赞数。评论仅证明公众表达的存在。"
+      }
+    ]
+  },
+  {
+    "id": "cyber-2026-jr-039",
+    "archiveCode": "CYBER-2026-148",
+    "title": "长沙“外卖员朝餐食吐口水”摆拍",
+    "year": 2026,
+    "date": "2026-08-04",
+    "category": "奸人",
+    "severity": "B",
+    "evidenceLevel": "官方调查",
+    "evidenceBasis": "湖南公安案例与当地警方调查报道",
+    "status": "三名参与者被行政拘留",
+    "subjectType": "自媒体/网红",
+    "subjects": [
+      "刘某",
+      "代某",
+      "尹某"
+    ],
+    "tags": [
+      "摆拍造假",
+      "外卖",
+      "职业污名",
+      "短视频"
+    ],
+    "featured": false,
+    "researchStatus": "researched",
+    "firstRecordedAt": "2026-10-28",
+    "lastReviewedAt": "2026-10-28",
+    "updateNote": "补入8月事件及9月湖南公安案例，保留调查细节，不将摆拍推及整个骑手行业。",
+    "summary": "一段表现外卖员打开餐盒、朝内吐口水后继续送餐的视频引起围观。长沙警方调查发现，内容由三名参与者策划拍摄，目的是提升自媒体账号关注度。8月4日当地报道与9月16日湖南公安案例均记录三人被行政拘留。本篇保存的是虚构视频如何损伤职业群体信誉，而非一起已经证实的实际配送污染案。",
+    "initialNarrative": "送餐过程发生在顾客视线之外，消费者难以独立核实食品从门店到家门之间经历了什么。摆拍者利用这一信息缺口，把一个容易引起厌恶的动作包装成日常配送现场。\n\n当地报道记录，民警从视频中另一名男子先行下车上楼的细节发现异常，继而查出策划与拍摄安排。这一过程说明，视频有画面并不意味着画面所讲述的关系真实，身份与前后动作同样需要核对。",
+    "publicQuestion": "当视频被当作行业乱象转发时，如何确认拍摄者与出镜者的关系？平台辟谣能否触达到已经看过原视频的人，减少对普通骑手的连带污名？",
+    "mediaRole": "湖南公安公开案例确定摆拍与行政处置；新湖南当地报道提供核查细节。两份材料可相互对照，但并不构成原视频和评论区完整存档；本条不捏造具体曝光量或网民原话。",
+    "investigation": "湖南公安案例明确列出三名参与者及摆拍视频内容，记载三人均受到行政拘留。当地报道进一步区分了策划、拍摄与出镜合作，并记录视频下撤和当事人认错。\n\n调查所否定的是这个视频被包装为真实配送事件的说法，不等于全行业从无卫生风险，也不能据此编造受污染订单、受害消费者或赔偿金额。本轮尚未取得具体拘留期限、平台账号处置文书与完整原视频，相关字段留作续考。",
+    "finalConclusion": "虚假摆拍及三人行政拘留有湖南公安公开材料支持。它纠正的是一段特定视频，不是对所有外卖食品或所有骑手作安全判断；未取得的订单与伤害事实不补写。",
+    "historicalMeaning": "职业群体可能为几个人制造的流量剧情共同承担信誉成本。",
+    "historianNote": "镜头可以记录一个动作，也可以安排一个动作。公众应当追问餐食安全，平台也应让更正抵达曾被恐惧动员的同一批人。",
+    "verifiedFacts": [
+      "湖南公安将相关视频列为策划摆拍的谣言案例。",
+      "三名参与者被依法行政拘留。",
+      "当地报道记录警方从视频动作和人物关系着手核查。"
+    ],
+    "disputedClaims": [],
+    "debunkedClaims": [
+      "该视频所呈现的真实配送员恶意污染顾客餐食叙事，被警方认定为策划摆拍。"
+    ],
+    "unresolvedQuestions": [
+      "原始视频与平台更正覆盖范围。",
+      "各人拘留期限及账号后续处理。"
+    ],
+    "timeline": [
+      {
+        "date": "2026-08-04",
+        "title": "当地警方调查被报道",
+        "description": "当地报道公开摆拍关系及行政拘留处置。",
+        "sourceIds": [
+          "delivery-report"
+        ]
+      },
+      {
+        "date": "2026-09-16",
+        "title": "省级公安案例公开",
+        "description": "湖南公安汇总确认该案。",
+        "sourceIds": [
+          "delivery-police"
+        ]
+      }
+    ],
+    "propagationChain": [
+      {
+        "stage": "制造",
+        "title": "设计配送污染画面",
+        "description": "以配送盲区与厌恶感为切入点吸引关注。",
+        "sourceIds": [
+          "delivery-police"
+        ]
+      },
+      {
+        "stage": "溯源",
+        "title": "核查人物关系",
+        "description": "警方结合视频异常动作发现策划与出镜合作。",
+        "sourceIds": [
+          "delivery-report"
+        ]
+      },
+      {
+        "stage": "纠正",
+        "title": "公开行政处置",
+        "description": "对特定视频纠错，仍需跟踪平台更正是否充分。",
+        "sourceIds": [
+          "delivery-police"
+        ]
+      }
+    ],
+    "publicComments": [],
+    "sectionSources": {
+      "summary": [
+        "delivery-police",
+        "delivery-report"
+      ],
+      "investigation": [
+        "delivery-police",
+        "delivery-report"
+      ],
+      "finalConclusion": [
+        "delivery-police"
+      ]
+    },
+    "sources": [
+      {
+        "id": "delivery-police",
+        "title": "湖南网警公布9起网络谣言典型案例（长沙摆拍案）",
+        "institution": "湖南省公安厅",
+        "date": "2026-09-16",
+        "url": "https://gat.hunan.gov.cn/gat/jwgk/jwzx/jqfb/202609/t20260916_34065580.html",
+        "sourceRank": 1,
+        "sourceType": "公安通报",
+        "sourceRole": "处理结果",
+        "archiveStatus": "在线",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "id": "delivery-report",
+        "title": "外卖员恶意朝外卖吐口水？长沙警方：系摆拍！",
+        "institution": "湖南日报·新湖南客户端",
+        "date": "2026-08-04",
+        "url": "https://changsha.voc.com.cn/mobile/news/202608/33394280.html",
+        "sourceRank": 4,
+        "sourceType": "媒体报道",
+        "sourceRole": "调查过程",
+        "archiveStatus": "在线",
+        "checkedAt": "2026-10-28"
+      }
+    ]
+  },
+  {
+    "id": "cyber-2026-jr-040",
+    "archiveCode": "CYBER-2026-149",
+    "title": "以删负面帖为条件强迫单位购买体检服务案",
+    "year": 2026,
+    "date": "2026-10-14",
+    "category": "奸人",
+    "severity": "A",
+    "evidenceLevel": "官方调查",
+    "evidenceBasis": "公安部案例的官方门户存本及具名报道",
+    "status": "嫌疑人获批逮捕并移送审查起诉，判决待核",
+    "subjectType": "自媒体/网红",
+    "subjects": [
+      "马某",
+      "崔某某"
+    ],
+    "tags": [
+      "舆情敲诈",
+      "强迫交易",
+      "自媒体矩阵",
+      "商业利益"
+    ],
+    "featured": false,
+    "researchStatus": "needs-review",
+    "firstRecordedAt": "2026-10-28",
+    "lastReviewedAt": "2026-10-28",
+    "updateNote": "补入10月14日公开案例，区分嫌疑、逮捕、审查起诉和定罪。",
+    "summary": "10月14日公开的网络舆情敲诈案例记载，太原警方查处马某、崔某某涉嫌利用虚假负面帖文施压，要求有关单位组织员工到其经营的体检机构消费的案件。公开报道记载二人已获批逮捕并被移送审查起诉。这里的商业利益不只是一笔删帖费，还可能通过被强迫购买的正常服务兑现。",
+    "initialNarrative": "删帖交易未必以明码标价的公关费出现。当事方若被要求购买体检、加入俱乐部或签推广合同，账面上可能是一项普通服务，交易自愿性却取决于不购买是否会遭继续发布负面信息的威胁。\n\n本案提供了理解这种利益链的线索。其报道对象是被警方查处的特定人员及经营活动，不能把所有负面报道、投诉维权或体检机构经营都套入敲诈框架。",
+    "publicQuestion": "如何证明删帖承诺与服务购买之间的强迫关系？哪些帖文被查明虚假，付款记录与威胁记录如何对应？既要追究涉嫌敲诈，也要保留正常批评、投诉和监督的空间。",
+    "mediaRole": "官方门户保存了公安部案例的公开版本，新华社报道用于核对案件组别与程序进展，具名媒体的完整转引补充本案细节。未取得起诉书与判决书，任何关于最终罪名、刑期和全部金额的表述都须保留出处和阶段限定。",
+    "investigation": "公开案例称，相关行为自2023年以来持续：以自媒体账号发布针对企事业单位的虚假负面帖文，再以删除为条件迫使单位组织员工购买体检；若不接受则继续滋扰。报道记载马某、崔某某因涉嫌强迫交易、寻衅滋事获批逮捕，案件移送审查起诉。\n\n本条的归档日期使用2026年10月14日公开案例日，不虚构具体抓捕日。检察机关批准逮捕与审查起诉均属刑事程序；它们不意味着法院已作终局认定。涉案帖文、合同和支付证据未完整公开，是本篇必须保留的材料缺口。",
+    "finalConclusion": "警方公布的案件事实与已披露刑事程序可记录，结论限于涉嫌行为及程序进展。对是否构成相应犯罪、涉案金额如何最终认定，仍待起诉与裁判材料，保持待复核。",
+    "historicalMeaning": "舆论影响力可以被嵌入普通商业合同，使表面的交易掩盖背后的胁迫。",
+    "historianNote": "批评的力量来自事实，而不应来自让被批评者买单的威胁。辨认此类案件，需要把帖子、合同与资金往来接在同一条证据链上。",
+    "verifiedFacts": [
+      "公安部于2026年10月14日公布的一组案例包括马某等人强迫交易、寻衅滋事案。",
+      "公开报道记载涉案服务为体检，并记载获批逮捕及移送审查起诉。"
+    ],
+    "disputedClaims": [],
+    "debunkedClaims": [],
+    "unresolvedQuestions": [
+      "起诉书、终局裁判与涉案合同等完整证据。",
+      "具体虚假帖文、被强迫交易范围及金额的最终认定。"
+    ],
+    "timeline": [
+      {
+        "date": "2023年以来",
+        "title": "公开材料描述行为起点",
+        "description": "此为案例记载的时间范围，并非本轮独立核验的每笔交易日期。",
+        "sourceIds": [
+          "extortion-detail"
+        ]
+      },
+      {
+        "date": "2026-10-14",
+        "title": "案例公开",
+        "description": "公开涉嫌行为及逮捕、审查起诉阶段。",
+        "sourceIds": [
+          "extortion-official",
+          "extortion-detail"
+        ]
+      }
+    ],
+    "propagationChain": [
+      {
+        "stage": "施压",
+        "title": "用负面信息制造压力",
+        "description": "警方案例描述账号矩阵与针对性发布。",
+        "sourceIds": [
+          "extortion-detail"
+        ]
+      },
+      {
+        "stage": "转化",
+        "title": "删帖换取服务采购",
+        "description": "涉嫌通过被强迫的体检消费兑现利益。",
+        "sourceIds": [
+          "extortion-detail"
+        ]
+      },
+      {
+        "stage": "侦办",
+        "title": "进入刑事程序",
+        "description": "公开进展尚不包含终局裁判。",
+        "sourceIds": [
+          "extortion-detail"
+        ]
+      }
+    ],
+    "publicComments": [],
+    "sectionSources": {
+      "summary": [
+        "extortion-official",
+        "extortion-detail"
+      ],
+      "investigation": [
+        "extortion-detail"
+      ],
+      "finalConclusion": [
+        "extortion-official",
+        "extortion-detail"
+      ]
+    },
+    "sources": [
+      {
+        "id": "extortion-official",
+        "title": "拍“碰瓷”视频、发涉企负面帖文：4起网络舆情敲诈案例",
+        "institution": "公安部网安局案例／江苏网信网保存",
+        "date": "2026-10-14",
+        "url": "https://www.jswx.gov.cn/anquan/guanli/202610/t20261014_1364542.shtml",
+        "sourceRank": 1,
+        "sourceType": "公安通报",
+        "sourceRole": "调查过程",
+        "archiveStatus": "待补证",
+        "checkedAt": "2026-10-28",
+        "note": "检索摘要可定位；本轮直接打开超时，完整细节同时对照具名媒体存本，不宣称已核验全部原文。"
+      },
+      {
+        "id": "extortion-xinhua",
+        "title": "4起涉舆情敲诈等类型黑恶犯罪典型案例公布",
+        "institution": "新华社／江苏检察网保存",
+        "date": "2026-10-14",
+        "url": "https://www.jsjc.gov.cn/yaowen/202610/t20261014_1364688.shtml",
+        "sourceRank": 3,
+        "sourceType": "新华社报道",
+        "sourceRole": "调查过程",
+        "archiveStatus": "仅存转载",
+        "checkedAt": "2026-10-28",
+        "note": "确认案例组别；未详细列出体检案全部证据。"
+      },
+      {
+        "id": "extortion-detail",
+        "title": "马某、崔某某以删帖为名强迫购买体检服务的案例报道",
+        "institution": "南方都市报／搜狐保存",
+        "date": "2026-10-14",
+        "url": "https://www.sohu.com/a/1087800365_161795",
+        "sourceRank": 5,
+        "sourceType": "门户转载",
+        "sourceRole": "历史报道",
+        "archiveStatus": "仅存转载",
+        "checkedAt": "2026-10-28",
+        "note": "完整转引案例，不是本案起诉书或判决。"
+      }
+    ]
+  },
+  {
+    "id": "cyber-2026-cj-021",
+    "archiveCode": "CYBER-2026-150",
+    "title": "青岛大学被虚构的“新校徽”与AI情绪造谣",
+    "year": 2026,
+    "date": "2026-08-10",
+    "category": "丑角",
+    "severity": "B",
+    "evidenceLevel": "官方调查",
+    "evidenceBasis": "网信部门月度综述与采访警方的处置报道",
+    "status": "虚构图样已澄清，报道记载造谣者被行政处罚",
+    "subjectType": "学校/科研机构",
+    "subjects": [
+      "青岛大学",
+      "龙某"
+    ],
+    "tags": [
+      "AI造谣",
+      "图像核验",
+      "被误伤者",
+      "情绪传播"
+    ],
+    "featured": false,
+    "researchStatus": "needs-review",
+    "firstRecordedAt": "2026-10-28",
+    "lastReviewedAt": "2026-10-28",
+    "updateNote": "补入8月假图、8月处置报道与9月官方综述；学校作为被造谣对象列入。",
+    "summary": "2026年8月，网络上出现所谓青岛大学“新校徽”及校方紧急撤下的说法。学校回应称并未使用该图样，也没有近期设计征集计划；后续警方采访报道记载，相关图片由龙某使用AI工具制作，其被行政处罚。9月网信部门综述也将其列为AI造谣案例。本条中的学校是被误伤对象，而非已被证实实施不当设计的主体。",
+    "initialNarrative": "一张看似校徽的图片，附上敏感符号联想和学校撤回的情节，就形成一条容易被转发的完整故事。观众如果先争论图案意味着什么，便容易跳过更基础的一步：图片是否由学校发布。\n\n学校回应与后续警方核查把问题重新带回图片来源。它不是一次真实设计被公众批评后撤回的争议，而是一个原本不存在的发布行为被安到学校身上。",
+    "publicQuestion": "图片有没有原始发布渠道，学校是否真的组织过征集或更换？AI图像的视觉真实感、配文中的具体细节和情绪标签，能否替代来源核验？",
+    "mediaRole": "网信部门9月综述用于确认该事件进入公开辟谣记录；央视采访警方的报道存本用于了解处置。二者不能冒充警方处罚决定书原件。未取得完整首发帖与评论楼层，不拼凑网民逐字引语。",
+    "investigation": "8月的校方回应否认图样及更换计划。8月20日的央视采访报道保存警方对AI合成、账号溯源和行政处置的介绍；9月4日网信部门月度综述再次提及相关不实图像。不同材料分别回答谁发布过、图片如何形成、如何处置。\n\n现有材料足以纠正“学校推出这款新校徽”的叙事。本轮未取得处罚决定书原件、账号全部传播数据与原图生成记录，所以保留待复核；对学校师生的身份推断和不必要个人信息也不进入档案。",
+    "finalConclusion": "该图样并非学校推出的新校徽，网络故事的发布前提已被明确否认，并有后续官方综述印证。造谣者具体行政处置以警方采访报道为现有来源，原件仍待补，不能把受害学校写成涉事失范者。",
+    "historicalMeaning": "假图不只模仿视觉对象，还能伪造一个机构从未做过的决定。",
+    "historianNote": "辨图之前，先辨发布者。许多激烈争论并不缺立场，缺的是愿意追问这张图从哪里来的一分钟。",
+    "verifiedFacts": [
+      "校方公开回应否认网传图样及近期新校徽设计征集计划。",
+      "9月4日网信部门综述将相关假图列为AI造谣实例。",
+      "警方采访报道记载了AI制作与行政处置。"
+    ],
+    "disputedClaims": [],
+    "debunkedClaims": [
+      "青岛大学推出网传图样并在争议后紧急撤下的说法不实。"
+    ],
+    "unresolvedQuestions": [
+      "行政处罚决定书原件。",
+      "首发帖、图像生成与后续平台更正的完整记录。"
+    ],
+    "timeline": [
+      {
+        "date": "2026-08-10",
+        "title": "假图传播与校方澄清",
+        "description": "校方否认网传图样及新设计计划。",
+        "sourceIds": [
+          "crest-report"
+        ]
+      },
+      {
+        "date": "2026-08-20",
+        "title": "警方核查被报道",
+        "description": "采访报道记载AI制作、溯源和行政处置。",
+        "sourceIds": [
+          "crest-police-report"
+        ]
+      },
+      {
+        "date": "2026-09-04",
+        "title": "纳入官方月度综述",
+        "description": "网信部门综述提及相关AI假图。",
+        "sourceIds": [
+          "crest-cac"
+        ]
+      }
+    ],
+    "propagationChain": [
+      {
+        "stage": "造图",
+        "title": "伪造机构视觉符号",
+        "description": "图片被冠以新校徽之名。",
+        "sourceIds": [
+          "crest-police-report"
+        ]
+      },
+      {
+        "stage": "叙事",
+        "title": "叠加撤回情节",
+        "description": "图像和具体情节相互增强可信感。",
+        "sourceIds": [
+          "crest-report"
+        ]
+      },
+      {
+        "stage": "纠正",
+        "title": "回到发布渠道",
+        "description": "学校回应与警方核查否定故事的来源前提。",
+        "sourceIds": [
+          "crest-police-report",
+          "crest-cac"
+        ]
+      }
+    ],
+    "publicComments": [],
+    "sectionSources": {
+      "summary": [
+        "crest-report",
+        "crest-police-report",
+        "crest-cac"
+      ],
+      "investigation": [
+        "crest-report",
+        "crest-police-report",
+        "crest-cac"
+      ],
+      "finalConclusion": [
+        "crest-cac",
+        "crest-police-report"
+      ]
+    },
+    "sources": [
+      {
+        "id": "crest-cac",
+        "title": "编造涉灾谣言、刻意曲解政策、AI造谣引流：多部门持续发力联动治理",
+        "institution": "中央网信办／中国网信网",
+        "date": "2026-09-04",
+        "url": "https://www.cac.gov.cn/2026-09/04/c_1790272004589128.htm",
+        "sourceRank": 1,
+        "sourceType": "行政调查",
+        "sourceRole": "机构回应",
+        "archiveStatus": "在线",
+        "checkedAt": "2026-10-28",
+        "note": "官方综述；页面正文可由检索获取，非逐案行政处罚原件。"
+      },
+      {
+        "id": "crest-police-report",
+        "title": "网传“旭日旗校徽”系AI合成，造谣者被行拘10日",
+        "institution": "央视新闻客户端／北京日报保存",
+        "date": "2026-08-20",
+        "url": "https://xinwen.bjd.com.cn/content/s6a870941e4b0e45f3fd64795.html",
+        "sourceRank": 4,
+        "sourceType": "媒体报道",
+        "sourceRole": "处理结果",
+        "archiveStatus": "仅存转载",
+        "checkedAt": "2026-10-28",
+        "note": "含具名警方采访；刑期和罚款等以原件复核为后续任务。"
+      },
+      {
+        "id": "crest-report",
+        "title": "青岛大学“新校徽”谣言是如何拼凑出来的",
+        "institution": "海峡导报／凤凰网保存",
+        "date": "2026-08-12",
+        "url": "https://news.ifeng.com/c/8vWyj9ouhCZ",
+        "sourceRank": 5,
+        "sourceType": "门户转载",
+        "sourceRole": "历史报道",
+        "archiveStatus": "仅存转载",
+        "checkedAt": "2026-10-28"
+      }
+    ]
+  }
+]

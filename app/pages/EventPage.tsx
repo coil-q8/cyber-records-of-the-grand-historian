@@ -40,9 +40,11 @@ export function EventPage() {
   )
 
   async function copyLink() {
-    await navigator.clipboard.writeText(window.location.href)
-    setCopied(true)
-    window.setTimeout(() => setCopied(false), 1600)
+    try {
+      await navigator.clipboard.writeText(window.location.href)
+      setCopied(true)
+      window.setTimeout(() => setCopied(false), 1600)
+    } catch { setCopied(false) }
   }
 
   return <article className="record-page">
@@ -54,7 +56,7 @@ export function EventPage() {
         <h1>{event.title}</h1>
         <div className="record-header__meta"><span>{event.year}</span><span style={{ color: category.color }}>{event.category}卷</span><span className={`severity severity--${event.severity}`}>{event.severity} 等</span><EvidenceBadge level={event.evidenceLevel} /></div>
         <div className={`archive-state archive-state--${event.researchStatus}`}><span>编纂状态</span><strong>{archivalState.label}</strong><small>{archivalState.description}</small></div>
-        <div className="record-header__actions"><FavoriteButton eventId={event.id} label /><button className="button button--small button--ghost" type="button" onClick={copyLink}>{copied ? <Check size={16} /> : <Copy size={16} />}{copied ? '已复制' : '复制链接'}</button></div>
+        <div className="record-header__actions"><FavoriteButton eventId={event.id} label /><Link className="button button--small button--ghost" to={`/compare?left=${event.id}`}>放入对读</Link><button className="button button--small button--ghost" type="button" onClick={copyLink}>{copied ? <Check size={16} /> : <Copy size={16} />}{copied ? '已复制' : '复制链接'}</button></div>
       </div>
     </header>
 
@@ -92,7 +94,7 @@ export function EventPage() {
         {sameCase.length ? <section className="mutual-reference" id="mutual-reference"><span>互见 · 同案异卷</span><p>同一现实事件在不同卷目中各取一端，互为补证，不作重复计案。</p>{sameCase.map((item) => <Link key={item.id} to={`/event/${item.id}`}><small>{item.category}卷</small><strong>{item.title}</strong><ArrowRight size={15} /></Link>)}</section> : null}
         <section className="record-tags"><span>索引标签</span><div>{event.tags.map((tag) => <Link key={tag} to={`/archive?tag=${encodeURIComponent(tag)}`}>#{tag}</Link>)}</div></section>
       </div>
-      <aside className="record-facts"><div><span>归档日期</span><strong>{event.date}</strong></div><div><span>主体类型</span><strong>{event.subjectType}</strong></div><div><span>证据依据</span><strong>{event.evidenceBasis}</strong></div><div><span>处置状态</span><strong>{event.status}</strong></div>{event.caseId && <div><span>同案号</span><strong>{event.caseId}</strong></div>}</aside>
+      <aside className="record-facts">{event.lastReviewedAt && <div><span>本篇核验日期</span><strong>{event.lastReviewedAt}</strong><small>{event.updateNote}</small></div>}<div><span>归档日期</span><strong>{event.date}</strong></div><div><span>主体类型</span><strong>{event.subjectType}</strong></div><div><span>证据依据</span><strong>{event.evidenceBasis}</strong></div><div><span>处置状态</span><strong>{event.status}</strong></div>{event.caseId && <div><span>同案号</span><strong>{event.caseId}</strong></div>}</aside>
     </div>
 
     <nav className="record-pagination page-shell">{previous ? <Link to={`/event/${previous.id}`}><ArrowLeft /><span><small>上一案</small><strong>{previous.title}</strong></span></Link> : <span /> }<RandomHistoryButton currentId={event.id} variant="text" />{next ? <Link to={`/event/${next.id}`}><span><small>下一案</small><strong>{next.title}</strong></span><ArrowRight /></Link> : <span />}</nav>
@@ -160,7 +162,7 @@ function Sources({ event }: { event: EventRecord }) {
     .map((source, originalIndex) => ({ source, originalIndex }))
     .sort((left, right) => left.source.sourceRank - right.source.sourceRank || left.originalIndex - right.originalIndex)
   return <div className="sources" id="sources"><div className="sources__head"><div><span>史料原件在先</span><h3>史料与出处</h3></div><p>第一等为正式调查、行政或司法材料；第二等为当事人或网民原始内容。来源等级表示材料位置，不表示其中每句话都已证实。</p></div><div className="source-list">{orderedSources.map(({ source, originalIndex }) => {
-    const content = <><span className="source-number">〔{originalIndex + 1}〕</span><div><strong>{source.title}</strong><small>{source.institution} · {source.date}</small><div className="source-meta"><span>{sourceRankLabels[source.sourceRank]}</span><span>{source.sourceType}</span><span>所据：{source.sourceRole}</span><span>{source.archiveStatus}</span></div>{source.note && <p>{source.note}</p>}</div>{source.url ? <ExternalLink size={16} /> : <Link2 size={16} />}</>
+    const content = <><span className="source-number">〔{originalIndex + 1}〕</span><div><strong>{source.title}</strong><small>{source.institution} · {source.date}</small><div className="source-meta"><span>{sourceRankLabels[source.sourceRank]}</span><span>{source.sourceType}</span><span>所据：{source.sourceRole}</span><span>{source.archiveStatus}</span>{source.checkedAt && <span>查阅 {source.checkedAt}</span>}</div>{source.note && <p>{source.note}</p>}</div>{source.url ? <ExternalLink size={16} /> : <Link2 size={16} />}</>
     return source.url ? <a id={`source-${source.id}`} key={source.id} href={source.url} target="_blank" rel="noreferrer">{content}</a> : <div id={`source-${source.id}`} className="source-pending" key={source.id}>{content}</div>
   })}</div></div>
 }

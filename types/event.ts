@@ -20,6 +20,7 @@ export interface SourceRecord {
   sourceType: SourceType
   sourceRole: SourceRole
   archiveStatus: ArchiveStatus
+  checkedAt?: string
 }
 
 export interface TimelineEntry {
@@ -82,6 +83,9 @@ export interface EventRecord {
   historicalMeaning: string
   sources: SourceRecord[]
   featured: boolean
+  firstRecordedAt?: string
+  lastReviewedAt?: string
+  updateNote?: string
   initialNarrative?: string
   publicQuestion?: string
   mediaRole?: string

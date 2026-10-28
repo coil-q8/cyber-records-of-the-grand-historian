@@ -2,7 +2,10 @@ import { readdir, readFile, writeFile } from 'node:fs/promises'
 
 const dataDirectory = new URL('../data/', import.meta.url)
 const readJson = async (name) => JSON.parse(await readFile(new URL(name, dataDirectory), 'utf8'))
-const rawEvents = await readJson('events.json')
+const originalEvents = await readJson('events.json')
+const continuationFiles = (await readdir(new URL('continuations/', dataDirectory))).filter((name) => name.endsWith('.json')).sort()
+const continuationEvents = (await Promise.all(continuationFiles.map((name) => readJson(`continuations/${name}`)))).flat()
+const rawEvents = [...originalEvents, ...continuationEvents]
 const batchFiles = (await readdir(dataDirectory))
   .filter((name) => /^phase2-batch-\d+\.json$/u.test(name))
   .sort((left, right) => left.localeCompare(right, 'zh-CN', { numeric: true }))
@@ -16,6 +19,11 @@ for (const batchFile of batchFiles) {
     detailsById[id] = details
     batchById[id] = batchFile.replace(/\.json$/u, '')
   }
+}
+for (const event of continuationEvents) {
+  if (detailsById[event.id] || originalEvents.some((original) => original.id === event.id)) throw new Error(`Duplicate continuation ID: ${event.id}`)
+  detailsById[event.id] = event
+  batchById[event.id] = 'continuations'
 }
 
 const statusOverrides = new Map([
@@ -87,7 +95,7 @@ const evidenceFields = [
   'timeline', 'propagationChain',
 ]
 const institutionalTypes = new Set([
-  '司法文书', '公安通报', '行政调查', '纪委监察', '机构原始材料',
+  '司法文书', '公安通报', '行政调查', '行政处罚', '纪委监察', '机构原始材料',
 ])
 const mediaTypes = new Set(['新华社报道', '调查报道', '媒体报道', '门户转载', '自媒体'])
 
@@ -137,7 +145,7 @@ const progress = Object.fromEntries(rawEvents.map((rawEvent) => {
   const details = detailsById[rawEvent.id]
   const studied = Boolean(details)
   const event = { ...rawEvent, ...(details ?? {}) }
-  const status = statusOverrides.get(rawEvent.id) ?? (studied ? 'researched' : 'untouched')
+  const status = event.researchStatus ?? statusOverrides.get(rawEvent.id) ?? (studied ? 'researched' : 'untouched')
   const quality = qualityFor(event)
   const factCheckStatus = status === 'untouched' ? 'unreviewed'
     : status === 'disputed' ? 'disputed'
@@ -150,8 +158,8 @@ const progress = Object.fromEntries(rawEvents.map((rawEvent) => {
     status,
     completeness: completenessFor(event, quality, studied),
     batch: batchById[rawEvent.id] ?? null,
-    lastReviewed: studied ? '2026-08-20' : null,
-    updatedAt: studied ? '2026-08-20' : null,
+    lastReviewed: event.lastReviewedAt ?? (studied ? '2026-08-20' : null),
+    updatedAt: event.lastReviewedAt ?? event.firstRecordedAt ?? (studied ? '2026-08-20' : null),
     ...quality,
     factCheckStatus,
     notes: status === 'untouched' ? '尚未进入第二阶段逐条研究。'

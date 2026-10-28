@@ -1,6 +1,7 @@
 import rawEvents from '../data/events.json'
 import { editorialDetails } from '../data/editorial'
 import researchProgress from '../data/research-progress.json'
+import archiveMetadata from '../data/archive-meta.json'
 import { caseIdByEventId, caseLinkById } from '../data/case-links'
 import type { Category, EventRecord, SourceRecord, SourceRole, SourceType } from '../types/event'
 
@@ -19,6 +20,20 @@ const researchById = Object.fromEntries(
     .flatMap(([, batch]) => Object.entries(batch)),
 ) as Record<string, Partial<EventRecord>>
 const progressById = researchProgress as unknown as Record<string, { status: EventRecord['researchStatus']; completeness: number }>
+const continuationModules = import.meta.glob('../data/continuations/*.json', { eager: true, import: 'default' }) as Record<string, EventRecord[]>
+const continuationEvents = Object.entries(continuationModules)
+  .sort(([left], [right]) => left.localeCompare(right))
+  .flatMap(([, records]) => records)
+
+export const archiveMeta = archiveMetadata
+export const originalRecordCount = rawEvents.length
+export const continuationIds = new Set(continuationEvents.map((event) => event.id))
+
+// Unknown month/day sort at the start of their known period; never invent a date.
+export function eventDateKey(event: Pick<EventRecord, 'date' | 'year'>) {
+  const match = /^(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?$/u.exec(event.date)
+  return match ? `${match[1]}-${match[2] ?? '00'}-${match[3] ?? '00'}` : `${event.year}-00-00`
+}
 
 function inferSourceType(source: Partial<SourceRecord>): SourceType {
   const value = `${source.institution} ${source.url ?? ''}`
@@ -64,17 +79,20 @@ function normalizeSources(eventId: string, sources: RawEvent['sources']): Source
   }) as SourceRecord[]
 }
 
-export const events: EventRecord[] = (rawEvents as unknown as RawEvent[])
+export const events: EventRecord[] = ([...rawEvents, ...continuationEvents] as unknown as RawEvent[])
   .map((rawEvent) => {
     const event = { ...rawEvent, ...(editorialDetails[rawEvent.title] ?? {}), ...(researchById[rawEvent.id] ?? {}) }
     const progress = progressById[rawEvent.id] ?? { status: 'untouched' as const, completeness: 20 }
-    return { ...event, caseId: caseIdByEventId[event.id], sources: normalizeSources(event.id, event.sources), researchStatus: progress.status, completeness: progress.completeness } as EventRecord
+    return { ...event, caseId: caseIdByEventId[event.id] ?? event.caseId, sources: normalizeSources(event.id, event.sources), researchStatus: progress.status, completeness: progress.completeness } as EventRecord
   })
-  .sort((a, b) => b.year - a.year || a.archiveCode.localeCompare(b.archiveCode))
+  .sort((a, b) => eventDateKey(b).localeCompare(eventDateKey(a)) || a.archiveCode.localeCompare(b.archiveCode))
 
 export const chronologicalEvents = [...events].sort(
-  (a, b) => a.year - b.year || a.archiveCode.localeCompare(b.archiveCode),
+  (a, b) => eventDateKey(a).localeCompare(eventDateKey(b)) || a.archiveCode.localeCompare(b.archiveCode),
 )
+
+export const latestAdditions = events.filter((event) => continuationIds.has(event.id))
+  .sort((a, b) => (b.firstRecordedAt ?? '').localeCompare(a.firstRecordedAt ?? '') || eventDateKey(b).localeCompare(eventDateKey(a)))
 
 export const years = Array.from(new Set(events.map((event) => event.year))).sort((a, b) => a - b)
 export const allTags = Array.from(new Set(events.flatMap((event) => event.tags))).sort()
@@ -96,7 +114,7 @@ export function normalizeSearch(value: string) {
   return value.toLocaleLowerCase('zh-CN').replace(/[\s·“”‘’《》「」]/g, '')
 }
 
-export function eventSearchText(event: EventRecord) {
+function buildSearchText(event: EventRecord) {
   return normalizeSearch([
     event.title,
     event.year,
@@ -111,17 +129,45 @@ export function eventSearchText(event: EventRecord) {
     event.historicalMeaning,
     event.initialNarrative,
     event.publicQuestion,
+    event.mediaRole,
     event.investigation,
+    event.finalConclusion,
+    event.historianNote,
+    event.updateNote,
     ...(event.verifiedFacts ?? []),
     ...(event.disputedClaims ?? []),
     ...(event.debunkedClaims ?? []),
+    ...(event.unresolvedQuestions ?? []),
+    ...(event.timeline ?? []).flatMap((item) => [item.date, item.title, item.description]),
+    ...event.sources.flatMap((source) => [source.title, source.institution]),
   ].join(' '))
 }
 
+const searchIndex = new Map(events.map((event) => [event.id, buildSearchText(event)]))
+
+export function eventSearchText(event: EventRecord) {
+  return searchIndex.get(event.id) ?? buildSearchText(event)
+}
+
+export function matchesSearch(event: EventRecord, query: string) {
+  const terms = query.trim().split(/\s+/u).map(normalizeSearch).filter(Boolean)
+  const text = eventSearchText(event)
+  return terms.every((term) => text.includes(term))
+}
+
 export function searchEvents(query: string) {
-  const normalized = normalizeSearch(query)
-  if (!normalized) return events
-  return events.filter((event) => eventSearchText(event).includes(normalized))
+  return events.filter((event) => matchesSearch(event, query))
+}
+
+export function evidenceProfile(event: EventRecord) {
+  const available = event.sources.filter((source) => source.url && !['待补证', '已失效', '链接失效', '已删除'].includes(source.archiveStatus))
+  return {
+    total: event.sources.length,
+    available: available.length,
+    primary: available.filter((source) => source.sourceRank === 1).length,
+    folk: available.filter((source) => source.sourceRank === 2).length,
+    pending: event.sources.length - available.length,
+  }
 }
 
 export function getRandomEvent(excludeId?: string) {

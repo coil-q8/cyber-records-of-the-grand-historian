@@ -1,8 +1,11 @@
 import { strict as assert } from 'node:assert'
+import { mkdir, readdir, readFile } from 'node:fs/promises'
 import { chromium } from 'playwright-core'
 
 const baseUrl = (process.env.CYBER_ARCHIVE_URL ?? 'http://127.0.0.1:8787').replace(/\/$/, '')
 const browserPath = process.env.CYBER_BROWSER_PATH ?? 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe'
+const screenshotDirectory = process.env.CYBER_SCREENSHOT_DIR
+if (screenshotDirectory) await mkdir(screenshotDirectory, { recursive: true })
 const routes = [
   '/',
   '/archive',
@@ -11,8 +14,16 @@ const routes = [
   '/statistics',
   '/graph',
   '/about',
+  '/updates',
+  '/compare',
+  '/compare?left=cyber-2026-eq-047&right=cyber-2026-yc-033',
   '/event/cyber-2016-eq-002',
 ]
+const continuations = []
+for (const name of await readdir(new URL('../data/continuations/', import.meta.url))) {
+  if (name.endsWith('.json')) continuations.push(...JSON.parse(await readFile(new URL(`../data/continuations/${name}`, import.meta.url), 'utf8')))
+}
+routes.push(...continuations.map((event) => `/event/${event.id}`))
 
 const homeResponse = await fetch(`${baseUrl}/`)
 assert.equal(homeResponse.status, 200, '首页 HTTP 状态不是 200')
@@ -46,7 +57,7 @@ const browserErrors = []
 try {
   const context = await browser.newContext({ viewport: { width: 1440, height: 1000 }, locale: 'zh-CN' })
   const page = await context.newPage()
-  page.on('pageerror', (error) => browserErrors.push(`pageerror: ${error.message}`))
+  page.on('pageerror', (error) => { browserErrors.push(`pageerror: ${error.message}`); console.error(browserErrors.at(-1)) })
   page.on('console', (message) => {
     if (message.type() === 'error') browserErrors.push(`console: ${message.text()}`)
   })
@@ -59,22 +70,81 @@ try {
   for (const route of routes) {
     await page.goto(`${baseUrl}${route}`, { waitUntil: 'networkidle' })
     await page.locator('main').waitFor()
-    assert.equal(new URL(page.url()).pathname, route, `${route} 被意外改写到其他前端路由`)
+    assert.equal(new URL(page.url()).pathname, new URL(route, baseUrl).pathname, `${route} 被意外改写到其他前端路由`)
     assert((await page.locator('body').innerText()).trim().length > 100, `${route} 页面内容异常为空`)
     await page.reload({ waitUntil: 'networkidle' })
     await page.locator('main').waitFor()
+    process.stdout.write(`✓ ${route} 直接访问及刷新\n`)
   }
+
+  await page.goto(`${baseUrl}/updates`, { waitUntil: 'networkidle' })
+  assert.equal(await page.locator('.continuation-entry').count(), continuations.length)
+  assert.equal(await page.locator('.continuation-revisions article').count(), 2)
+  if (screenshotDirectory) await page.screenshot({ path: `${screenshotDirectory}/updates-desktop.png`, fullPage: true })
+  await page.getByRole('textbox', { name: '检索续编' }).fill('双汇 统计')
+  assert.equal(await page.locator('.continuation-entry').count(), 1)
+  assert((await page.locator('.continuation-entry').innerText()).includes('双汇'))
+  await page.reload({ waitUntil: 'networkidle' })
+  assert.equal(await page.locator('.continuation-entry').count(), 1, '续编筛选刷新后丢失')
+  await page.getByRole('textbox', { name: '检索续编' }).fill('')
+  await page.getByLabel('续编状态').selectOption('needs-review')
+  assert.equal(await page.locator('.continuation-entry').count(), continuations.filter((event) => event.researchStatus === 'needs-review').length)
+
+  await page.goto(`${baseUrl}/archive?scope=continuation`, { waitUntil: 'networkidle' })
+  assert.equal(await page.locator('.archive-results .event-card').count(), continuations.length)
+  await page.getByRole('textbox', { name: '检索档案', exact: true }).fill('双汇 统计')
+  assert.equal(await page.locator('.archive-results .event-card').count(), 1)
+  await page.locator('.event-card__link').first().click()
+  await page.locator('.record-header').waitFor()
+  await page.goBack({ waitUntil: 'networkidle' })
+  assert.equal(await page.getByRole('textbox', { name: '检索档案', exact: true }).inputValue(), '双汇 统计')
+  assert.equal(await page.locator('.archive-results .event-card').count(), 1, '浏览器返回后筛选不一致')
+
+  await page.goto(`${baseUrl}/compare`, { waitUntil: 'networkidle' })
+  await page.getByLabel('检索左篇').fill('幽灵外卖')
+  await page.getByLabel('选择左篇').selectOption('cyber-2026-eq-047')
+  await page.getByLabel('检索右篇').fill('明厨亮灶')
+  await page.getByLabel('选择右篇').selectOption('cyber-2026-yc-033')
+  assert.equal(await page.locator('.compare-record').count(), 2)
+  await page.getByRole('button', { name: '来源案卷' }).click()
+  assert.equal(await page.locator('.compare-sources').count(), 2)
+  await page.getByRole('button', { name: '时间脉络' }).click()
+  assert.equal(await page.locator('.compare-timeline').count(), 2)
+  await page.reload({ waitUntil: 'networkidle' })
+  assert.equal(await page.getByLabel('选择左篇').inputValue(), 'cyber-2026-eq-047')
+  assert.equal(await page.locator('.compare-timeline').count(), 2)
+  await page.getByRole('button', { name: '交换', exact: true }).click()
+  assert.equal(await page.getByLabel('选择左篇').inputValue(), 'cyber-2026-yc-033')
+  assert.equal(await page.getByLabel('选择右篇').inputValue(), 'cyber-2026-eq-047')
+  if (screenshotDirectory) {
+    await page.screenshot({ path: `${screenshotDirectory}/compare-dark.png`, fullPage: true })
+    await page.getByRole('button', { name: '切换至浅色背景' }).click()
+    await page.screenshot({ path: `${screenshotDirectory}/compare-light.png`, fullPage: true })
+  }
+  await page.locator('.compare-timeline .text-link').first().click()
+  await page.locator('.record-header').waitFor()
+  const sourceId = decodeURIComponent(new URL(page.url()).hash.slice(1))
+  await page.waitForFunction((id) => {
+    const target = document.getElementById(id)
+    if (!target) return false
+    const bounds = target.getBoundingClientRect()
+    return bounds.top >= 60 && bounds.top < innerHeight
+  }, sourceId)
+  await page.goto(`${baseUrl}/compare?left=cyber-2026-eq-047&right=cyber-2026-eq-047`, { waitUntil: 'networkidle' })
+  assert.equal(await page.locator('.compare-record').count(), 0, '同篇对读应提示另选一篇')
+  assert((await page.locator('.compare-status').innerText()).includes('同一篇'))
 
   await context.close()
 
   const mobileContext = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true, locale: 'zh-CN' })
   const mobilePage = await mobileContext.newPage()
-  for (const route of ['/archive', '/event/cyber-2016-eq-002']) {
+  for (const route of ['/archive', '/updates', '/compare?left=cyber-2026-eq-047&right=cyber-2026-yc-033', '/event/cyber-2016-eq-002', '/event/cyber-2026-eq-048']) {
     await mobilePage.goto(`${baseUrl}${route}`, { waitUntil: 'networkidle' })
     await mobilePage.locator('main').waitFor()
     const widths = await mobilePage.evaluate(() => ({ viewport: innerWidth, document: document.documentElement.scrollWidth, body: document.body.scrollWidth }))
     assert(widths.document <= widths.viewport + 1, `${route} 移动端 document 横向溢出：${JSON.stringify(widths)}`)
     assert(widths.body <= widths.viewport + 1, `${route} 移动端 body 横向溢出：${JSON.stringify(widths)}`)
+    if (screenshotDirectory && route.startsWith('/compare')) await mobilePage.screenshot({ path: `${screenshotDirectory}/compare-mobile.png`, fullPage: true })
   }
   await mobileContext.close()
 

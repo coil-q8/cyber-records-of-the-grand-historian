@@ -1,0 +1,149 @@
+[
+  {
+    "id": "cyber-2026-eq-047",
+    "archiveCode": "CYBER-2026-143",
+    "title": "七家电商平台“幽灵外卖”与蛋糕转单处罚",
+    "year": 2026,
+    "date": "2026-04-17",
+    "category": "恶企",
+    "severity": "A",
+    "evidenceLevel": "官方调查",
+    "evidenceBasis": "市场监管总局处罚公告及所附决定书",
+    "status": "已有行政处罚，整改成效仍需跟踪",
+    "subjectType": "企业/平台",
+    "subjects": ["拼多多", "美团", "京东", "淘宝闪购", "抖音", "淘宝", "天猫"],
+    "tags": ["食品安全", "平台责任", "资质核验", "外卖", "转单"],
+    "featured": false,
+    "researchStatus": "researched",
+    "firstRecordedAt": "2026-10-28",
+    "lastReviewedAt": "2026-10-28",
+    "updateNote": "补入4月处罚与7月电子证照核验跟进，分别保存违法事实、整改要求与执行缺口。",
+    "summary": "2026年4月17日，市场监管总局对七家电商平台的“幽灵外卖”系列案作出处罚：企业合计罚没35.97亿元，并被要求改正违法行为、暂停新增蛋糕店铺3至9个月；相关法定代表人和食品安全总监另被处罚。案件所指向的并非单一脏乱门店，而是平台未充分核验入网资质、明知或应知餐饮转单损害消费者权益却未采取必要措施的问题。",
+    "initialNarrative": "消费者在平台上选择店铺、付款购买蛋糕，页面上的品牌、地址与许可证本应指向实际制作食品的主体。转单链条却可能使展示店铺与实际加工者分离：消费者买到的既是食品，也是平台对商家身份的承诺。\n\n本案的重要性在于处罚对象越过了单家商户，覆盖多个平台及食品安全管理岗位。将问题解释成少数商家钻空子，无法解释资质审核和转单合作为何同时失效。",
+    "publicQuestion": "一张许可证究竟对应哪一个加工场所，订单转交后由谁承担食品安全责任？平台能否只把自己视为信息展示窗口，而不检查页面身份与实际供餐者是否一致？",
+    "mediaRole": "总局公告及其附件是本条事实依据；7月发布会用于追踪后续核验措施。对媒体使用的“幽灵”概念，须落回无资质、地址不实、违规转单等具体问题，不能把全部外卖店铺一概写成违法经营。",
+    "investigation": "监管公告明确了两类主要问题：入网食品经营者许可证审核不严，以及平台与转单平台合作却未对侵害消费者权益的行为采取必要措施。公告同时说明，相关未经审核店铺已下架，餐饮转单合作已停止。\n\n7月31日食品安全专题发布会进一步讨论电子证照核验，说明处罚之后仍需建立持续核验机制。公告中的下架和停止合作属于处置记录；它们不能直接证明所有店铺已持续合规，也不能替代消费者个案的赔偿处理。",
+    "finalConclusion": "七家平台受到行政处罚及其资质审查、转单治理责任已有原始公告支持。平台整改的长期效果、个案退款与赔偿并未因此自动完成，本条不作“行业问题已解决”的结论。",
+    "historicalMeaning": "平台对店铺身份的背书，是交易信任的一部分；风险不能在订单转交时被悄悄转移。",
+    "historianNote": "屏幕上的店招越整齐，越需要追问谁在真正做这份饭。核验若只在开店时发生一次，真实经营便可能从展示页面中消失。",
+    "verifiedFacts": ["总局于2026年4月17日公布七家平台系列案处罚。", "公告认定存在资质审查义务履行不足与未采取必要措施等问题。", "公告记载企业合计罚没35.97亿元，并另行追究相关管理岗位责任。"],
+    "disputedClaims": [],
+    "debunkedClaims": [],
+    "unresolvedQuestions": ["持续核验对借证、套证和地址变更的拦截效果。", "各订单退款、损害赔偿与后续复查结果。"],
+    "timeline": [
+      {"date":"2026-04-17","title":"平台处罚公布","description":"总局公开行政处罚公告，并附各平台处罚决定书。","sourceIds":["ghost-samr"]},
+      {"date":"2026-07-31","title":"跟进资质核验","description":"食品安全专题发布会讨论电子证照核验与后续治理。","sourceIds":["ghost-followup"]}
+    ],
+    "propagationChain": [
+      {"stage":"交易","title":"页面店铺与实际加工者分离","description":"转单使消费者看到的经营主体与实际供餐链条可能不一致。","sourceIds":["ghost-samr"]},
+      {"stage":"处置","title":"追究平台审查责任","description":"处罚从商户延伸至平台和管理岗位。","sourceIds":["ghost-samr"]},
+      {"stage":"续考","title":"由一次审查转向持续核验","description":"后续制度措施仍需通过执行效果来检验。","sourceIds":["ghost-followup"]}
+    ],
+    "publicComments": [],
+    "sectionSources": {"summary":["ghost-samr"],"publicQuestion":["ghost-samr"],"investigation":["ghost-samr","ghost-followup"],"finalConclusion":["ghost-samr","ghost-followup"]},
+    "sources": [
+      {"id":"ghost-samr","title":"七家电商平台“幽灵外卖”系列案行政处罚公告（附决定书）","institution":"国家市场监督管理总局","date":"2026-04-17","url":"https://www.samr.gov.cn/xw/zj/art/2026/art_9714ee2bef9244819134ef4ffdd14017.html","sourceRank":1,"sourceType":"行政处罚","sourceRole":"处理结果","archiveStatus":"在线","checkedAt":"2026-10-28","note":"原始公告；企业罚没与管理人员罚款分列，不能混算。"},
+      {"id":"ghost-followup","title":"市场监管总局食品安全专题新闻发布会实录","institution":"国家市场监督管理总局","date":"2026-07-31","url":"https://www.samr.gov.cn/hd/zxft/art/2026/art_a5357bd9244a4c5287759702a08cd7c7.html","sourceRank":1,"sourceType":"行政调查","sourceRole":"制度回应","archiveStatus":"在线","checkedAt":"2026-10-28","note":"用于电子证照核验后续，不将政策部署写成已实现的治理效果。"}
+    ]
+  },
+  {
+    "id": "cyber-2026-eq-048",
+    "archiveCode": "CYBER-2026-144",
+    "title": "双汇猪肉兽药残留与处罚公告中的检测口径",
+    "year": 2026,
+    "date": "2026-10-10",
+    "category": "恶企",
+    "severity": "A",
+    "evidenceLevel": "当事人承认",
+    "evidenceBasis": "上市公司正式公告披露收到多份行政处罚决定书",
+    "status": "公司披露已受处罚，仍缺监管决定原件与独立整改验证",
+    "subjectType": "企业/平台",
+    "subjects": ["双汇发展", "望奎双汇北大荒食品有限公司"],
+    "tags": ["食品安全", "检验检测", "信息披露", "企业责任"],
+    "featured": false,
+    "researchStatus": "needs-review",
+    "firstRecordedAt": "2026-10-28",
+    "lastReviewedAt": "2026-10-28",
+    "updateNote": "据10月10日六页原始公告补入；公司转述处罚与监管原件严格区分。",
+    "summary": "双汇发展在落款2026年10月10日的正式公告中披露：望奎双汇猪后鞧肉林可霉素项目不合格，公司、子公司及相关管理人员收到农业农村、畜牧和市场监管部门的处罚决定。公告还披露，先前致歉声明把按“头”统计的生猪数量表述成了“批次”。本篇同时记录产品质量问题与公众沟通口径问题。",
+    "initialNarrative": "食品抽检不合格之后，公众既关心问题肉品流向，也依靠企业解释来判断检测覆盖面。一份声明若把检验数量的单位写错，即使数字本身未变，也可能改变读者对检查广度的理解。\n\n这次续编采用巨潮资讯保存的上市公司公告，而不是从二次报道标题拼接总罚款。公告明确区分子公司、上市公司和个人处罚，也提供抽检、移送、溯源的时间线，适合保留其责任层次。",
+    "publicQuestion": "抽检发现的问题如何沿采购、屠宰和销售渠道追溯？企业所称检验覆盖范围使用了什么统计单位？整改措施是否已经经过外部检查，而不仅是企业列出的计划？",
+    "mediaRole": "公告是当事企业承担信息披露责任的原始材料，但并不等于监管机关直接公开的处罚决定书。本条将其列为第三等当事方材料；媒体对罚款的汇总只是辅助索引，不能让来源等级凭空上升。",
+    "investigation": "公告披露的线索起于2025年8月的一次抽检，随后出现部门间移送和生猪溯源。它列举兽药残留不符合标准、检验人员配置、宰前静养和食品安全管理等事项，并记载有关部门对不同主体分别作出处罚。\n\n对“头”和“批次”的差异，公告将其作为先前致歉声明中的错误表述列出。这能证明企业已在正式信息披露中承认口径问题，但不能据此推断每份历史检测报告均被伪造。截至本轮检索，尚未逐份取得公告所列监管决定原件，退款覆盖、召回完成度和整改独立验收亦有待续考。",
+    "finalConclusion": "可确认的是公司正式披露收到了相关处罚、承认先前声明统计单位错误并提出整改。产品具体批次与各主体责任应按对应文书理解；本档案不将公司陈述替代全部独立监管材料，因此保留“待复核”。",
+    "historicalMeaning": "食品安全回应不仅要有数字，还要让数字的单位、范围和责任主体能够被复核。",
+    "historianNote": "把一头猪写成一批猪，改变的是公众理解检查规模的尺子。企业解释风险时，计量单位与检验结果同样值得存档。",
+    "verifiedFacts": ["巨潮资讯保存了落款2026年10月10日的双汇发展正式公告。", "公告披露猪后鞧肉林可霉素项目不合格及多份行政处罚决定。", "公告将先前声明中“头”被写作“批次”的问题列为被处理事项。"],
+    "disputedClaims": [],
+    "debunkedClaims": [],
+    "unresolvedQuestions": ["各监管机关处罚决定书原件的完整公开版本。", "问题产品召回、消费者救济与整改验收的独立记录。"],
+    "timeline": [
+      {"date":"2025-08-28","title":"抽检线索","description":"公司公告追溯到当日抽检发现兽药残留项目不合格。","sourceIds":["shuanghui-filing"]},
+      {"date":"2025-10-10","title":"线索移送","description":"公告记载有关部门接收案件线索移送。","sourceIds":["shuanghui-filing"]},
+      {"date":"2026-10-10","title":"正式披露处罚","description":"公告分列子公司、公司和个人处罚及整改措施。","sourceIds":["shuanghui-filing"]}
+    ],
+    "propagationChain": [
+      {"stage":"检验","title":"不合格结果进入执法链","description":"抽检与溯源分别回答问题是什么、涉及哪些产品。","sourceIds":["shuanghui-filing"]},
+      {"stage":"披露","title":"处罚与沟通口径同时公开","description":"公司公告不仅记录产品问题，也记录声明单位使用错误。","sourceIds":["shuanghui-filing"]},
+      {"stage":"复核","title":"整改承诺等待外部验证","description":"以独立文书和执行结果补足当事企业披露的边界。","sourceIds":["shuanghui-filing"]}
+    ],
+    "publicComments": [],
+    "sectionSources": {"summary":["shuanghui-filing"],"investigation":["shuanghui-filing"],"finalConclusion":["shuanghui-filing"]},
+    "sources": [
+      {"id":"shuanghui-filing","title":"双汇发展关于收到《行政处罚决定书》的公告（2026-22，六页）","institution":"河南双汇投资发展股份有限公司／巨潮资讯","date":"2026-10-10","url":"https://static.cninfo.com.cn/finalpage/2026-10-10/1225599972.PDF","sourceRank":3,"sourceType":"当事方材料","sourceRole":"当事说法","archiveStatus":"在线","checkedAt":"2026-10-28","note":"上市公司原始公告；含处罚决定摘述，未冒充各监管机关原件。"},
+      {"id":"shuanghui-media","title":"双汇发展收到行政处罚决定书的公告摘要","institution":"证券之星","date":"2026-10-09","url":"https://stock.stockstar.com/RB2026100900034405.shtml","sourceRank":5,"sourceType":"门户转载","sourceRole":"历史报道","archiveStatus":"在线","checkedAt":"2026-10-28","note":"刊发时间早于公告落款一天；仅用于披露传播时间对照，事实以PDF为准。"}
+    ]
+  },
+  {
+    "id": "cyber-2026-eq-049",
+    "archiveCode": "CYBER-2026-145",
+    "title": "滴露广告性别歧视争议与运营方处罚",
+    "year": 2026,
+    "date": "2026-05-24",
+    "category": "恶企",
+    "severity": "B",
+    "evidenceLevel": "官方调查",
+    "evidenceBasis": "总局典型案例、品牌声明存本及后续报道",
+    "status": "运营方与广告经营者已有行政处罚",
+    "subjectType": "企业/平台",
+    "subjects": ["上海曼伦商贸有限公司", "广西瞬视信息科技有限公司", "滴露"],
+    "tags": ["广告营销", "性别歧视", "外包审核", "品牌责任"],
+    "featured": false,
+    "researchStatus": "researched",
+    "firstRecordedAt": "2026-10-28",
+    "lastReviewedAt": "2026-10-28",
+    "updateNote": "把5月发布、6月致歉、9月处罚和10月公开典型案例分别记时。",
+    "summary": "滴露衣物消毒液广告因使用物化女性的表达引发争议。品牌6月22日声明称视频由第三方达人创作、原意为剧情反转，同时承认表达缺陷和审核失职。市场监管总局10月13日公开的典型案例记载，上海曼伦作为广告主、广西瞬视作为广告经营者，在9月分别被罚款80万元、罚没26.5万元。",
+    "initialNarrative": "品牌声明将争议解释为剧情反转在片段传播中失去原意，并确认相关视频首次发表于5月24日。这个解释需要作为当事说法保存，不能替代对广告实际表达和审核责任的判断。\n\n后来公开的处罚把责任落实到广告主和广告经营者两个主体。事件因而不仅是网友对一句台词的好恶，也涉及品牌委托制作、发布审核和被冒犯者反馈如何进入经营决策。",
+    "publicQuestion": "带有性别歧视的台词能否因结尾存在反转而免于审查？品牌把内容委托给达人后，谁检查片段独立传播的效果，谁承担发布责任？",
+    "mediaRole": "品牌声明存本用于记录其自我解释；监管案例用于确认处罚；后续社区文章只呈现读者如何理解责任外包，不拿评论判断广告是否违法。原视频完整版本未作为本轮已取得材料，不据剪辑片段重建全部剧情。",
+    "investigation": "总局典型案例明确了共同设计、制作、发布广告的两家公司，并将涉事表达认定为含有物化女性内容，违反广告相关规定。处罚发生在9月，10月13日是典型案例公开时间，两者不应混为同一个日期。\n\n品牌6月声明承认内容表达与审核方面的责任，却同时提出原意遭片段曲解的解释。本篇并列保存这一解释与行政处置；处罚证明的是具体广告行为受到处理，并不能自动推导涉事企业全部产品存在质量问题。",
+    "finalConclusion": "广告运营与制作主体已有行政处罚，品牌亦承认审核失职。第三方创作和剧情反转的说法不足以抹去已公开的处置；产品安全、其他品牌经营状况与本案不是同一事实问题。",
+    "historicalMeaning": "内容生产可以外包，品牌对发布内容的审核与责任却不能随合同消失。",
+    "historianNote": "广告希望用冲突留下记忆，留下的也可能是品牌如何看待消费者。致歉能结束一次回应，只有审核制度改变才可能减少下一次重演。",
+    "verifiedFacts": ["品牌于6月22日公开致歉，承认内容表达和审核失职。", "总局10月典型案例记录两家公司9月受到行政处罚。", "广告主与广告经营者是分别列明的责任主体。"],
+    "disputedClaims": ["原视频完整叙事与片段传播之间的具体差异，本轮未直接核对原视频。"],
+    "debunkedClaims": [],
+    "unresolvedQuestions": ["原视频、委托制作约定及发布审核流程的完整存本。", "品牌所称重建审核机制的执行效果。"],
+    "timeline": [
+      {"date":"2026-05-24","title":"广告首次发布","description":"首次发布时间依据品牌6月声明。","sourceIds":["dettol-statement"]},
+      {"date":"2026-06-22","title":"品牌致歉","description":"承认表达与审核问题，并提出剧情反转的解释。","sourceIds":["dettol-statement"]},
+      {"date":"2026-09","title":"两家公司被处罚","description":"监管案例记载广告主和广告经营者分别受罚，原文只精确到月。","sourceIds":["dettol-samr"]},
+      {"date":"2026-10-13","title":"典型案例公开","description":"总局公布相关广告执法案例。","sourceIds":["dettol-samr"]}
+    ],
+    "propagationChain": [
+      {"stage":"发布","title":"以冲突台词组织广告","description":"品牌委托达人制作的内容进入商业传播。","sourceIds":["dettol-statement"]},
+      {"stage":"回应","title":"道歉与原意解释并行","description":"品牌承认审核责任，同时解释片段传播与创作意图的差异。","sourceIds":["dettol-statement"]},
+      {"stage":"处置","title":"责任落到广告主与经营者","description":"行政处罚为具体发布行为提供了可核验处置记录。","sourceIds":["dettol-samr"]}
+    ],
+    "publicComments": [
+      {"text":"社区文章把第三方制作与品牌责任并置讨论，关注道歉之后是否仍应承担发布责任。","quoteType":"概述","platform":"什么值得买","date":"2026-10","url":"https://post.smzdm.com/p/agg58pr3/","context":"只概述已检得文章主题，非逐字引语；不代表评论区全部意见。","sourceId":"dettol-community","evidenceGrade":"C","verificationStatus":"传播记录","originType":"首发","independentVerification":"仅作传播记录；原文检索可见但本轮直接打开超时，不据此确定违法事实。"}
+    ],
+    "sectionSources": {"summary":["dettol-samr","dettol-statement"],"mediaRole":["dettol-community"],"investigation":["dettol-samr","dettol-statement"],"finalConclusion":["dettol-samr"]},
+    "sources": [
+      {"id":"dettol-samr","title":"市场监管总局公布7起涉导向违法广告典型案例（案例一）","institution":"国家市场监督管理总局","date":"2026-10-13","url":"https://www.samr.gov.cn/xw/zj/art/2026/art_1f7e94c469ac485aa4131de447e3375b.html","sourceRank":1,"sourceType":"行政处罚","sourceRole":"处理结果","archiveStatus":"在线","checkedAt":"2026-10-28"},
+      {"id":"dettol-statement","title":"滴露致歉声明函存本","institution":"滴露官方微博／北京日报客户端保存","date":"2026-06-22","url":"https://xinwen.bjd.com.cn/content/s6a38c45de4b03fa51a80399c.html","sourceRank":3,"sourceType":"当事方材料","sourceRole":"当事说法","archiveStatus":"仅存转载","checkedAt":"2026-10-28","note":"保存当事方声明；内容仅证明品牌如何回应，不替代行政认定。"},
+      {"id":"dettol-community","title":"滴露物化女性广告遭罚超百万：“第三方达人创作”救不了品牌","institution":"什么值得买社区","date":"2026-10","url":"https://post.smzdm.com/p/agg58pr3/","sourceRank":2,"sourceType":"网民原始内容","sourceRole":"公众讨论","archiveStatus":"待补证","checkedAt":"2026-10-28","note":"检索摘要可定位、直接打开超时；日期只保留到月，不收点赞数据，不当作完整原文已核验。"}
+    ]
+  }
+]
